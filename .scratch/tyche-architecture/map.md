@@ -25,6 +25,8 @@ Labels: wayfinder:map
 
 ## Decisions so far
 
+- [策略验证、行情回放与回测范围](issues/16-strategy-validation-scope.md)：首版覆盖完整决策链重放、故障仿真及模拟柜台联调，共用 C++ 核心并隔离环境，真实发单按适用验证证据启用。
+
 - [手工与自动交易的订单、风控和恢复语义](issues/07-order-risk-recovery.md)：确定发单前证据与风控、未知结果核对、撤改顺序、共享保护范围及分原因恢复契约。
 
 - [CTP 与 Binance 的订单回报、撤单和保护能力](issues/28-order-channel-semantics.md)：已核未知结果、查询期限与原生保护范围，CTP 当前柜台和实际账户能力仍需验收。
@@ -55,6 +57,8 @@ Labels: wayfinder:map
 - 首批通道验证之后的扩展方式，待其共性和差异被实际资料揭示后继续梳理。
 
 ## Out of scope
+
+- 完整历史回测移至后续阶段，首版预留接口；后续从单个期货合约扩展至期权链和对冲，依据见[策略验证、行情回放与回测范围](issues/16-strategy-validation-scope.md#answer)。
 
 - [QMT 的接入路径与 C++ 边界](issues/13-qmt-language-boundary.md)：当前无可用接入环境，实际接入与语言选择移至后续阶段，本问题按范围调整关闭；股票需求保留。
 - 本轮的应用代码、可运行骨架和正式部署：用户已选择先完成架构设计与决策地图。
