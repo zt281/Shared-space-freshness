@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tyche · 共享空间新鲜度逻辑原型</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f4f6f5;color:#203330;font:16px/1.65 system-ui,sans-serif}main{max-width:1180px;margin:auto;padding:36px 24px}h1{font-size:30px;line-height:1.3;margin:12px 0}h2{font-size:19px;margin:0 0 12px}h3{font-size:17px;margin:0 0 10px}p{margin:8px 0}.muted,small{color:#61736e}.label{font-size:12px;letter-spacing:2px;color:#126453}.panel{background:white;border:1px solid #dce4e0;border-radius:12px;padding:22px;margin:18px 0}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.grid .panel{margin:0}button{border:1px solid #b8ccc4;background:white;color:#174e40;border-radius:7px;padding:9px 12px;font:inherit;font-size:14px;cursor:pointer;margin:4px 6px 4px 0}button:hover{background:#eaf3ee}button:focus-visible{outline:3px solid #277b61}button[disabled]{opacity:.45;cursor:default}.selected,.primary{background:#126453;color:white}.primary:hover,.selected:hover{background:#174e40}dl{display:grid;grid-template-columns:1fr 1fr;margin:0;gap:6px}dt{color:#61736e}dd{margin:0;text-align:right;overflow-wrap:anywhere}.status{font-size:22px;font-weight:650}.banner{border-left:4px solid #126453;padding:12px 18px;background:#eaf3ee}.bad{color:#9b3829}.good{color:#126453}.steps button{display:block;width:100%;text-align:left}.history{max-height:260px;overflow:auto;padding-left:24px;font-size:14px}details{margin-top:10px}code{font-family:monospace}footer{margin:24px 0;font-size:13px;color:#61736e}@media(max-width:740px){.grid{grid-template-columns:1fr}main{padding:20px 14px}h1{font-size:25px}}
+</style>
+<main>
+<span class="label">TYCHE / THROWAWAY PROTOTYPE</span>
+<h1>共享空间里的数据，还能用吗？</h1>
+<p>探索同一个问题：策略只读取共享空间提供的业务有效性，能否正确处理数据变旧、重复到达、来源核对和指令过期？</p>
+<p class="muted">这是两个逻辑节点的内存状态模拟，不是 C++ 共享内存实现或跨境性能测试。时间只由按钮推进；页面刷新会重置。所有阈值仅用于演示。</p>
+<section class="panel">
+<h2>当前交易条件</h2><div id="overall" aria-live="polite"></div>
+<p id="clock" class="muted"></p><div id="last" class="banner"></div>
+</section>
+<div id="sources" class="grid"></div>
+<section class="panel"><h2>指令与恢复状态</h2><div id="command"></div></section>
+<section class="panel"><h2>自由操作</h2><p class="muted">可以任意尝试。切换到自由操作后，引导进度会暂停；重新选择场景可从头开始。</p>
+<div id="timeButtons"></div><div class="grid"><div><h3>CTP 数据</h3><div id="aButtons"></div></div><div><h3>Binance 数据</h3><div id="bButtons"></div></div></div>
+<h3 style="margin-top:18px">交易与状态</h3><div id="tradeButtons"></div></section>
+<section class="panel"><h2>引导场景</h2><div id="tabs" role="tablist" aria-label="新鲜度场景"></div><p id="scenario"></p><div id="steps" class="steps"></div><p id="verdict" class="banner"></p></section>
+<section class="panel"><h2>完整操作记录</h2><p class="muted">本次页面会话中的每次操作均保留；重置状态也不会清除此列表。尚未接入永久指标存储。</p><ol id="history" class="history"></ol><button id="export">导出本次观察 JSON</button></section>
+<footer>可编辑的状态模型，用于讨论而非生产。未覆盖真实传输、持久化、真实订单、完整对冲账及容量验证。原始版本时间、业务核验证据时间与本地接收时间分别展示。</footer>
+</main>
+<script>
+// Pure state model: no DOM, real clock, storage or network access.
+const Freshness = (() => {
+  const config={warning:700,expiry:1000,stable:200,commandTTL:500};
+  const node=()=>({epoch:1,version:1,valueAt:0,proof:1,verifiedAt:0,knownEpoch:1,view:{epoch:1,version:1,valueAt:0,proof:1,verifiedAt:0,receivedAt:0},draft:false,gap:false,clockCertain:true,heartbeats:0});
+  const initial=()=>({now:0,nodes:{a:node(),b:node()},manualStop:false,reconciled:true,readyAt:0,command:null,last:'已建立两侧完整初始视图。示例数据和时钟均已核对。'});
+  function validity(s,k){const n=s.nodes[k],v=n.view,age=s.now-v.verifiedAt;
+    if(v.epoch!==n.knownEpoch)return {kind:'未知',reason:'来源代次未核对',age,usable:false};
+    if(n.gap)return {kind:'失效',reason:'业务数据存在缺口',age,usable:false};
+    if(!n.clockCertain)return {kind:'未知',reason:'无法证明业务证据的时间有效性',age:null,usable:false};
+    if(age<0)return {kind:'未知',reason:'证据时间不可信',age:null,usable:false};
+    if(age>=config.expiry)return {kind:'失效',reason:'业务核验证据已过期',age,usable:false};
+    return {kind:age>=config.warning?'预警':'有效',reason:age>=config.warning?'接近有效期边界':'业务核验证据仍在有效期内',age,usable:true};
+  }
+  function gate(s){const bad=['a','b'].filter(k=>!validity(s,k).usable);if(bad.length)return {ok:false,reason:bad.map(k=>(k==='a'?'CTP':'Binance')+' '+validity(s,k).kind).join('；')};
+    if(s.manualStop)return {ok:false,reason:'用户主动停止仍有效'};
+    if(!s.reconciled)return {ok:false,reason:'等待订单、持仓与授权核对'};
+    if(s.readyAt===null||s.now<s.readyAt)return {ok:false,reason:'等待连续有效的稳定观察期'};
+    return {ok:true,reason:'两侧数据及示例恢复条件允许新单'};
+  }
+  function reduce(old,action){let s=structuredClone(old);const k=action.side||'a',n=s.nodes[k],name=k==='a'?'CTP':'Binance';let msg='';
+    switch(action.type){
+      case 'reset': return initial();
+      case 'advance':s.now+=action.ms;msg='推进演示时钟 '+action.ms+'ms。';break;
+      case 'draft':n.draft=true;msg=name+' 正在写入新版本；尚未发布，策略仍读取原完整版本。';break;
+      case 'publish':n.version++;n.valueAt=s.now;n.proof++;n.verifiedAt=s.now;n.draft=false;n.view={epoch:n.epoch,version:n.version,valueAt:n.valueAt,proof:n.proof,verifiedAt:n.verifiedAt,receivedAt:s.now};msg=name+' 已发布并交付完整新版本；发布本身不解除缺口或恢复核对要求。';break;
+      case 'replay':n.view.receivedAt=s.now;msg=name+' 原视图再次到达，版本与业务证据时间保持不变。';break;
+      case 'heartbeat':n.heartbeats++;msg=name+' 收到普通连接心跳；它不更新业务核验证据。';break;
+      case 'verify':n.proof++;n.verifiedAt=s.now;n.view={epoch:n.epoch,version:n.version,valueAt:n.valueAt,proof:n.proof,verifiedAt:n.verifiedAt,receivedAt:s.now};msg=name+' 来源完成业务状态核验并发布新证据，价格版本未必变化；缺口标记仍须完整快照修复。';break;
+      case 'gap':n.gap=true;msg=name+' 业务连续性出现缺口。';break;
+      case 'uncertain':n.clockCertain=false;msg=name+' 的时间有效性证据不可确认，向策略显示未知。';break;
+      case 'restart':n.epoch++;n.knownEpoch=n.epoch;n.version=0;n.proof=0;n.draft=false;msg=name+' 来源重启，新代次已知，旧视图不能继续使用。';break;
+      case 'snapshot':n.gap=false;n.clockCertain=true;n.version++;n.proof++;n.valueAt=s.now;n.verifiedAt=s.now;n.view={epoch:n.epoch,version:n.version,valueAt:n.valueAt,proof:n.proof,verifiedAt:n.verifiedAt,receivedAt:s.now};msg=name+' 已获得完整核验快照和可信时间证据；交易状态仍需单独核对。';break;
+      case 'reconcile':if(['a','b'].every(x=>validity(s,x).usable)){s.reconciled=true;msg='订单、持仓及授权示例核对完成；仍遵守稳定观察期和主动停止。';}else msg='核对未完成：两侧业务数据尚未全部有效。';break;
+      case 'stop':s.manualStop=true;msg='用户主动停止，技术恢复不会清除这个停止意愿。';break;
+      case 'resume':s.manualStop=false;msg='用户解除主动停止；仍需满足所有数据和恢复条件。';break;
+      case 'issue':if(s.command&&['待执行','结果未知'].includes(s.command.status)){msg='原指令尚未消歧，不能用新指令覆盖。';break;}if(!gate(s).ok){msg='拒绝生成指令：'+gate(s).reason;break;}s.command={createdAt:s.now,expiresAt:s.now+config.commandTTL,epochs:{a:s.nodes.a.knownEpoch,b:s.nodes.b.knownEpoch},versions:{a:s.nodes.a.view.version,b:s.nodes.b.view.version},status:'待执行'};msg='生成示例交易意图，固定两侧输入版本，期限不因重传而更新。';break;
+      case 'execute':if(!s.command){msg='没有可执行指令。';break;}if(s.command.status!=='待执行'){msg='不重复执行已处理或结果未知的指令。';break;}if(s.now>=s.command.expiresAt){s.command.status='拒绝：过期';msg='执行端拒绝过期指令，即使当前行情已经恢复。';break;}if(['a','b'].some(x=>s.command.epochs[x]!==s.nodes[x].knownEpoch)){s.command.status='拒绝：旧代次';msg='执行端拒绝旧代次授权。';break;}if(!gate(s).ok){s.command.status='拒绝：依赖未就绪';msg='执行端重新核验后拒绝：'+gate(s).reason;break;}s.command.status='结果未知';msg='模拟接口已调用，结果待核对；不能把接口调用当作成交。';break;
+      case 'confirm':if(s.command?.status==='结果未知'){s.command.status='已核对：受理';msg='模拟查询确认已受理；受理仍不等于成交。';}else msg='没有需要确认的未知结果。';break;
+      default:msg='无状态变化。';
+    }
+    const all=['a','b'].every(x=>validity(s,x).usable);
+    if(!all){s.reconciled=false;s.readyAt=null;}else if(s.readyAt===null)s.readyAt=s.now+config.stable;
+    s.last=msg;return s;
+  }
+  return {config,initial,validity,gate,reduce};
+})();
+</script>
+<script>
+const $=id=>document.getElementById(id);let state=Freshness.initial(),history=[],active=0,step=0,free=false;
+const act=(type,side,ms)=>({type,...(side?{side}:{}),...(ms!==undefined?{ms}: {})});
+const scenarios=[
+ {title:'正常与重复提交',description:'有效数据可以生成指令；调用接口后结果未知，重复执行不能重复下单。',steps:[['生成指令',act('issue')],['模拟提交',act('execute')],['再次执行同一指令',act('execute')],['核对受理结果',act('confirm')]],expect:'应看到一次模拟提交、重复执行被阻止，最终为“已核对：受理”，不是成交。'},
+ {title:'旧数据重新到达',description:'推进到有效期边界，重新收到旧数据也不能让它重新有效。',steps:[['时间推进 1000ms',act('advance',null,1000)],['重新收到 CTP 旧版本',act('replay','a')],['收到 CTP 普通心跳',act('heartbeat','a')],['尝试生成指令',act('issue')]],expect:'CTP 接收时间变新，但业务证据年龄仍为 1000ms，策略继续受限。'},
+ {title:'价格不变但来源有效',description:'业务来源确实核对状态并发布新证据，与普通连接心跳不同。',steps:[['推进 700ms，进入预警',act('advance',null,700)],['核验 CTP 未变的业务数据',act('verify','a')],['核验 Binance 未变的业务数据',act('verify','b')],['推进 400ms',act('advance',null,400)],['生成指令',act('issue')]],expect:'价格版本仍为 1，但核验证据版本为 2；业务证据年龄 400ms，可以生成指令。'},
+ {title:'半次更新不可见',description:'未发布的写入不影响消费者。完整发布后才切换可见版本。',steps:[['CTP 开始写入',act('draft','a')],['推进 100ms',act('advance',null,100)],['CTP 完整发布',act('publish','a')]],expect:'写入期间可见版本保持 1，完整发布后变为 2。'},
+ {title:'缺口与主动停止',description:'完整快照、交易核对和稳定观察期各有作用；都完成也不能清除主动停止。',steps:[['用户主动停止',act('stop')],['CTP 出现缺口',act('gap','a')],['CTP 普通心跳',act('heartbeat','a')],['CTP 核验完整快照',act('snapshot','a')],['核对交易状态',act('reconcile')],['推进稳定观察期 200ms',act('advance',null,200)],['尝试生成指令',act('issue')],['用户解除停止',act('resume')],['再次生成指令',act('issue')]],expect:'技术恢复后仍受主动停止限制；显式解除后才能生成新指令。'},
+ {title:'新行情不续期旧指令',description:'两侧数据可以重新变新，但旧交易意图的期限不能一起延长。',steps:[['生成指令',act('issue')],['推进 600ms',act('advance',null,600)],['CTP 发布新数据',act('publish','a')],['Binance 发布新数据',act('publish','b')],['执行旧指令',act('execute')]],expect:'数据有效，但旧指令在 500ms 到期，因此拒绝执行。'},
+ {title:'重启代次隔离',description:'来源重启后完成恢复，新鲜数据不能使旧代次的指令复活。',steps:[['生成指令',act('issue')],['CTP 来源重启',act('restart','a')],['重新收到旧视图',act('replay','a')],['CTP 核验新代次快照',act('snapshot','a')],['核对交易状态',act('reconcile')],['推进 200ms',act('advance',null,200)],['执行旧代次指令',act('execute')]],expect:'当前数据和恢复条件都有效，原指令仍因旧代次被拒绝。'},
+ {title:'时间证据未知',description:'基础设施无法证明时效时，策略只看到未知，不需要处理底层时钟细节。',steps:[['CTP 时间证据不可信',act('uncertain','a')],['尝试生成指令',act('issue')],['CTP 核验完整快照',act('snapshot','a')],['核对交易状态',act('reconcile')],['推进 200ms',act('advance',null,200)],['再次生成指令',act('issue')]],expect:'未知期间禁止新单；证据、核对和稳定期均恢复后允许。'}
+];
+const names={a:'CTP',b:'Binance'};
+function dispatch(action,label){state=Freshness.reduce(state,action);history.push({action,label,state:structuredClone(state)});render();}
+function button(label,action,target){const b=document.createElement('button');b.textContent=label;b.onclick=()=>{free=true;dispatch(action,label);};$(target).append(b);}
+function fields(rows){return '<dl>'+rows.map(([a,b])=>'<dt>'+a+'</dt><dd>'+b+'</dd>').join('')+'</dl>';}
+function render(){const g=Freshness.gate(state);$('overall').innerHTML='<span class="status '+(g.ok?'good':'bad')+'">'+(g.ok?'允许示例新单':'限制示例新单')+'</span> · '+g.reason;
+ $('clock').textContent='演示时钟 '+state.now+'ms ｜ 预警 ≥700ms，失效 ≥1000ms，稳定观察 200ms，指令有效期 500ms（均为示例）';$('last').textContent=state.last;
+ $('sources').innerHTML=['a','b'].map(k=>{const n=state.nodes[k],v=n.view,q=Freshness.validity(state,k);return '<section class="panel"><h2>'+names[k]+' · '+q.kind+'</h2><p class="'+(q.usable?'good':'bad')+'">'+q.reason+'</p>'+fields([['可见代次 / 已知来源代次',v.epoch+' / '+n.knownEpoch],['可见数据版本 / 来源版本',v.version+' / '+n.version],['数据生成时间',v.valueAt+'ms'],['业务核验证据版本',v.proof],['业务核验时间',v.verifiedAt+'ms'],['业务证据年龄',q.age===null?'无法确认':q.age+'ms'],['本地最后接收时间',v.receivedAt+'ms'],['来源未发布写入',n.draft?'有（策略不可见）':'无'],['业务连续性',n.gap?'存在缺口':'完整'],['时间证据',n.clockCertain?'可信（模拟）':'未知'],['普通心跳次数',n.heartbeats]])+'</section>';}).join('');
+ const c=state.command;$('command').innerHTML=fields([['用户主动停止',state.manualStop?'是':'否'],['交易核对',state.reconciled?'已完成（模拟）':'待核对'],['稳定观察',state.readyAt===null?'尚未开始':state.now>=state.readyAt?'已完成':'还需 '+(state.readyAt-state.now)+'ms'],['当前指令',c?c.status:'无'],['生成时间 / 到期时间',c?c.createdAt+' / '+c.expiresAt+'ms':'—'],['指令固定输入版本（CTP / Binance）',c?c.versions.a+' / '+c.versions.b:'—'],['指令授权代次（CTP / Binance）',c?c.epochs.a+' / '+c.epochs.b:'—']]);
+ $('tabs').replaceChildren();scenarios.forEach((s,i)=>{let b=document.createElement('button');b.textContent=s.title;b.className=i===active?'selected':'';b.setAttribute('role','tab');b.setAttribute('aria-selected',i===active);b.onclick=()=>{active=i;step=0;free=false;dispatch(act('reset'),'开始场景：'+s.title);};$('tabs').append(b);});
+ const sc=scenarios[active];$('scenario').textContent=sc.description;$('steps').replaceChildren();sc.steps.forEach(([label,action],i)=>{let b=document.createElement('button');b.textContent=(i<step?'✓ ':i+1+'. ')+label;b.disabled=free||i!==step;b.className=i===step?'primary':'';b.onclick=()=>{step++;dispatch(action,label);};$('steps').append(b);});
+ $('verdict').textContent=free?'当前为自由操作。点击场景标签重新开始引导。':(step===sc.steps.length?'场景已走完。请核对：':'观察目标：')+sc.expect;
+ $('history').replaceChildren();history.forEach(e=>{const li=document.createElement('li');li.textContent='['+e.state.now+'ms] '+e.label+' — '+e.state.last;$('history').append(li);});$('history').scrollTop=$('history').scrollHeight;
+}
+button('推进 100ms',act('advance',null,100),'timeButtons');button('推进 500ms',act('advance',null,500),'timeButtons');button('重置状态',act('reset'),'timeButtons');
+for(const k of ['a','b'])for(const [label,type] of [['开始未发布写入','draft'],['完整发布新数据','publish'],['重新收到旧视图','replay'],['普通连接心跳','heartbeat'],['核验未变业务数据','verify'],['发现业务缺口','gap'],['时间证据未知','uncertain'],['来源重启','restart'],['核验完整快照','snapshot']])button(label,act(type,k),k+'Buttons');
+for(const [label,type] of [['生成指令','issue'],['模拟执行','execute'],['核对受理结果','confirm'],['核对恢复状态','reconcile'],['用户主动停止','stop'],['用户解除停止','resume']])button(label,act(type),'tradeButtons');
+$('export').onclick=()=>{const data={prototype:true,scope:'logic-only; no real shared memory or orders',config:Freshness.config,history,current:state};const url=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)],{type:'application/json'}));const a=document.createElement('a');a.href=url;a.download='PROTOTYPE-freshness-observations.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
+dispatch(act('reset'),'打开演示');
+</script>
+</html>
