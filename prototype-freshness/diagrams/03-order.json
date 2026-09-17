@@ -1,0 +1,20 @@
+{
+ "schema_version":1,"diagram_type":"architecture",
+ "meta":{"title":"③ 数据恢复了，旧指令仍可能不能执行","locale":"zh-CN","quality_profile":"showcase","viewBox":[1180,640]},
+ "components":[
+  {"id":"restored-data","type":"messagebus","label":"共享数据恢复有效","sublabel":"只是数据条件恢复","pos":[60,100],"size":[280,90]},
+  {"id":"recovery-gate","type":"security","label":"核对交易与停止状态","sublabel":"持仓、订单、授权及稳定观察","pos":[800,100],"size":[310,90]},
+  {"id":"execution-gate","type":"security","label":"执行端再检查指令","sublabel":"期限、代次、风控及当前依赖","pos":[800,420],"size":[310,90]},
+  {"id":"submit-call","type":"backend","label":"允许提交接口调用","sublabel":"提交 ≠ 受理 ≠ 成交","pos":[60,420],"size":[280,90]}
+ ],
+ "connections":[
+  {"id":"data-to-recovery","from":"restored-data","to":"recovery-gate","label":"继续核对"},
+  {"id":"recovery-to-execution","from":"recovery-gate","to":"execution-gate","label":"全部就绪","labelAt":[955,305]},
+  {"id":"execution-to-call","from":"execution-gate","to":"submit-call","label":"检查通过","variant":"emphasis"}
+ ],
+ "cards":[
+  {"dot":"rose","title":"过期与旧代次","items":["新数据不会延长旧指令的期限。","节点恢复不会复活旧代次授权。"]},
+  {"dot":"amber","title":"用户主动停止","items":["技术恢复不解除用户停止意愿。","必须由用户明确恢复。"]},
+  {"dot":"emerald","title":"已确认设计的解释图","items":["任何条件未满足，相关新单仍受限。","每次执行都检查，不能只在生成时检查。"]}
+ ]
+}

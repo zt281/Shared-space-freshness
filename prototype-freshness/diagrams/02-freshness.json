@@ -1,0 +1,21 @@
+{
+ "schema_version":1,"diagram_type":"architecture",
+ "meta":{"title":"② 重新收到，不等于重新有效","locale":"zh-CN","quality_profile":"showcase","viewBox":[1160,640]},
+ "components":[
+  {"id":"old-copy","type":"messagebus","label":"旧版本再次到达","sublabel":"只有接收时间变了","pos":[65,80],"size":[310,90]},
+  {"id":"old-evidence","type":"backend","label":"原业务证据时间不变","sublabel":"已经过期的数据仍然失效","pos":[735,80],"size":[350,90]},
+  {"id":"heartbeat-only","type":"messagebus","label":"普通连接心跳到达","sublabel":"只说明连接还有响应","pos":[65,285],"size":[310,90]},
+  {"id":"no-business-proof","type":"backend","label":"不能续期业务有效性","sublabel":"连接活着，不代表数据可信","pos":[735,285],"size":[350,90]},
+  {"id":"source-check","type":"backend","label":"来源完成业务核验","sublabel":"确认当前状态并发布新证据","pos":[65,490],"size":[310,90]},
+  {"id":"new-evidence","type":"backend","label":"可以重新判断新鲜度","sublabel":"价格不变，也可有新的核验证据","pos":[735,490],"size":[350,90]}
+ ],
+ "connections":[
+  {"id":"copy-no-renew","from":"old-copy","to":"old-evidence","label":"保留原证据"},
+  {"id":"heartbeat-no-renew","from":"heartbeat-only","to":"no-business-proof","label":"不作业务核验"},
+  {"id":"proof-renew","from":"source-check","to":"new-evidence","label":"发布新证据","variant":"emphasis"}
+ ],
+ "cards":[
+  {"dot":"cyan","title":"看证据，不看抵达次数","items":["同一份旧数据收到十次，也不会年轻十次。"]},
+  {"dot":"amber","title":"原型中的候选动作","items":["来源核验必须有真实业务依据。","真实来源如何核验，仍待后续验证。"]}
+ ]
+}

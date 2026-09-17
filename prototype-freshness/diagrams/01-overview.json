@@ -1,0 +1,20 @@
+{
+ "schema_version":1,"diagram_type":"architecture",
+ "meta":{"title":"① 策略只看共享空间的数据是否有效","locale":"zh-CN","quality_profile":"showcase","viewBox":[1180,620]},
+ "components":[
+  {"id":"ctp-source","type":"backend","label":"CTP 数据发布者","sublabel":"行情、持仓等完整版本","pos":[40,100],"size":[220,90]},
+  {"id":"binance-source","type":"backend","label":"Binance 数据发布者","sublabel":"行情、持仓等完整版本","pos":[40,390],"size":[220,90]},
+  {"id":"shared-view","type":"messagebus","label":"统一虚拟共享空间","sublabel":"版本＋新鲜度＋有效性","pos":[430,245],"size":[260,100]},
+  {"id":"strategy-reader","type":"backend","label":"策略实例","sublabel":"读取有效数据，产生交易意图","pos":[860,245],"size":[260,100]}
+ ],
+ "connections":[
+  {"id":"publish-ctp","from":"ctp-source","to":"shared-view","label":"完整发布"},
+  {"id":"publish-binance","from":"binance-source","to":"shared-view","label":"完整发布"},
+  {"id":"consume-view","from":"shared-view","to":"strategy-reader","label":"统一读取","variant":"emphasis"}
+ ],
+ "cards":[
+  {"dot":"cyan","title":"已确认：同一种访问方式","items":["同机与跨节点策略使用同一接口。","图示是逻辑关系，不是一台中央服务器。"]},
+  {"dot":"emerald","title":"基础设施封装底层细节","items":["传输、同步、时钟处理都在共享空间层。","策略只依据数据新鲜度及有效性协作。"]},
+  {"dot":"amber","title":"有效数据是必要条件","items":["下单还须满足风控、授权与指令期限。","这张图描述设计，并非已实现部署。"]}
+ ]
+}

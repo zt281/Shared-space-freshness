@@ -1,0 +1,83 @@
+[
+  {
+    "schemaVersion": 1,
+    "ok": true,
+    "command": "deliver",
+    "type": "architecture",
+    "input": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/01-overview.json",
+    "output": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/01-overview.html",
+    "specification": {
+      "sha256": "5cbe8fecdc0cf05fbbec66004bcc2e6bdb367c00af4edfd9485c012193cf4646",
+      "bytes": 1678
+    },
+    "artifact": {
+      "sha256": "7b5ad86f4b22403b8f766a79cbce9812dc7d175e46e7b7987986861c0d6fa75d",
+      "bytes": 799161
+    },
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    },
+    "browser_evidence": "skipped",
+    "visual_review": "skipped (rendered browser surface unavailable)",
+    "correction_rounds": 0
+  },
+  {
+    "schemaVersion": 1,
+    "ok": true,
+    "command": "deliver",
+    "type": "architecture",
+    "input": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/02-freshness.json",
+    "output": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/02-freshness.html",
+    "specification": {
+      "sha256": "06cf587aeb29c27cfb652cd9610ac7b3cd12adcfecaba20689803fb7ebdcd375",
+      "bytes": 1783
+    },
+    "artifact": {
+      "sha256": "c30af5238bd1288481a0ad8a7872fad83e3e0d9481b541218f4c8151e4bf25a1",
+      "bytes": 801250
+    },
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    },
+    "browser_evidence": "skipped",
+    "visual_review": "skipped (rendered browser surface unavailable)",
+    "correction_rounds": 0
+  },
+  {
+    "schemaVersion": 1,
+    "ok": true,
+    "command": "deliver",
+    "type": "architecture",
+    "input": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/03-order.json",
+    "output": "/home/zt281/dev/Tyche-freshness-prototype/prototype-freshness/diagrams/03-order.html",
+    "specification": {
+      "sha256": "2b2a7a838b7027f9e87e0b945ddf6d8ebe3328a9b9a2fc81c9012fae54ba7441",
+      "bytes": 1674
+    },
+    "artifact": {
+      "sha256": "1c55c7481fc54b4dc45dc9d0db8898a7b21c6eab3b3397b7f7c56810aecdbd82",
+      "bytes": 799628
+    },
+    "validation": {
+      "checksPassed": 9,
+      "checkCount": 9,
+      "compositionProfile": "showcase",
+      "compositionStatus": "pass",
+      "errors": 0,
+      "warnings": 0
+    },
+    "browser_evidence": "skipped",
+    "visual_review": "skipped (rendered browser surface unavailable)",
+    "correction_rounds": 1
+  }
+]
