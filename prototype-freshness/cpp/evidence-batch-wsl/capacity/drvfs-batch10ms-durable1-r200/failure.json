@@ -1,0 +1,4 @@
+{
+  "error": "AssertionError(('consumer-0', {'role': 'durable', 'pid': 398, 'start_ns': 233033979542, 'window_end_ns': 235033979542, 'deadline_ns': 238033979542, 'measured_end_ns': 234510138747, 'planned': 400, 'completed': 245, 'polls': 329, 'sequence_errors': 0, 'payload_errors': 0, 'final_head': 401, 'error': 'durable consumption: replace complete checkpoint', 'user_cpu_us': 16858, 'system_cpu_us': 87604, 'max_rss_kib_process_lifetime': 19220, 'voluntary_context_switches': 5011, 'involuntary_context_switches': 0, 'inblock': 40, 'oublock': 0, 'guard_calls': 658, 'guard_wait_ns': 284649, 'guard_max_wait_ns': 2022, 'batch_accepted': 0, 'batch_rejected': 0, 'batch_unknown': 0, 'batch_committed': 0, 'batch_count': 0, 'batch_syncs': 0, 'batch_max_pending': 0}))",
+  "utc": "2026-09-19T07:46:27.269264+00:00"
+}

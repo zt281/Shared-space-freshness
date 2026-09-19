@@ -1,0 +1,88 @@
+#include "batch_publisher.hpp"
+#include <chrono>
+
+namespace {
+std::uint64_t now_ns() {
+  timespec value{};
+  require(clock_gettime(CLOCK_MONOTONIC, &value) == 0, "batch clock");
+  return value.tv_sec * 1000000000ULL + value.tv_nsec;
+}
+}
+BatchPublisher::BatchPublisher(Space& source, std::size_t bound, std::size_t batch, std::uint64_t wait)
+  : space(source), initial(source.batch_seed()), capacity(bound), max_batch(batch), wait_ns(wait),
+    next_sequence(initial.sequence + 1), next_version(initial.record.version + 1) {
+  require(capacity > 0 && max_batch > 0 && max_batch <= Space::buffer_capacity && max_batch <= capacity,
+          "bounded batch experiment values");
+  worker = std::thread([this] { run(); });
+}
+BatchPublisher::~BatchPublisher() { close(); }
+BatchPublisher::Submission BatchPublisher::submit(const Record& record) {
+  std::unique_lock lock(mutex);
+  auto event = Space::proposal(next_sequence, record);
+  Item item{event, now_ns(), {}};
+  auto future = item.promise.get_future();
+  const bool invalid = record.epoch != initial.record.epoch || record.version != next_version ||
+                       record.checksum != checksum(record) || record.gap || !record.time_known;
+  if (closing || restricted || pending >= capacity || invalid) {
+    ++totals.rejected;
+    const bool latch = !restricted && !closing;
+    restricted = restricted || latch;
+    item.promise.set_value({{}, event, item.enqueued, now_ns(), false});
+    lock.unlock();
+    if (latch) space.restrict_ingress(); // No disk writer lock; accepted prefix may drain.
+    changed.notify_all();
+    return {event, false, std::move(future)};
+  }
+  ++next_sequence; ++next_version; ++pending; ++totals.accepted;
+  totals.max_pending = std::max(totals.max_pending, pending);
+  queue.push_back(std::move(item));
+  lock.unlock();
+  changed.notify_one();
+  return {event, true, std::move(future)};
+}
+void BatchPublisher::close() {
+  { std::lock_guard lock(mutex); closing = true; }
+  changed.notify_all();
+  if (worker.joinable()) worker.join();
+}
+BatchPublisher::Metrics BatchPublisher::metrics() { std::lock_guard lock(mutex); return totals; }
+void BatchPublisher::run() {
+  for (;;) {
+    std::vector<Item> batch;
+    {
+      std::unique_lock lock(mutex);
+      changed.wait(lock, [&] { return closing || !queue.empty(); });
+      if (queue.empty() && closing) return;
+      const auto until = std::chrono::steady_clock::time_point(std::chrono::nanoseconds(queue.front().enqueued + wait_ns));
+      changed.wait_until(lock, until, [&] { return closing || restricted || queue.size() >= max_batch; });
+      while (!queue.empty() && batch.size() < max_batch) {
+        batch.push_back(std::move(queue.front())); queue.pop_front();
+      }
+    }
+    std::vector<Change> events;
+    for (const auto& item : batch) events.push_back(item.event);
+    auto result = space.publish_admitted_batch(events);
+    const auto confirmed = now_ns();
+    {
+      std::lock_guard lock(mutex);
+      ++totals.batches;
+      if (result.synced_ns) ++totals.syncs;
+      if (result.state == Space::BatchState::committed) totals.committed += batch.size();
+      else if (result.state == Space::BatchState::unknown) totals.unknown += batch.size();
+      else totals.rejected += batch.size();
+      pending -= batch.size();
+      for (auto& item : batch)
+        item.promise.set_value({result, item.event, item.enqueued, confirmed, true});
+      if (result.state != Space::BatchState::committed) {
+        restricted = true;
+        // These accepted entries were never attempted; explicitly reject, do not retry.
+        while (!queue.empty()) {
+          auto& item = queue.front();
+          item.promise.set_value({{}, item.event, item.enqueued, now_ns(), true});
+          queue.pop_front(); --pending; ++totals.rejected;
+        }
+      }
+    }
+    if (result.state != Space::BatchState::committed) space.restrict_ingress();
+  }
+}

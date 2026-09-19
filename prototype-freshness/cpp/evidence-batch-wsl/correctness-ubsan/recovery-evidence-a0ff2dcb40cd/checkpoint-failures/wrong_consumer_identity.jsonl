@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/batch-ubsan-20260919/independent_worker", "durable", "/tyche-independent-623-2351573225357290556", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/correctness-ubsan/recovery-evidence-a0ff2dcb40cd/checkpoint-failures/PROTOTYPE-events.bin", "2351573225357290556", "0x0", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/correctness-ubsan/recovery-evidence-a0ff2dcb40cd/checkpoint-failures/PROTOTYPE-consumer.checkpoint", "44", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "checkpoint identity mismatch", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 833}

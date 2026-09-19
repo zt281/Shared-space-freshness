@@ -1,0 +1,13 @@
+string(RANDOM LENGTH 12 ALPHABET 0123456789abcdef RUN_ID)
+if(NOT DEFINED RUN_PREFIX)
+  set(RUN_PREFIX "independent")
+endif()
+if(NOT DEFINED RUN_TIMEOUT)
+  set(RUN_TIMEOUT 75)
+endif()
+set(OUTPUT "${EVIDENCE_ROOT}/${RUN_PREFIX}-evidence-${RUN_ID}")
+execute_process(COMMAND "${PYTHON}" "${SCENARIOS}" "${WORKER}" "${OUTPUT}"
+  RESULT_VARIABLE RESULT TIMEOUT ${RUN_TIMEOUT})
+if(NOT RESULT EQUAL 0)
+  message(FATAL_ERROR "${RUN_PREFIX} scenarios failed: ${RESULT}; evidence: ${OUTPUT}")
+endif()

@@ -1,0 +1,31 @@
+[
+  {
+    "case": "batch-crash-0",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,99 @@
+{
+  "workers": [
+    {
+      "label": "publisher",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "batch",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200",
+        "/tyche-independent-capacity-1789803984720237905",
+        "1789803984720237905",
+        "0",
+        "200",
+        "400",
+        "100000",
+        "128",
+        "8",
+        "10000000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-0",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200",
+        "/tyche-independent-capacity-1789803984720237905",
+        "1789803984720237905",
+        "0",
+        "200",
+        "400",
+        "100000"
+      ],
+      "exit_code": 2
+    }
+  ],
+  "cleanup": {
+    "command": [
+      "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+      "unlink",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200",
+      "/tyche-independent-capacity-1789803984720237905",
+      "1789803984720237905",
+      "0",
+      "200",
+      "400",
+      "100000"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "barriers": [
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:46:24.905273+00:00",
+      "phase": "ready",
+      "pid": 396,
+      "address": 126371938738176,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:46:24.925842+00:00",
+      "phase": "ready",
+      "pid": 398,
+      "address": 137490997096448,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:46:27.223023+00:00",
+      "phase": "measured",
+      "completed": 400,
+      "error": ""
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:46:27.223057+00:00",
+      "phase": "measured",
+      "completed": 245,
+      "error": "durable consumption: replace complete checkpoint"
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:46:27.231246+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:46:27.234636+00:00",
+      "phase": "saved"
+    }
+  ],
+  "failure": "AssertionError(('consumer-0', {'role': 'durable', 'pid': 398, 'start_ns': 233033979542, 'window_end_ns': 235033979542, 'deadline_ns': 238033979542, 'measured_end_ns': 234510138747, 'planned': 400, 'completed': 245, 'polls': 329, 'sequence_errors': 0, 'payload_errors': 0, 'final_head': 401, 'error': 'durable consumption: replace complete checkpoint', 'user_cpu_us': 16858, 'system_cpu_us': 87604, 'max_rss_kib_process_lifetime': 19220, 'voluntary_context_switches': 5011, 'involuntary_context_switches': 0, 'inblock': 40, 'oublock': 0, 'guard_calls': 658, 'guard_wait_ns': 284649, 'guard_max_wait_ns': 2022, 'batch_accepted': 0, 'batch_rejected': 0, 'batch_unknown': 0, 'batch_committed': 0, 'batch_count': 0, 'batch_syncs': 0, 'batch_max_pending': 0}))",
+  "finished_utc": "2026-09-19T07:46:27.278329+00:00"
+}

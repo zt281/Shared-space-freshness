@@ -1,0 +1,99 @@
+{
+  "workers": [
+    {
+      "label": "publisher",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "batch",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200-repeat",
+        "/tyche-independent-capacity-1789804209272601774",
+        "1789804209272601774",
+        "0",
+        "200",
+        "400",
+        "100000",
+        "128",
+        "8",
+        "10000000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-0",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200-repeat",
+        "/tyche-independent-capacity-1789804209272601774",
+        "1789804209272601774",
+        "0",
+        "200",
+        "400",
+        "100000"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "cleanup": {
+    "command": [
+      "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+      "unlink",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200-repeat",
+      "/tyche-independent-capacity-1789804209272601774",
+      "1789804209272601774",
+      "0",
+      "200",
+      "400",
+      "100000"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "barriers": [
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:09.461254+00:00",
+      "phase": "ready",
+      "pid": 471,
+      "address": 130492558475264,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:09.490699+00:00",
+      "phase": "ready",
+      "pid": 473,
+      "address": 132988223741952,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:11.801349+00:00",
+      "phase": "measured",
+      "completed": 400,
+      "error": ""
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:14.806590+00:00",
+      "phase": "measured",
+      "completed": 250,
+      "error": ""
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:14.815455+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:14.818741+00:00",
+      "phase": "saved"
+    }
+  ],
+  "failure": null,
+  "finished_utc": "2026-09-19T07:50:14.864098+00:00"
+}

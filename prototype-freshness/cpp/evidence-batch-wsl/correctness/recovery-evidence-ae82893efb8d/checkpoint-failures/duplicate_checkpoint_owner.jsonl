@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/batch-debug-20260919/independent_worker", "durable", "/tyche-independent-576-3687991427996958193", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/correctness/recovery-evidence-ae82893efb8d/checkpoint-failures/PROTOTYPE-events.bin", "3687991427996958193", "0x0", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/correctness/recovery-evidence-ae82893efb8d/checkpoint-failures/PROTOTYPE-consumer.checkpoint", "43", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "consumer checkpoint already owned", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 784}

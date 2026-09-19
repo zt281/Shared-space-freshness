@@ -1,0 +1,96 @@
+{
+  "workers": [
+    {
+      "label": "publisher",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "publisher",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable1-r200",
+        "/tyche-independent-capacity-1789803844487386983",
+        "1789803844487386983",
+        "0",
+        "200",
+        "400",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-0",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable1-r200",
+        "/tyche-independent-capacity-1789803844487386983",
+        "1789803844487386983",
+        "0",
+        "200",
+        "400",
+        "100000"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "cleanup": {
+    "command": [
+      "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+      "unlink",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable1-r200",
+      "/tyche-independent-capacity-1789803844487386983",
+      "1789803844487386983",
+      "0",
+      "200",
+      "400",
+      "100000"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "barriers": [
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:44:04.679242+00:00",
+      "phase": "ready",
+      "pid": 445,
+      "address": 124858635120640,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:44:04.700341+00:00",
+      "phase": "ready",
+      "pid": 446,
+      "address": 139833852084224,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:44:06.996951+00:00",
+      "phase": "measured",
+      "completed": 400,
+      "error": ""
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:44:07.589834+00:00",
+      "phase": "measured",
+      "completed": 400,
+      "error": ""
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:44:07.597865+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:44:07.601207+00:00",
+      "phase": "saved"
+    }
+  ],
+  "failure": null,
+  "finished_utc": "2026-09-19T07:44:07.660315+00:00"
+}

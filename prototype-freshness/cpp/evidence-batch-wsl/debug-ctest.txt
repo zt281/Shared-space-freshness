@@ -1,0 +1,20 @@
+[OUTPUT] 
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/batch-debug-20260919
+
+[HANDLER_OUTPUT] 
+Test project /home/alan/.cache/tyche-prototypes/batch-debug-20260919
+
+    Start 1: shared_memory_freshness_scenarios
+1/5 Test #1: shared_memory_freshness_scenarios ...   Passed    0.18 sec
+    Start 2: ordered_consumer_scenarios
+2/5 Test #2: ordered_consumer_scenarios ..........   Passed    0.33 sec
+    Start 3: independent_attachment_scenarios
+3/5 Test #3: independent_attachment_scenarios ....   Passed    0.69 sec
+    Start 4: crash_recovery_scenarios
+4/5 Test #4: crash_recovery_scenarios ............   Passed    4.48 sec
+    Start 5: bounded_batch_scenarios
+5/5 Test #5: bounded_batch_scenarios .............   Passed    2.12 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =   7.81 sec

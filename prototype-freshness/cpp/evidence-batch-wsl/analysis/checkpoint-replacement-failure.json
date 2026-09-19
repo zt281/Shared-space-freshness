@@ -1,0 +1,33 @@
+{
+  "case": "drvfs-batch10ms-durable1-r200",
+  "audited_utc": "2026-09-19T07:49:49.310195+00:00",
+  "command": [
+    "/usr/bin/python3",
+    "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/batch_failure_audit.py",
+    "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-batch10ms-durable1-r200",
+    "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/analysis/checkpoint-replacement-failure.json"
+  ],
+  "evidence_consistent": true,
+  "operation_passed": false,
+  "errno_recorded": false,
+  "published_event_count_including_initialization": 401,
+  "planned_inputs": 400,
+  "confirmed_inputs": 245,
+  "missing_inputs": 155,
+  "checkpoint_cursor": 246,
+  "checkpoint_revision": 247,
+  "uncommitted_pending_cursor": 247,
+  "uncommitted_pending_revision": 248,
+  "pending_not_counted_as_committed": true,
+  "checkpoint_staging_promoted_by_audit": false,
+  "checkpoint_sha256": "a2f838866700cb032cf98ba61467e22320e5f9f1422f23a0b45c5852a89c330d",
+  "pending_sha256": "07acd17e187b215b8f3ea8fb517d0b6e5c55b5141bd5326f720f250c76d175a1",
+  "worker_exit_codes": {
+    "publisher": 0,
+    "consumer-0": 2
+  },
+  "error": "durable consumption: replace complete checkpoint",
+  "failed_attempt_start_timestamp": null,
+  "timestamp_limit": "old harness fills consumer row times only on successful delivery; failed attempt start is not captured",
+  "conclusion": "existing checkpoint covers exactly the confirmed prefix; complete next staging state is retained but not committed; errno/cause undetermined"
+}

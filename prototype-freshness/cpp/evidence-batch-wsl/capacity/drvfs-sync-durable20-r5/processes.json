@@ -1,0 +1,780 @@
+{
+  "workers": [
+    {
+      "label": "publisher",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "publisher",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "0",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-0",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "0",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-1",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "1",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-2",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "2",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-3",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "3",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-4",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "4",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-5",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "5",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-6",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "6",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-7",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "7",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-8",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "8",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-9",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "9",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-10",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "10",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-11",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "11",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-12",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "12",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-13",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "13",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-14",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "14",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-15",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "15",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-16",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "16",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-17",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "17",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-18",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "18",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-19",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+        "/tyche-independent-capacity-1789804201248633732",
+        "1789804201248633732",
+        "19",
+        "5",
+        "10",
+        "100000"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "cleanup": {
+    "command": [
+      "/home/alan/.cache/tyche-prototypes/batch-release-20260919/capacity_probe",
+      "unlink",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-batch-wsl/capacity/drvfs-sync-durable20-r5",
+      "/tyche-independent-capacity-1789804201248633732",
+      "1789804201248633732",
+      "0",
+      "5",
+      "10",
+      "100000"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "barriers": [
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:01.443175+00:00",
+      "phase": "ready",
+      "pid": 420,
+      "address": 132157729013760,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:01.606975+00:00",
+      "phase": "ready",
+      "pid": 421,
+      "address": 138231288508416,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:50:01.607003+00:00",
+      "phase": "ready",
+      "pid": 422,
+      "address": 130737976283136,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:50:01.607014+00:00",
+      "phase": "ready",
+      "pid": 423,
+      "address": 133254245859328,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:50:01.607024+00:00",
+      "phase": "ready",
+      "pid": 424,
+      "address": 139494727983104,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-4",
+      "received_utc": "2026-09-19T07:50:01.607034+00:00",
+      "phase": "ready",
+      "pid": 425,
+      "address": 127831213043712,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-5",
+      "received_utc": "2026-09-19T07:50:01.607043+00:00",
+      "phase": "ready",
+      "pid": 426,
+      "address": 123821670055936,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-6",
+      "received_utc": "2026-09-19T07:50:01.607055+00:00",
+      "phase": "ready",
+      "pid": 427,
+      "address": 138734808809472,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-7",
+      "received_utc": "2026-09-19T07:50:01.607065+00:00",
+      "phase": "ready",
+      "pid": 428,
+      "address": 134537537474560,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-8",
+      "received_utc": "2026-09-19T07:50:01.607077+00:00",
+      "phase": "ready",
+      "pid": 429,
+      "address": 137608641798144,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-9",
+      "received_utc": "2026-09-19T07:50:01.607086+00:00",
+      "phase": "ready",
+      "pid": 430,
+      "address": 138293338296320,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-10",
+      "received_utc": "2026-09-19T07:50:01.607097+00:00",
+      "phase": "ready",
+      "pid": 431,
+      "address": 133484838912000,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-11",
+      "received_utc": "2026-09-19T07:50:01.607106+00:00",
+      "phase": "ready",
+      "pid": 432,
+      "address": 135700261842944,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-12",
+      "received_utc": "2026-09-19T07:50:01.607115+00:00",
+      "phase": "ready",
+      "pid": 433,
+      "address": 130571424174080,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-13",
+      "received_utc": "2026-09-19T07:50:01.611472+00:00",
+      "phase": "ready",
+      "pid": 434,
+      "address": 135488220069888,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-14",
+      "received_utc": "2026-09-19T07:50:01.614036+00:00",
+      "phase": "ready",
+      "pid": 435,
+      "address": 126743935488000,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-15",
+      "received_utc": "2026-09-19T07:50:01.630735+00:00",
+      "phase": "ready",
+      "pid": 436,
+      "address": 133015153815552,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-16",
+      "received_utc": "2026-09-19T07:50:01.637310+00:00",
+      "phase": "ready",
+      "pid": 437,
+      "address": 131106110337024,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-17",
+      "received_utc": "2026-09-19T07:50:01.642015+00:00",
+      "phase": "ready",
+      "pid": 438,
+      "address": 137735541317632,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-18",
+      "received_utc": "2026-09-19T07:50:01.646710+00:00",
+      "phase": "ready",
+      "pid": 439,
+      "address": 136257473925120,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-19",
+      "received_utc": "2026-09-19T07:50:01.650228+00:00",
+      "phase": "ready",
+      "pid": 440,
+      "address": 124918461902848,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:03.751932+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:03.806025+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:50:03.806060+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:50:03.825386+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:50:03.830657+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-4",
+      "received_utc": "2026-09-19T07:50:03.830690+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-5",
+      "received_utc": "2026-09-19T07:50:03.830701+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-6",
+      "received_utc": "2026-09-19T07:50:03.830712+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-7",
+      "received_utc": "2026-09-19T07:50:03.830722+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-8",
+      "received_utc": "2026-09-19T07:50:03.830731+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-9",
+      "received_utc": "2026-09-19T07:50:03.830740+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-10",
+      "received_utc": "2026-09-19T07:50:03.830749+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-11",
+      "received_utc": "2026-09-19T07:50:03.830758+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-12",
+      "received_utc": "2026-09-19T07:50:03.830768+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-13",
+      "received_utc": "2026-09-19T07:50:03.830777+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-14",
+      "received_utc": "2026-09-19T07:50:03.830785+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-15",
+      "received_utc": "2026-09-19T07:50:03.830795+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-16",
+      "received_utc": "2026-09-19T07:50:03.830803+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-17",
+      "received_utc": "2026-09-19T07:50:03.830812+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-18",
+      "received_utc": "2026-09-19T07:50:03.830820+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "consumer-19",
+      "received_utc": "2026-09-19T07:50:03.830851+00:00",
+      "phase": "measured",
+      "completed": 10,
+      "error": ""
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:50:03.855652+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:50:03.859072+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:50:03.860283+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:50:03.861485+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:50:03.862670+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-4",
+      "received_utc": "2026-09-19T07:50:03.866085+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-5",
+      "received_utc": "2026-09-19T07:50:03.867306+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-6",
+      "received_utc": "2026-09-19T07:50:03.868582+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-7",
+      "received_utc": "2026-09-19T07:50:03.872075+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-8",
+      "received_utc": "2026-09-19T07:50:03.872139+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-9",
+      "received_utc": "2026-09-19T07:50:03.873375+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-10",
+      "received_utc": "2026-09-19T07:50:03.876763+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-11",
+      "received_utc": "2026-09-19T07:50:03.878028+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-12",
+      "received_utc": "2026-09-19T07:50:03.881491+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-13",
+      "received_utc": "2026-09-19T07:50:03.881563+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-14",
+      "received_utc": "2026-09-19T07:50:03.884991+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-15",
+      "received_utc": "2026-09-19T07:50:03.885058+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-16",
+      "received_utc": "2026-09-19T07:50:03.888386+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-17",
+      "received_utc": "2026-09-19T07:50:03.888429+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-18",
+      "received_utc": "2026-09-19T07:50:03.891848+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-19",
+      "received_utc": "2026-09-19T07:50:03.895298+00:00",
+      "phase": "saved"
+    }
+  ],
+  "failure": null,
+  "finished_utc": "2026-09-19T07:50:04.049165+00:00"
+}
