@@ -1,0 +1,204 @@
+{
+  "workers": [
+    {
+      "label": "publisher",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+        "publisher",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+        "/tyche-independent-capacity-1789801575470637429",
+        "1789801575470637429",
+        "0",
+        "20",
+        "40",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-0",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+        "/tyche-independent-capacity-1789801575470637429",
+        "1789801575470637429",
+        "0",
+        "20",
+        "40",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-1",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+        "/tyche-independent-capacity-1789801575470637429",
+        "1789801575470637429",
+        "1",
+        "20",
+        "40",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-2",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+        "/tyche-independent-capacity-1789801575470637429",
+        "1789801575470637429",
+        "2",
+        "20",
+        "40",
+        "100000"
+      ],
+      "exit_code": 0
+    },
+    {
+      "label": "consumer-3",
+      "command": [
+        "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+        "durable",
+        "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+        "/tyche-independent-capacity-1789801575470637429",
+        "1789801575470637429",
+        "3",
+        "20",
+        "40",
+        "100000"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "cleanup": {
+    "command": [
+      "/home/alan/.cache/tyche-prototypes/capacity-20260919/capacity_probe",
+      "unlink",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-capacity-wsl/drvfs-durable-4-20",
+      "/tyche-independent-capacity-1789801575470637429",
+      "1789801575470637429",
+      "0",
+      "20",
+      "40",
+      "100000"
+    ],
+    "returncode": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "barriers": [
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:06:15.628435+00:00",
+      "phase": "ready",
+      "pid": 407,
+      "address": 130664988495872,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:06:15.671354+00:00",
+      "phase": "ready",
+      "pid": 408,
+      "address": 140058185338880,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:06:15.671407+00:00",
+      "phase": "ready",
+      "pid": 409,
+      "address": 128562776408064,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:06:15.671418+00:00",
+      "phase": "ready",
+      "pid": 410,
+      "address": 123265649426432,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:06:15.671427+00:00",
+      "phase": "ready",
+      "pid": 411,
+      "address": 124199675932672,
+      "authority": 1,
+      "head": 1
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:06:17.923261+00:00",
+      "phase": "measured",
+      "completed": 40,
+      "error": ""
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:06:17.933794+00:00",
+      "phase": "measured",
+      "completed": 40,
+      "error": ""
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:06:17.933829+00:00",
+      "phase": "measured",
+      "completed": 40,
+      "error": ""
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:06:17.938874+00:00",
+      "phase": "measured",
+      "completed": 40,
+      "error": ""
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:06:17.938909+00:00",
+      "phase": "measured",
+      "completed": 40,
+      "error": ""
+    },
+    {
+      "label": "publisher",
+      "received_utc": "2026-09-19T07:06:17.947010+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-0",
+      "received_utc": "2026-09-19T07:06:17.950461+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-1",
+      "received_utc": "2026-09-19T07:06:17.951667+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-2",
+      "received_utc": "2026-09-19T07:06:17.952922+00:00",
+      "phase": "saved"
+    },
+    {
+      "label": "consumer-3",
+      "received_utc": "2026-09-19T07:06:17.954140+00:00",
+      "phase": "saved"
+    }
+  ],
+  "failure": null,
+  "finished_utc": "2026-09-19T07:06:18.008982+00:00"
+}

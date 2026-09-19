@@ -135,3 +135,9 @@ python3 prototype-freshness/cpp/audit_crash_evidence.py \
 ```
 
 Debug 和 UBSan 均通过原 151 + 新 228 = 379 项。[恢复证据](evidence-crash-wsl/README.md)包含 23 个新场景、全部逐进程观察、崩溃时二进制、模拟提交、源码快照和构建参数。恢复扫描为 O(日志长度)，检查点每条同步；文件 I/O 仍阻塞共享锁，不是最终低延迟实现。整机重启/断电、实际磁盘损坏修复、跨节点、生产状态序列化、容量和 Windows 原生支持仍未验收。
+
+## 同步保存与消费扇出的短时负载诊断
+
+`capacity_probe` / `capacity_run.py` 让独立发布者和 1、4 或 20 个消费者自主运行，以固定计划到达时刻计算排队和完成耗时；沿用现有 Space/检查点实现。`capacity_audit.py` 独立读取原始事件、检查点和逐事件时间，验证内容并生成整轮与各消费者统计，未完成事件仍纳入计数。
+
+14 个 Release 短测覆盖本机 WSL 的 D 盘 DrvFs 与 C 盘 VHD/ext4。复现命令、完整证据和限制见[短时诊断记录](evidence-capacity-wsl/README.md)。这不是多资产真实定价、跨网络或生产尾部容量验收；测量数据在内存记录后统一保存，生产指标落盘开销尚未纳入。统计通过不表示 1ms/5ms 目标通过，也不放宽此前的恢复与持久化契约。
