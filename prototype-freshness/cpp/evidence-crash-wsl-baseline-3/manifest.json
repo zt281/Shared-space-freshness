@@ -1,0 +1,33 @@
+{
+  "purpose": "baseline defect reproduction; not a recovery acceptance suite",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "source_head": "0d33ccf7eda70bd5d342b08839d3c13d3abfed37",
+  "source_hashes": {
+    "CMakeLists.txt": "1d07f7f456fbd69e967156b87f2fefc9d24be75f4cb6c105acd13f3c01fd6e19",
+    "consumer.hpp": "db4be3ca711084712769b76ad2921b4e5fe06bd1408d46323c286539840135ba",
+    "crash_baseline.py": "83b443de1345f5a90957ce03f57d5cf79ba4fe78fbef79b3f03799efd15c3d7d",
+    "crash_baseline_fault.cpp": "cc0767476e7065c4381e0531c7a452e8041f4106a757937889fa96d7851eab29",
+    "experiment.hpp": "cb24f799dddcb0017d7609f986a09513d1f638122678beaa5c53065d4f352d96",
+    "faults.hpp": "3d39c764c4a6248f51aaf9dd986a80f73cb62b49373b3a11b9b3702b37fc003e",
+    "independent_scenarios.py": "a4692200c224c880b2c04a67d960438de9f4fbea237f4b3201cef8d666ddd11c",
+    "independent_worker.cpp": "ac642c92cac8793c84d972a32de8fdfbb5d5668bccd5ba4ee0c17f508f8012ae",
+    "journal_inspect.cpp": "44bdba54553cc67b17acd499fbfb72a1da4196c74101bdd8ebd4a7b17e41f65c",
+    "main.cpp": "584a8cdb62dcb2fd11d10ddbf6fa0d73303a9624c2f65d1b4b905bf8aad8fd57",
+    "model.hpp": "9eabff44bc012af97eb3ccf1f1f9d0d58996e9c6441df35e1af1a4eb9e3bc3c5",
+    "ordered_consumer.hpp": "bb8bedf8bc60e7c73492d18121e9ba8f97c7c39494d468a1288b5d264673115e",
+    "ordered_main.cpp": "46601281f5b7a98a2de61013f41bddd9217138658c3de4d13381f0fb64a127dd",
+    "run-independent.cmake": "58af5ea6c212c720a99d18afcc6cb66c2682fa97902275bc2a1998d6d5ba9016",
+    "run-scenarios.cmake": "94029201a036612eb96ae116e1dcb1f52c52a47e4ac42b32911a261f544ff73e",
+    "space.cpp": "e904e44c361778d56f4cbcc7495268d023c93030595fc27e0970445af7005aef",
+    "space.hpp": "afd5edb44c7fdf9a2d867897eed37684c1e2ed3cd4ff4d612d34be2e250a6af7"
+  },
+  "binaries": {
+    "/home/alan/.cache/tyche-prototypes/independent-20260919/independent_worker": "936cab67e702ac70ff4372c3b32d2f63833bee0617ee1e0f5f356f0e7c905589",
+    "/home/alan/.cache/tyche-prototypes/crash-20260919/crash_baseline_fault.so": "ce7ed77cf8d0e381086894533d97044a5f216e3e59a2a49783a80d66eeb20fa9",
+    "/home/alan/.cache/tyche-prototypes/crash-20260919/journal_inspect": "c758c45326b13e54fd34196ff4ec312debdb3e3839d448d462096095143a4fca"
+  },
+  "fault": "second successful fdatasync exits with 77 before returning to Space::append",
+  "identity": 2566573579407697976,
+  "name": "/tyche-independent-306-2566573579407697976"
+}

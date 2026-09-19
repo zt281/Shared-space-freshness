@@ -1,0 +1,39 @@
+{
+  "baseline_gaps_reproduced": true,
+  "checks": 12,
+  "not_recovery_acceptance": true,
+  "tail_before": {
+    "sequence": 2,
+    "seal": 1807329550995573775,
+    "epoch": 1,
+    "version": 2,
+    "proof": 2,
+    "value_ms": 410,
+    "verified_ms": 410,
+    "received_ms": 410,
+    "price": 102,
+    "quantity": 2,
+    "checksum": 3405517392,
+    "gap": false,
+    "time_known": true,
+    "valid": true,
+    "record_bytes": 96
+  },
+  "tail_after": {
+    "sequence": 2,
+    "seal": 2712781471552619672,
+    "epoch": 2,
+    "version": 2,
+    "proof": 2,
+    "value_ms": 420,
+    "verified_ms": 420,
+    "received_ms": 420,
+    "price": 102,
+    "quantity": 2,
+    "checksum": 3405517392,
+    "gap": false,
+    "time_known": true,
+    "valid": true,
+    "record_bytes": 96
+  }
+}

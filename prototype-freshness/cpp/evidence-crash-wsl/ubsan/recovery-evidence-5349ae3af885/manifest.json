@@ -1,0 +1,31 @@
+{
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "python": "3.12.3 (main, Jun 19 2026, 12:46:00) [GCC 13.3.0]",
+  "binary": "/home/alan/.cache/tyche-prototypes/crash-20260919-ubsan/independent_worker",
+  "binary_sha256": "4cfb95c719df2f4a3f0b3dcac07a2109ef4c28f1c63234c382621215bf23195e",
+  "sources": {
+    "audit_crash_evidence.py": "6598383e24c58375aafd72d2da0dfdc506d2059fcf17dbf0d36bde0b87ccf7ff",
+    "capture_build_evidence.py": "80895c212a97e938f15f7e2e00a0e68e660efde846b53c5ed3d02686b364191e",
+    "CMakeLists.txt": "8c1fa96b20e8f090146518177337131657b558c6070ceaecd79257f563a7333b",
+    "consumer.hpp": "ec08d074654c9c205eed089416ac43c52aadfafafd089570e2650d1658034540",
+    "crash_baseline.py": "de665e7cfa531d3cd258108909af5953cbeb630c6a7efb838bb2e6664a78fc65",
+    "crash_baseline_fault.cpp": "cc0767476e7065c4381e0531c7a452e8041f4106a757937889fa96d7851eab29",
+    "crash_scenarios.py": "4b2a6bc45c353e36dd106bb830a2c46a49c577efb96ad13f60e34c33132abc9b",
+    "durable_consumer.cpp": "6688cef00aacb13ece4f6d9c1d33ae6ad522ca9367badd6db415e6b0a42c9bfe",
+    "durable_consumer.hpp": "b5d7e0271aa368938a0ecdfada8e27515d194aee397c25e565d826c6fc0ff8d6",
+    "experiment.hpp": "cb24f799dddcb0017d7609f986a09513d1f638122678beaa5c53065d4f352d96",
+    "faults.hpp": "2225e779602c25793ff0f95396095d435268684ef3e986dd626cd6995bdbc578",
+    "independent_scenarios.py": "5baec76b6e6eae45869735cf06e31d273ea69079ce52405e29c8b2207150b612",
+    "independent_worker.cpp": "2d46c1f11cbb66e648f20a8ba24297780ce43d1f4cac7e167bfbe7e7f9da9c34",
+    "journal_inspect.cpp": "44bdba54553cc67b17acd499fbfb72a1da4196c74101bdd8ebd4a7b17e41f65c",
+    "main.cpp": "584a8cdb62dcb2fd11d10ddbf6fa0d73303a9624c2f65d1b4b905bf8aad8fd57",
+    "model.hpp": "9eabff44bc012af97eb3ccf1f1f9d0d58996e9c6441df35e1af1a4eb9e3bc3c5",
+    "ordered_consumer.hpp": "fed05bbacbe214b32c770f508647c0298115b620af6c0730cd596fa55f817513",
+    "ordered_main.cpp": "46601281f5b7a98a2de61013f41bddd9217138658c3de4d13381f0fb64a127dd",
+    "run-independent.cmake": "0f32adfa410b99b5ea0c8e928e45b3c853a82477b61d8370cc522965e0fad41a",
+    "run-scenarios.cmake": "94029201a036612eb96ae116e1dcb1f52c52a47e4ac42b32911a261f544ff73e",
+    "space.cpp": "99f914d2e7188c1ac1b575beba8f2c99c55186651b342c57df987680ceffadd8",
+    "space.hpp": "1f279e21f3c4133565311ce05dfcdf24c1cff0e6014f33bf31db400f2ab7921c"
+  },
+  "scope": "local independent processes; injected clock; simulated external submissions; no host power loss"
+}

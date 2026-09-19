@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/crash-20260919/independent_worker", "durable", "/tyche-independent-493-699340776438577862", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-crash-wsl/debug/recovery-evidence-e315e32eff76/checkpoint-failures/PROTOTYPE-events.bin", "699340776438577862", "0x0", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-crash-wsl/debug/recovery-evidence-e315e32eff76/checkpoint-failures/PROTOTYPE-bad-checksum", "43", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "invalid checkpoint; evidence retained", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 753}

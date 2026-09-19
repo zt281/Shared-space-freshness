@@ -14,7 +14,7 @@
 bash prototype-freshness/cpp/run.sh
 ```
 
-脚本运行 CTest 中的三组跨进程场景：`freshness_probe`（44 项）、`ordered_probe`（38 项）、`independent_attachment_scenarios`（69 项），共 151 项行为检查。每次创建新的证据目录，不覆盖旧记录；可通过 CMake 的 `PROTOTYPE_EVIDENCE_ROOT` 指定保存父目录。若已有编译结果，也可运行：
+脚本运行 CTest 中的四组跨进程场景：`freshness_probe`（44 项）、`ordered_probe`（38 项）、`independent_attachment_scenarios`（69 项）、`crash_recovery_scenarios`（228 项），共 379 项行为检查。每次创建新的证据目录，不覆盖旧记录；可通过 CMake 的 `PROTOTYPE_EVIDENCE_ROOT` 指定保存父目录。若已有编译结果，也可运行：
 
 ```bash
 prototype-freshness/cpp/build/freshness_probe /tmp/tyche-freshness-my-new-run
@@ -30,6 +30,8 @@ prototype-freshness/cpp/build/freshness_probe /tmp/tyche-freshness-my-new-run
 - `experiment.hpp / faults.hpp`：实验进程调度、完整 JSONL 输出、受控内部故障 seam。正常发布经过共享空间 interface；只有撕裂写入、缺口、未知时间、场景重置使用故障入口。
 - `main.cpp`：场景与行为断言，不改写共享布局或消费者内部标志。
 - `ordered_consumer.hpp`：逐笔消费进度与恢复门槛；每个消费者单独持有进度，处理成功才确认。
+- `durable_consumer.hpp / .cpp`：纯累计结果、消费进度及控制状态的一致检查点；独立创建和恢复入口，重启不恢复放行。
+- `crash_scenarios.py`：发布、检查点和模拟提交边界的真实进程退出；`audit_crash_evidence.py` 独立核对保存的二进制及 JSON 证据。
 - `ordered_main.cpp`：一个发布者、两个消费者的真实进程实验，控制管道不传业务事件。
 - `CMakeLists.txt` / `run-scenarios.cmake`：构建与可重复场景入口。遵循仓库要求保留可执行行为检查，不建立生产测试框架。
 - `.clang-format`：C++ 格式约定；编译启用常用警告并将警告视为错误。本环境未安装 clang-format，未声称格式器校验通过。
@@ -47,7 +49,7 @@ prototype-freshness/cpp/build/freshness_probe /tmp/tyche-freshness-my-new-run
 - 新鲜度按可控逻辑毫秒计算，未验证真实跨机时钟、传播或时限误差。来源业务核验与收到旧副本仍是注入动作，不是已实现网络协议。
 - 只模拟一份业务依赖；尚未实现两市场合约、完整对冲账或两侧输入时间差判断。
 - `freshness_probe` 读取最新完整快照，允许略过中间版本；5000 次快照观察不能证明逐笔必达。新增 `ordered_probe` 单独检查两消费者的逐笔完整性，见下文；这也不是生产事件系统已验收的声明。
-- `Consumer` 的授权、稳定期、订单核对及提交结果是明确的场景状态。没有真实风控、订单、持久化恢复或账户连接。
+- `Consumer` 的授权、稳定期、订单核对及提交结果是明确的场景状态。新增检查点只恢复演示累计结果与控制状态，没有真实风控、订单或账户连接。
 - 文件记录是实验观察，不是生产可恢复交易证据系统。进程/主机全面重启、磁盘故障与永久保存尚未验收。
 - 5000/5000 是并发完整性检查，不是容量曲线。注入的短暂等待和记录成本不能用于宣称 p99/p99.9 或吞吐达标。
 - 不覆盖 Windows、跨机器虚拟共享空间或目标国内/境外部署；这些留在问题单中。
@@ -82,7 +84,7 @@ prototype-freshness/cpp/build/ordered_probe /tmp/tyche-ordered-my-new-run
 
 - 同一 `Space` 提供最新快照与有序记录；8 条共享缓冲、4 条积压阈值均为演示值。最新快照和有序记录在同一互斥范围内发布/读取，不增加策略可见的网络通道。
 - 完整记录先写入本地实验文件并执行 `fdatasync`，成功后才发布序号及快照。滚动覆盖的是共享缓冲，已发布事件的完整记录不因消费者落后而删除。超出缓冲从同一 `Space` 补读，单批最多 8 条。
-- 每个消费者从序号 1 开始，只有处理成功才推进自己的进度；检查顺序和记录校验。处理失败允许重试同一事件，**不是应用副作用恰好一次的保证**。消费进度只在进程内存中，不支持重启恢复。
+- 此组基线消费者从序号 1 开始，只有处理成功才推进自己的进度；检查顺序和记录校验。处理失败允许重试同一事件，**不是应用副作用恰好一次的保证**。此组消费进度只在内存；后面的 `DurableConsumer` 实验另外验证检查点恢复。
 - 超过示例积压阈值时，仅限制落后组并记录模拟撤余/告警。即使尚未达到阈值，只要仍有待处理必需事件，也不允许产生新指令；及时处理后无需额外恢复流程。
 - 完整补齐、有效数据、核对与稳定观察全部满足后才可放行，主动停止必须显式解除。正常新事件及时处理不会重置稳定期；再次越过积压阈值或处理失败则重新受限。
 - 读取缺失/损坏的必需记录时，不推进失败批次进度，并将该共享记录依赖标为故障，限制两个消费者。容量配额耗尽在写入路径拒绝发布，不让未保存事件出现在公开序号或快照中。
@@ -109,3 +111,27 @@ python3 prototype-freshness/cpp/independent_scenarios.py \
 Debug 与 UBSan 均通过全部 151 项，逐项结论、原始日志、源码快照和构建参数见[本轮证据](evidence-independent-wsl/README.md)。新增检查没有替代原有 82 项，也没有降低原始记录粒度。
 
 本轮只验证合作进程、同机保留共享区域、明确退出边界和合成业务。新场景中的非正常退出发生在发布临界区之外；写日志/更新 head/发布快照之间的崩溃、消费者进度落盘、整机重启、实际磁盘故障和目标部署仍待验证。重用同名区域的检查是在原参与者退出后完成，尚未实现旧挂接仍存活时的全局撤销/重新发现。Linux 内存/文件布局限定相同 ABI，不承诺 Windows 原生支持或跨机格式兼容。
+
+## 发布提交与消费检查点的进程崩溃恢复
+
+2026-09-19 后续实验采用用户确认的两项规则：核验后的完整事件日志决定提交；处理结果与进度一起保存，从一致检查点继续。上节未覆盖的发布崩溃与消费落盘由本节新增场景验证，历史证据保持原样。
+
+具名发布者确认前任退出后，在锁内扫描完整日志，核验连续序号、校验值和代次，并重新确认保存；据此重建共享缓冲、head 与最新完整记录。新发布追加到恢复后的序号。完整写入但旧进程未能确认同步的尾记录，在恢复同步成功后也进入提交序列。半条、损坏、短缺或同步失败都保持公共记录故障，不自动截断日志。恢复保留原业务时间，新代次仍须取得新来源快照。
+
+发布调用没有答复时，可用实验 `query` 命令按序号取回完整记录，比对原提议的代次、版本和载荷；没有自动重复发布。该命令验证结果查证所需信息，尚不是生产请求 ID／去重协议。
+
+`durable_create` 独占创建检查点，`durable` 要求已存在的有效检查点；恢复不能把缺失、损坏或身份错误当作空状态。每个检查点绑定区域与消费者身份、末条输入 seal、累计数量/价格/顺序摘要、游标、已处理数、主动停止和意图状态。消费者检查点文件持有独占锁。纯计算完成后先保存完整暂存文件、同步、原子替换并同步目录，再确认进度；临时文件未替换时使用旧检查点。暂存证据不被清理。
+
+恢复不加载旧核对凭据或稳定期；已确认主动停止保留，旧 pending 意图退役且原期限不延长。模拟提交先把可能执行记为 unknown，再写独立的模拟外部提交记录；在两者之间或其后退出，都不会因重启再发一次。unknown 的真实通道核对与消歧尚未实现；此实验不宣称任意外部副作用恰好一次。结果码：0 none、1 pending、2 unknown、3 expired、4 old_epoch、5 not_ready、6 abandoned_restart。
+
+单独运行恢复场景及保存证据复核：
+
+```bash
+python3 prototype-freshness/cpp/crash_scenarios.py \
+  prototype-freshness/cpp/build/independent_worker \
+  prototype-freshness/cpp/build/my-new-recovery-evidence
+python3 prototype-freshness/cpp/audit_crash_evidence.py \
+  prototype-freshness/cpp/evidence-crash-wsl
+```
+
+Debug 和 UBSan 均通过原 151 + 新 228 = 379 项。[恢复证据](evidence-crash-wsl/README.md)包含 23 个新场景、全部逐进程观察、崩溃时二进制、模拟提交、源码快照和构建参数。恢复扫描为 O(日志长度)，检查点每条同步；文件 I/O 仍阻塞共享锁，不是最终低延迟实现。整机重启/断电、实际磁盘损坏修复、跨节点、生产状态序列化、容量和 Windows 原生支持仍未验收。

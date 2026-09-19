@@ -1,0 +1,5 @@
+{"check": "created_unique_region", "pass": true}
+{"check": "baseline_reader_ready", "pass": true}
+{"check": "baseline_user_stop_blocks", "pass": true}
+{"check": "observed_restart_loses_cursor", "pass": true}
+{"check": "observed_first_event_processed_again", "pass": false}
