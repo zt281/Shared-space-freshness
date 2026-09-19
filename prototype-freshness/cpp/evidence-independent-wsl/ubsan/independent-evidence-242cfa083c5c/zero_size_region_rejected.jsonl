@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/independent-20260919-ubsan/independent_worker", "reader", "/tyche-independent-530-832404114567650594-zero_size_region_rejected", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-independent-wsl/ubsan/independent-evidence-242cfa083c5c/PROTOTYPE-events.bin", "832404114567650594", "0x0"], "kind": "launch", "role": "reader"}
+{"action": "startup_failed", "error": "region is uninitialized or layout size is incompatible", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 542}

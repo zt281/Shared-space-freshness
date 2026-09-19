@@ -1,0 +1,27 @@
+{
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "python": "3.12.3",
+  "baseline_commit": "21720e963b0f4306913836c61ddfe72737b032ee",
+  "region_identity": 3563205676125532321,
+  "region_name": "/tyche-independent-460-3563205676125532321",
+  "binary": "/home/alan/.cache/tyche-prototypes/independent-20260919/independent_worker",
+  "binary_sha256": "936cab67e702ac70ff4372c3b32d2f63833bee0617ee1e0f5f356f0e7c905589",
+  "source_sha256": {
+    "CMakeLists.txt": "1d07f7f456fbd69e967156b87f2fefc9d24be75f4cb6c105acd13f3c01fd6e19",
+    "consumer.hpp": "db4be3ca711084712769b76ad2921b4e5fe06bd1408d46323c286539840135ba",
+    "experiment.hpp": "cb24f799dddcb0017d7609f986a09513d1f638122678beaa5c53065d4f352d96",
+    "faults.hpp": "3d39c764c4a6248f51aaf9dd986a80f73cb62b49373b3a11b9b3702b37fc003e",
+    "independent_scenarios.py": "31a521f14dc30391a46c2bb574884ed0e75c463e05c3f41c9154b822956a0abb",
+    "independent_worker.cpp": "ac642c92cac8793c84d972a32de8fdfbb5d5668bccd5ba4ee0c17f508f8012ae",
+    "main.cpp": "584a8cdb62dcb2fd11d10ddbf6fa0d73303a9624c2f65d1b4b905bf8aad8fd57",
+    "model.hpp": "9eabff44bc012af97eb3ccf1f1f9d0d58996e9c6441df35e1af1a4eb9e3bc3c5",
+    "ordered_consumer.hpp": "bb8bedf8bc60e7c73492d18121e9ba8f97c7c39494d468a1288b5d264673115e",
+    "ordered_main.cpp": "46601281f5b7a98a2de61013f41bddd9217138658c3de4d13381f0fb64a127dd",
+    "run-independent.cmake": "58af5ea6c212c720a99d18afcc6cb66c2682fa97902275bc2a1998d6d5ba9016",
+    "space.cpp": "e904e44c361778d56f4cbcc7495268d023c93030595fc27e0970445af7005aef",
+    "space.hpp": "afd5edb44c7fdf9a2d867897eed37684c1e2ed3cd4ff4d612d34be2e250a6af7"
+  },
+  "clock": "injected logical milliseconds",
+  "orders_and_reconciliation": "simulated"
+}

@@ -7,7 +7,7 @@
 - `prototype-freshness/cpp/`：Linux C++20 跨进程共享内存验证，含原始观察及可重复场景。
 - `.scratch/tyche-architecture/`、`docs/adr/`、`CONTEXT.md`：此分支建立时的规划快照；最新决议以主工作区问题单为准。
 
-运行 C++ 原型需要 Linux、C++20 编译器、CMake ≥3.20 和 pthread：
+运行 C++ 原型需要 Linux、C++20 编译器、CMake ≥3.20、Python ≥3.9 和 pthread；独立挂接场景还使用 Linux pidfd 与 MAP_FIXED_NOREPLACE：
 
 ```bash
 bash prototype-freshness/cpp/run.sh
