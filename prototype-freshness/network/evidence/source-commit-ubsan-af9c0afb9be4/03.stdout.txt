@@ -1,0 +1,20 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-ubsan
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-ubsan
+    Start 1: shared_memory_freshness_scenarios
+1/7 Test #1: shared_memory_freshness_scenarios ...   Passed    0.06 sec
+    Start 2: ordered_consumer_scenarios
+2/7 Test #2: ordered_consumer_scenarios ..........   Passed    0.28 sec
+    Start 3: independent_attachment_scenarios
+3/7 Test #3: independent_attachment_scenarios ....   Passed    0.66 sec
+    Start 4: crash_recovery_scenarios
+4/7 Test #4: crash_recovery_scenarios ............   Passed    4.34 sec
+    Start 5: bounded_batch_scenarios
+5/7 Test #5: bounded_batch_scenarios .............   Passed    1.73 sec
+    Start 6: quic_replication_scenarios
+6/7 Test #6: quic_replication_scenarios ..........   Passed   14.70 sec
+    Start 7: quic_source_commit_scenarios
+7/7 Test #7: quic_source_commit_scenarios ........   Passed   40.59 sec
+
+100% tests passed, 0 tests failed out of 7
+
+Total Test time (real) =  62.37 sec

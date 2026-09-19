@@ -1,0 +1,267 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "batch-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 5,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "batch-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "source_tail_bytes": 0,
+          "replica_records": 25,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 24
+    },
+    {
+      "name": "overflow",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 5
+    },
+    {
+      "name": "source-crash-0",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 3,
+          "source_tail_bytes": 0,
+          "replica_records": 3,
+          "checkpoint_cursor": 2
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-1",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 4,
+          "source_tail_bytes": 0,
+          "replica_records": 4,
+          "checkpoint_cursor": 3
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-2",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 2,
+          "source_tail_bytes": 48,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 0
+    },
+    {
+      "name": "source-crash-3",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-4",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-5",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-6",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-save-error",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "worker-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 5,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "worker-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "source_tail_bytes": 0,
+          "replica_records": 25,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 24
+    }
+  ],
+  "checks": 159,
+  "worker_sha256": "a0da5e45f155e7a4527b76ce741cf9b34e73cf2cf06941b879dc7f600b439f98"
+}

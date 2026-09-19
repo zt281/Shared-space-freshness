@@ -1,0 +1,288 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "batch-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 5,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "batch-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "source_tail_bytes": 0,
+          "replica_records": 25,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 24
+    },
+    {
+      "name": "completion-limit",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 2
+    },
+    {
+      "name": "overflow",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 5
+    },
+    {
+      "name": "source-crash-0",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 3,
+          "source_tail_bytes": 0,
+          "replica_records": 3,
+          "checkpoint_cursor": 2
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-1",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 4,
+          "source_tail_bytes": 0,
+          "replica_records": 4,
+          "checkpoint_cursor": 3
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-2",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 2,
+          "source_tail_bytes": 48,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 0
+    },
+    {
+      "name": "source-crash-3",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-4",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-5",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-crash-6",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "source_tail_bytes": 0,
+          "replica_records": 7,
+          "checkpoint_cursor": 6
+        },
+        {
+          "flow": 2,
+          "source_records": 2,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 1
+    },
+    {
+      "name": "source-save-error",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 1,
+          "checkpoint_cursor": null
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "worker-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "source_tail_bytes": 0,
+          "replica_records": 5,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 4
+    },
+    {
+      "name": "worker-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "source_tail_bytes": 0,
+          "replica_records": 25,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "source_tail_bytes": 0,
+          "replica_records": 0,
+          "checkpoint_cursor": null
+        }
+      ],
+      "receipts_verified": 24
+    }
+  ],
+  "checks": 167,
+  "worker_sha256": "8913a3d8bafe32cb98c966eac8be95acbb824b3256723d08793dc3c30cdf4341",
+  "completion_limit_covered": true
+}

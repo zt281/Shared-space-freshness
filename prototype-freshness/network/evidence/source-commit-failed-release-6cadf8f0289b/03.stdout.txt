@@ -1,0 +1,25 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-release
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-release
+    Start 1: shared_memory_freshness_scenarios
+1/7 Test #1: shared_memory_freshness_scenarios ...   Passed    0.04 sec
+    Start 2: ordered_consumer_scenarios
+2/7 Test #2: ordered_consumer_scenarios ..........   Passed    0.27 sec
+    Start 3: independent_attachment_scenarios
+3/7 Test #3: independent_attachment_scenarios ....   Passed    0.62 sec
+    Start 4: crash_recovery_scenarios
+4/7 Test #4: crash_recovery_scenarios ............   Passed    3.92 sec
+    Start 5: bounded_batch_scenarios
+5/7 Test #5: bounded_batch_scenarios .............   Passed    1.73 sec
+    Start 6: quic_replication_scenarios
+6/7 Test #6: quic_replication_scenarios ..........***Failed   51.31 sec
+{"evidence": "/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-build-evidence/release-6cadf8f0289b/runs/quic-evidence-74469f4acb1d", "passed": false, "checks": 115, "error": "receiver-1 status timeout: {'event': 'status', 'pid': 1389, 'mono_ms': 79994, 'request': 1309, 'g': 1, 'mask': 1, 'ready': False, 'connected': False, 'closed': True, 'failure': '', 'storage_failed': False, 'duplicates': 0, 'ignored': 0, 'gaps': 0, 'sent': 0, 'send_complete': 2, 'send_bytes': 0, 'max_send_bytes': 76, 'borrowed_bytes': 0, 'max_borrowed_bytes': 240, 'flows': [{'id': 101, 'head': 1, 'epoch': 1, 'authority': 1, 'address': 89060442898432, 'time': 34042, 'provider_generation': 4, 'validity': 'gap', 'R': 1, 'D': 1, 'V': 1}, {'id': 102, 'head': 0, 'epoch': 1, 'authority': 1, 'address': 89060443947008, 'time': 0, 'provider_generation': 4, 'validity': 'damaged', 'R': 0, 'D': 0, 'V': 0}], 'source_mode': 'sync', 'failed_sources': 0, 'source_pending_commands': 0, 'publishers': []}"}
+
+    Start 7: quic_source_commit_scenarios
+7/7 Test #7: quic_source_commit_scenarios ........   Passed   36.66 sec
+
+86% tests passed, 1 tests failed out of 7
+
+Total Test time (real) =  94.56 sec
+
+The following tests FAILED:
+	  6 - quic_replication_scenarios (Failed)

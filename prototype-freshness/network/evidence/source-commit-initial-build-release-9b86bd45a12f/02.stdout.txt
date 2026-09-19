@@ -1,0 +1,16 @@
+[1/16] Building CXX object CMakeFiles/freshness_probe.dir/space.cpp.o
+[2/16] Building CXX object CMakeFiles/ordered_probe.dir/space.cpp.o
+[3/16] Building CXX object CMakeFiles/independent_worker.dir/space.cpp.o
+[4/16] Linking CXX executable ordered_probe
+[5/16] Linking CXX executable freshness_probe
+[6/16] Building CXX object CMakeFiles/independent_worker.dir/independent_worker.cpp.o
+[7/16] Building CXX object CMakeFiles/independent_worker.dir/batch_publisher.cpp.o
+[8/16] Linking CXX executable independent_worker
+[9/16] Building CXX object CMakeFiles/capacity_probe.dir/space.cpp.o
+[10/16] Building CXX object CMakeFiles/capacity_probe.dir/capacity_probe.cpp.o
+[11/16] Building CXX object CMakeFiles/capacity_probe.dir/batch_publisher.cpp.o
+[12/16] Linking CXX executable capacity_probe
+[13/16] Building CXX object CMakeFiles/quic_worker.dir/space.cpp.o
+[14/16] Building CXX object CMakeFiles/quic_worker.dir/batch_publisher.cpp.o
+[15/16] Building CXX object CMakeFiles/quic_worker.dir/quic_worker.cpp.o
+[16/16] Linking CXX executable quic_worker

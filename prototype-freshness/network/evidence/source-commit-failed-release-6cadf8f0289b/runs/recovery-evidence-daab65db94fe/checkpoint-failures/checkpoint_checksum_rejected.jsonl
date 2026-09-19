@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-release/independent_worker", "durable", "/tyche-independent-605-1984538153504114754", "/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-build-evidence/release-6cadf8f0289b/runs/recovery-evidence-daab65db94fe/checkpoint-failures/PROTOTYPE-events.bin", "1984538153504114754", "0x0", "/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-build-evidence/release-6cadf8f0289b/runs/recovery-evidence-daab65db94fe/checkpoint-failures/PROTOTYPE-bad-checksum", "43", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "invalid checkpoint; evidence retained", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 823}

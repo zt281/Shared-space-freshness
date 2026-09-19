@@ -1,0 +1,98 @@
+[
+  {
+    "source": "stage-build-evidence/release-9b86bd45a12f",
+    "archive": "source-commit-initial-build-release-9b86bd45a12f",
+    "role": "initial build only",
+    "files_copied": 54,
+    "bytes_copied": 405422,
+    "copied_utc": "2026-09-19T14:10:30.339407+00:00"
+  },
+  {
+    "source": "source-commit-pilot/quic-evidence-00929367c9f2",
+    "archive": "source-commit-pilot-00929367c9f2",
+    "role": "initial 13 source fault cases",
+    "files_copied": 361,
+    "bytes_copied": 839790,
+    "copied_utc": "2026-09-19T14:10:35.853161+00:00"
+  },
+  {
+    "source": "source-commit-build-evidence/release-6cadf8f0289b",
+    "archive": "source-commit-failed-release-6cadf8f0289b",
+    "role": "retained legacy bulk source idle timeout",
+    "files_copied": 1408,
+    "bytes_copied": 8246108,
+    "copied_utc": "2026-09-19T14:10:59.518702+00:00"
+  },
+  {
+    "source": "source-commit-pilot/quic-evidence-5753aeffcc8c",
+    "archive": "source-commit-slow-isolated-5753aeffcc8c",
+    "role": "preload isolates receiver pressure",
+    "files_copied": 27,
+    "bytes_copied": 88151,
+    "copied_utc": "2026-09-19T14:11:00.012315+00:00"
+  },
+  {
+    "source": "source-commit-build-evidence/release-5330f76c91cb",
+    "archive": "source-commit-prior-release-5330f76c91cb",
+    "role": "passed before completion-bound correction",
+    "files_copied": 1429,
+    "bytes_copied": 7516917,
+    "copied_utc": "2026-09-19T14:11:23.124970+00:00"
+  },
+  {
+    "source": "source-commit-build-evidence/ubsan-3e5cf211903e",
+    "archive": "source-commit-prior-ubsan-3e5cf211903e",
+    "role": "passed before completion-bound correction",
+    "files_copied": 1429,
+    "bytes_copied": 7540945,
+    "copied_utc": "2026-09-19T14:11:46.415998+00:00"
+  },
+  {
+    "source": "source-commit-network/quic-evidence-bada1696157d",
+    "archive": "source-commit-prior-smoke-bada1696157d",
+    "role": "240 events before completion-bound correction",
+    "files_copied": 157,
+    "bytes_copied": 4639612,
+    "copied_utc": "2026-09-19T14:11:49.435254+00:00"
+  },
+  {
+    "source": "source-commit-network/quic-evidence-5aceb0ca1840",
+    "archive": "source-commit-prior-matrix-5aceb0ca1840",
+    "role": "1440 events before completion-bound correction",
+    "files_copied": 847,
+    "bytes_copied": 26008951,
+    "copied_utc": "2026-09-19T14:12:04.712529+00:00"
+  },
+  {
+    "source": "source-commit-pilot/quic-evidence-b2380e2dff2d",
+    "archive": "source-commit-red-completion-b2380e2dff2d",
+    "role": "regression catches missing restriction in old binary",
+    "files_copied": 28,
+    "bytes_copied": 23075,
+    "copied_utc": "2026-09-19T14:12:05.213077+00:00"
+  },
+  {
+    "source": "source-commit-build-evidence/release-84328c8ffdd5",
+    "archive": "source-commit-release-84328c8ffdd5",
+    "role": "final Release full checks",
+    "files_copied": 1445,
+    "bytes_copied": 7532389,
+    "copied_utc": "2026-09-19T14:12:29.010702+00:00"
+  },
+  {
+    "source": "source-commit-build-evidence/ubsan-af9c0afb9be4",
+    "archive": "source-commit-ubsan-af9c0afb9be4",
+    "role": "final UBSan full checks",
+    "files_copied": 1445,
+    "bytes_copied": 7542845,
+    "copied_utc": "2026-09-19T14:12:52.612184+00:00"
+  },
+  {
+    "source": "source-commit-network/quic-evidence-c3401bc1b4b2",
+    "archive": "source-commit-matrix-c3401bc1b4b2",
+    "role": "final 1440-event matrix",
+    "files_copied": 847,
+    "bytes_copied": 24504387,
+    "copied_utc": "2026-09-19T14:13:07.816294+00:00"
+  }
+]

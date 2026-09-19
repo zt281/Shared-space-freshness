@@ -60,6 +60,10 @@ Space 权威日志：完整追加并确认保存 C
 
 本地 `provider_generation` 与来源 epoch 分开。限制、订阅重协商和提供者恢复推进该代次；它不会改写源记录的身份/时间。消费者即使未读到短暂的 gap，也会根据代次变化重新核对、等待稳定期，并让旧 pending 意图失效。unknown 仍保留待真实通道核对，主动停止不被解除。这个本地代次仍依赖保留的共享区，不构成主机重启或异地执行权撤销证明。
 
+## 源端提交的后续验证
+
+现已增加[源端有界提交对照](../network/SOURCE-COMMIT.md)及第七组 `quic_source_commit_scenarios`。同一二进制通过 `TYCHE_QUIC_SOURCE_MODE=sync|worker|batch` 选择实验入口，默认仍为 `sync`；`worker`/`batch` 各日志一个写线程。`TYCHE_QUIC_SOURCE_CAPACITY` 为每日志待提交上限（1..64），`TYCHE_QUIC_SOURCE_WAIT_NS` 为合批窗口（batch 默认 2,000,000，worker 为 0）。这些是合成实验配置，未选为生产参数。后续构建、负载命令及失败记录以该报告为准。
+
 ## 构建与复现
 
 在已装 C++20、CMake、Ninja、Python 3 和 OpenSSL 命令行的 Ubuntu WSL 中，先按[依赖说明](evidence-msquic-build-wsl/README.md)构建私有 MsQuic，然后从本目录执行：

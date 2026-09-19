@@ -1,0 +1,33 @@
+{
+  "startup": {
+    "before_ns": 508570129172,
+    "after_ns": 508699607436,
+    "pid": 3016
+  },
+  "commands": [
+    {
+      "command": "stats",
+      "request": 1,
+      "before_ns": 508843690774,
+      "after_ns": 508844280519
+    },
+    {
+      "command": "stats",
+      "request": 82,
+      "before_ns": 510920930205,
+      "after_ns": 510921428338
+    },
+    {
+      "command": "stats",
+      "request": 83,
+      "before_ns": 510962927732,
+      "after_ns": 510963678144
+    },
+    {
+      "command": "status",
+      "request": 84,
+      "before_ns": 510964226927,
+      "after_ns": 510964436032
+    }
+  ]
+}

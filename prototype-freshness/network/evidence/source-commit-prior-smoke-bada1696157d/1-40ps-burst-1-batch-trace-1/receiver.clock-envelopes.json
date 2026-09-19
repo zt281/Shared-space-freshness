@@ -1,0 +1,75 @@
+{
+  "startup": {
+    "before_ns": 508699671677,
+    "after_ns": 508725368872,
+    "pid": 3032
+  },
+  "commands": [
+    {
+      "command": "connect",
+      "request": 1,
+      "before_ns": 508725375884,
+      "after_ns": 508725691527
+    },
+    {
+      "command": "status",
+      "request": 2,
+      "before_ns": 508725694863,
+      "after_ns": 508725969286
+    },
+    {
+      "command": "status",
+      "request": 3,
+      "before_ns": 508756138233,
+      "after_ns": 508756413797
+    },
+    {
+      "command": "subscribe 3",
+      "request": 4,
+      "before_ns": 508756417103,
+      "after_ns": 508756624750
+    },
+    {
+      "command": "status",
+      "request": 5,
+      "before_ns": 508756627545,
+      "after_ns": 508756861828
+    },
+    {
+      "command": "status",
+      "request": 6,
+      "before_ns": 508787021209,
+      "after_ns": 508787329460
+    },
+    {
+      "command": "stats",
+      "request": 7,
+      "before_ns": 508844282392,
+      "after_ns": 508844792430
+    },
+    {
+      "command": "stats",
+      "request": 8,
+      "before_ns": 510921430429,
+      "after_ns": 510921900860
+    },
+    {
+      "command": "status",
+      "request": 9,
+      "before_ns": 510921904083,
+      "after_ns": 510922092912
+    },
+    {
+      "command": "status",
+      "request": 10,
+      "before_ns": 510962261256,
+      "after_ns": 510962529538
+    },
+    {
+      "command": "stats",
+      "request": 11,
+      "before_ns": 510963680306,
+      "after_ns": 510964225346
+    }
+  ]
+}

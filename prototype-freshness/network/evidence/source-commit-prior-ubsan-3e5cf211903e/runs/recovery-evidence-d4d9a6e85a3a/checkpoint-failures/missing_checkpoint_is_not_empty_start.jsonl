@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-ubsan/independent_worker", "durable", "/tyche-independent-1546-281118930928274105", "/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-build-evidence/ubsan-3e5cf211903e/runs/recovery-evidence-d4d9a6e85a3a/checkpoint-failures/PROTOTYPE-events.bin", "281118930928274105", "0x0", "/home/alan/.cache/tyche-prototypes/quic-20260919/source-commit-build-evidence/ubsan-3e5cf211903e/runs/recovery-evidence-d4d9a6e85a3a/checkpoint-failures/PROTOTYPE-missing", "1", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "open checkpoint file", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 1758}

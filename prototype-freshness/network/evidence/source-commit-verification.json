@@ -1,0 +1,1335 @@
+{
+  "verified_utc": "2026-09-19T14:16:30.886625+00:00",
+  "passed": true,
+  "original_files_verified": 9477,
+  "original_bytes_verified": 94888592,
+  "builds": [
+    {
+      "archive": "source-commit-release-84328c8ffdd5",
+      "worker_sha256": "8913a3d8bafe32cb98c966eac8be95acbb824b3256723d08793dc3c30cdf4341",
+      "audited_runs": [
+        {
+          "name": "quic-evidence-3b77b9b0885b",
+          "source_commit_cases": true,
+          "verified": {
+            "passed": true,
+            "cases": [
+              {
+                "name": "batch-gate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 5,
+                    "checkpoint_cursor": 5
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "batch-ordered",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 25,
+                    "source_tail_bytes": 0,
+                    "replica_records": 25,
+                    "checkpoint_cursor": 25
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 24
+              },
+              {
+                "name": "completion-limit",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 2
+              },
+              {
+                "name": "overflow",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 5
+              },
+              {
+                "name": "source-crash-0",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 3,
+                    "source_tail_bytes": 0,
+                    "replica_records": 3,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-1",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 4,
+                    "source_tail_bytes": 0,
+                    "replica_records": 4,
+                    "checkpoint_cursor": 3
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-2",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "source_tail_bytes": 48,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 0
+              },
+              {
+                "name": "source-crash-3",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-4",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-5",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-6",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-save-error",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "worker-gate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 5,
+                    "checkpoint_cursor": 5
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "worker-ordered",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 25,
+                    "source_tail_bytes": 0,
+                    "replica_records": 25,
+                    "checkpoint_cursor": 25
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 24
+              }
+            ],
+            "checks": 167,
+            "worker_sha256": "8913a3d8bafe32cb98c966eac8be95acbb824b3256723d08793dc3c30cdf4341",
+            "completion_limit_covered": true
+          }
+        },
+        {
+          "name": "quic-evidence-f277caf91bde",
+          "source_commit_cases": false,
+          "verified": {
+            "path": "D:\\dev\\Tyche-freshness-prototype\\prototype-freshness\\network\\evidence\\source-commit-release-84328c8ffdd5\\runs\\quic-evidence-f277caf91bde",
+            "checks": 124,
+            "cases": [
+              {
+                "name": "conflicting-duplicate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 1,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "missing-client-cert",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "oversize-frame",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 1,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-1",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 1,
+                    "tail_bytes": 62,
+                    "checkpoint_cursor": 1
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-2",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-3",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-4",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "save-error",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 1
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "selective-replay-checkpoint",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 30,
+                    "replica_full_records": 30,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 27
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  }
+                ]
+              },
+              {
+                "name": "slow-receiver",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 201,
+                    "replica_full_records": 201,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "source-restart",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "stream-reset",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 4,
+                    "replica_full_records": 4,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "wrong-ca",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "wrong-pin",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "archive": "source-commit-ubsan-af9c0afb9be4",
+      "worker_sha256": "2db20e278c077e279c407b3300076d4e55c0f6a2cbb2e881b40cd63f98e555a4",
+      "audited_runs": [
+        {
+          "name": "quic-evidence-d22da676214c",
+          "source_commit_cases": true,
+          "verified": {
+            "passed": true,
+            "cases": [
+              {
+                "name": "batch-gate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 5,
+                    "checkpoint_cursor": 5
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "batch-ordered",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 25,
+                    "source_tail_bytes": 0,
+                    "replica_records": 25,
+                    "checkpoint_cursor": 25
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 24
+              },
+              {
+                "name": "completion-limit",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 2
+              },
+              {
+                "name": "overflow",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 5
+              },
+              {
+                "name": "source-crash-0",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 3,
+                    "source_tail_bytes": 0,
+                    "replica_records": 3,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-1",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 4,
+                    "source_tail_bytes": 0,
+                    "replica_records": 4,
+                    "checkpoint_cursor": 3
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-2",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "source_tail_bytes": 48,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 0
+              },
+              {
+                "name": "source-crash-3",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-4",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-5",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-crash-6",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 7,
+                    "source_tail_bytes": 0,
+                    "replica_records": 7,
+                    "checkpoint_cursor": 6
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 1
+              },
+              {
+                "name": "source-save-error",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 1,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "worker-gate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 5,
+                    "source_tail_bytes": 0,
+                    "replica_records": 5,
+                    "checkpoint_cursor": 5
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 4
+              },
+              {
+                "name": "worker-ordered",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 25,
+                    "source_tail_bytes": 0,
+                    "replica_records": 25,
+                    "checkpoint_cursor": 25
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "source_tail_bytes": 0,
+                    "replica_records": 0,
+                    "checkpoint_cursor": null
+                  }
+                ],
+                "receipts_verified": 24
+              }
+            ],
+            "checks": 167,
+            "worker_sha256": "2db20e278c077e279c407b3300076d4e55c0f6a2cbb2e881b40cd63f98e555a4",
+            "completion_limit_covered": true
+          }
+        },
+        {
+          "name": "quic-evidence-e01b943f03f0",
+          "source_commit_cases": false,
+          "verified": {
+            "path": "D:\\dev\\Tyche-freshness-prototype\\prototype-freshness\\network\\evidence\\source-commit-ubsan-af9c0afb9be4\\runs\\quic-evidence-e01b943f03f0",
+            "checks": 124,
+            "cases": [
+              {
+                "name": "conflicting-duplicate",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 1,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "missing-client-cert",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "oversize-frame",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 1,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-1",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 1,
+                    "tail_bytes": 62,
+                    "checkpoint_cursor": 1
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-2",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-3",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "receiver-crash-4",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "save-error",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 1
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "selective-replay-checkpoint",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 30,
+                    "replica_full_records": 30,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 27
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": 2
+                  }
+                ]
+              },
+              {
+                "name": "slow-receiver",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 201,
+                    "replica_full_records": 201,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "source-restart",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 2,
+                    "replica_full_records": 2,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 2,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "stream-reset",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 4,
+                    "replica_full_records": 4,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "wrong-ca",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              },
+              {
+                "name": "wrong-pin",
+                "flows": [
+                  {
+                    "flow": 1,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  },
+                  {
+                    "flow": 2,
+                    "source_records": 1,
+                    "replica_full_records": 0,
+                    "tail_bytes": 0,
+                    "checkpoint_cursor": null
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "matrices": [
+    {
+      "archive": "source-commit-prior-smoke-bada1696157d",
+      "cases": 3,
+      "events": 240,
+      "worker_sha256": "7e38dc098efd356b65539b46d9b18e9f0e68ae8c1322d6b171020fa35e61a5d5"
+    },
+    {
+      "archive": "source-commit-prior-matrix-5aceb0ca1840",
+      "cases": 18,
+      "events": 1440,
+      "worker_sha256": "7e38dc098efd356b65539b46d9b18e9f0e68ae8c1322d6b171020fa35e61a5d5"
+    },
+    {
+      "archive": "source-commit-matrix-c3401bc1b4b2",
+      "cases": 18,
+      "events": 1440,
+      "worker_sha256": "8913a3d8bafe32cb98c966eac8be95acbb824b3256723d08793dc3c30cdf4341"
+    }
+  ],
+  "pilots": [
+    {
+      "archive": "source-commit-pilot-00929367c9f2",
+      "source_files_bound_to_retained_snapshot": {
+        "audit_crash_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/audit_crash_evidence.py",
+        "batch_capacity_followup.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_followup.py",
+        "batch_capacity_matrix.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_matrix.py",
+        "batch_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_evidence_audit.py",
+        "batch_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_failure_audit.py",
+        "batch_publisher.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.cpp",
+        "batch_publisher.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.hpp",
+        "batch_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_scenarios.py",
+        "capacity_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_audit.py",
+        "capacity_probe.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_probe.cpp",
+        "capacity_run.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_run.py",
+        "capture_build_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capture_build_evidence.py",
+        "checkpoint_replacement_probe.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/checkpoint_replacement_probe.py",
+        "consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/consumer.hpp",
+        "crash_baseline.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline.py",
+        "crash_baseline_fault.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline_fault.cpp",
+        "crash_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_scenarios.py",
+        "diagnostic_trace.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/diagnostic_trace.hpp",
+        "durable_consumer.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.cpp",
+        "durable_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.hpp",
+        "experiment.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/experiment.hpp",
+        "faults.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/faults.hpp",
+        "independent_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_scenarios.py",
+        "independent_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_worker.cpp",
+        "journal_inspect.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/journal_inspect.cpp",
+        "main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/main.cpp",
+        "model.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/model.hpp",
+        "msquic_dependency_build.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_dependency_build.py",
+        "msquic_link_smoke.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_link_smoke.cpp",
+        "ordered_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_consumer.hpp",
+        "ordered_main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_main.cpp",
+        "quic_checkpoint_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_checkpoint_failure_audit.py",
+        "quic_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_evidence_audit.py",
+        "quic_replica.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.cpp",
+        "quic_replica.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.hpp",
+        "quic_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_scenarios.py",
+        "quic_source_scenarios.py": "evidence/source-commit-failed-release-6cadf8f0289b/source/quic_source_scenarios.py",
+        "quic_validate.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_validate.py",
+        "quic_wire.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_wire.hpp",
+        "quic_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_worker.cpp",
+        "space.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.cpp",
+        "space.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.hpp"
+      },
+      "passed": true
+    },
+    {
+      "archive": "source-commit-slow-isolated-5753aeffcc8c",
+      "source_files_bound_to_retained_snapshot": {
+        "audit_crash_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/audit_crash_evidence.py",
+        "batch_capacity_followup.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_followup.py",
+        "batch_capacity_matrix.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_matrix.py",
+        "batch_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_evidence_audit.py",
+        "batch_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_failure_audit.py",
+        "batch_publisher.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.cpp",
+        "batch_publisher.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.hpp",
+        "batch_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_scenarios.py",
+        "capacity_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_audit.py",
+        "capacity_probe.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_probe.cpp",
+        "capacity_run.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_run.py",
+        "capture_build_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capture_build_evidence.py",
+        "checkpoint_replacement_probe.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/checkpoint_replacement_probe.py",
+        "consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/consumer.hpp",
+        "crash_baseline.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline.py",
+        "crash_baseline_fault.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline_fault.cpp",
+        "crash_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_scenarios.py",
+        "diagnostic_trace.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/diagnostic_trace.hpp",
+        "durable_consumer.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.cpp",
+        "durable_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.hpp",
+        "experiment.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/experiment.hpp",
+        "faults.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/faults.hpp",
+        "independent_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_scenarios.py",
+        "independent_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_worker.cpp",
+        "journal_inspect.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/journal_inspect.cpp",
+        "main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/main.cpp",
+        "model.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/model.hpp",
+        "msquic_dependency_build.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_dependency_build.py",
+        "msquic_link_smoke.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_link_smoke.cpp",
+        "ordered_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_consumer.hpp",
+        "ordered_main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_main.cpp",
+        "quic_checkpoint_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_checkpoint_failure_audit.py",
+        "quic_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_evidence_audit.py",
+        "quic_replica.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.cpp",
+        "quic_replica.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.hpp",
+        "quic_scenarios.py": "evidence/source-commit-prior-release-5330f76c91cb/source/quic_scenarios.py",
+        "quic_source_scenarios.py": "evidence/source-commit-failed-release-6cadf8f0289b/source/quic_source_scenarios.py",
+        "quic_validate.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_validate.py",
+        "quic_wire.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_wire.hpp",
+        "quic_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_worker.cpp",
+        "space.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.cpp",
+        "space.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.hpp"
+      },
+      "passed": true
+    },
+    {
+      "archive": "source-commit-red-completion-b2380e2dff2d",
+      "source_files_bound_to_retained_snapshot": {
+        "audit_crash_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/audit_crash_evidence.py",
+        "batch_capacity_followup.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_followup.py",
+        "batch_capacity_matrix.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_capacity_matrix.py",
+        "batch_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_evidence_audit.py",
+        "batch_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_failure_audit.py",
+        "batch_publisher.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.cpp",
+        "batch_publisher.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_publisher.hpp",
+        "batch_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/batch_scenarios.py",
+        "capacity_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_audit.py",
+        "capacity_probe.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_probe.cpp",
+        "capacity_run.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capacity_run.py",
+        "capture_build_evidence.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/capture_build_evidence.py",
+        "checkpoint_replacement_probe.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/checkpoint_replacement_probe.py",
+        "consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/consumer.hpp",
+        "crash_baseline.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline.py",
+        "crash_baseline_fault.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_baseline_fault.cpp",
+        "crash_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/crash_scenarios.py",
+        "diagnostic_trace.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/diagnostic_trace.hpp",
+        "durable_consumer.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.cpp",
+        "durable_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/durable_consumer.hpp",
+        "experiment.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/experiment.hpp",
+        "faults.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/faults.hpp",
+        "independent_scenarios.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_scenarios.py",
+        "independent_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/independent_worker.cpp",
+        "journal_inspect.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/journal_inspect.cpp",
+        "main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/main.cpp",
+        "model.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/model.hpp",
+        "msquic_dependency_build.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_dependency_build.py",
+        "msquic_link_smoke.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/msquic_link_smoke.cpp",
+        "ordered_consumer.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_consumer.hpp",
+        "ordered_main.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/ordered_main.cpp",
+        "quic_checkpoint_failure_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_checkpoint_failure_audit.py",
+        "quic_evidence_audit.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_evidence_audit.py",
+        "quic_replica.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.cpp",
+        "quic_replica.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_replica.hpp",
+        "quic_scenarios.py": "evidence/source-commit-prior-release-5330f76c91cb/source/quic_scenarios.py",
+        "quic_source_scenarios.py": "evidence/source-commit-release-84328c8ffdd5/source/quic_source_scenarios.py",
+        "quic_validate.py": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_validate.py",
+        "quic_wire.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_wire.hpp",
+        "quic_worker.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/quic_worker.cpp",
+        "space.cpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.cpp",
+        "space.hpp": "evidence/source-commit-initial-build-release-9b86bd45a12f/source/space.hpp"
+      },
+      "passed": false
+    }
+  ],
+  "expected_failure_artifacts_preserved": [
+    "source-commit-red-completion-b2380e2dff2d",
+    "source-commit-failed-release-6cadf8f0289b"
+  ],
+  "audit_tool_sha256": {
+    "source_commit_audit.py": "d109bd4313e054c733a3341fc7cfaf5bf9e4ca2f01498065f78bbce18f57a028",
+    "source_commit_archive.py": "c7038eccfd0a7f9ebe16947eb44b180ed14f372359d668ec4513117afe778aa6",
+    "source_commit_probe.py": "4cc76540cb94346ededf53895e7f25487bd3d5bc6447c5166726d3ad03b27c98",
+    "source_commit_verify.py": "acb01001da9784491cd157d28ef28dbf62303ee4482fc6c7210d71e695b53de0",
+    "stage_audit.py": "9a36187fd11e4b28d3a69196de41be08364fcac8162c3b34a4b5cd8bf17030f7",
+    "stage_probe.py": "78dbdb90318dddc9d381d5a1978b7a196cbfac021a9eea4530cadbd9ca57c3b9",
+    "stage_validate.py": "968f78b87fd91d5a86f367eca6a3abfccb3bb81bb7e8d8a3896f3c50421a4db3"
+  }
+}
