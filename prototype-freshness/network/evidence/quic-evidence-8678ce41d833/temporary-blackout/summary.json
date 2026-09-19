@@ -1,0 +1,93 @@
+{
+  "name": "temporary-blackout",
+  "profile": {
+    "delay_ms": 5,
+    "jitter_ms": 0,
+    "loss": 0,
+    "bps": 2000000,
+    "blackout_seconds": 1.5,
+    "seed": 15
+  },
+  "planned_rate": 40,
+  "input_seconds": 2.0,
+  "drain_seconds": 12.0,
+  "passed": true,
+  "input_start_ns": 59958255386,
+  "input_end_ns": 61958255386,
+  "planned": 80,
+  "completed": 80,
+  "completed_in_input_window": 16,
+  "missing": 0,
+  "per_flow": [
+    {
+      "flow": 1,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    },
+    {
+      "flow": 2,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    }
+  ],
+  "expired_consumer_observations": 74,
+  "errors": [],
+  "final_receiver_status": {
+    "event": "status",
+    "pid": 535,
+    "mono_ms": 62758,
+    "request": 17,
+    "g": 2,
+    "mask": 3,
+    "ready": true,
+    "connected": true,
+    "closed": false,
+    "failure": "",
+    "storage_failed": false,
+    "duplicates": 0,
+    "ignored": 0,
+    "gaps": 0,
+    "sent": 0,
+    "send_complete": 84,
+    "send_bytes": 0,
+    "max_send_bytes": 304,
+    "borrowed_bytes": 0,
+    "max_borrowed_bytes": 5651,
+    "flows": [
+      {
+        "id": 101,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060442898432,
+        "time": 61908,
+        "provider_generation": 4,
+        "validity": "warning",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      },
+      {
+        "id": 102,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060443947008,
+        "time": 61933,
+        "provider_generation": 4,
+        "validity": "warning",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      }
+    ]
+  },
+  "conditional_observed_delay_ms": {
+    "p50": 1259.192307,
+    "p99": 1715.3115,
+    "max": 1715.3115
+  },
+  "observed_after_input_end_ms": 788.681942
+}

@@ -1,0 +1,92 @@
+{
+  "name": "loss-and-reordering",
+  "profile": {
+    "delay_ms": 10,
+    "jitter_ms": 8,
+    "loss": 0.03,
+    "bps": 1000000,
+    "seed": 13
+  },
+  "planned_rate": 40,
+  "input_seconds": 2.0,
+  "drain_seconds": 12.0,
+  "passed": true,
+  "input_start_ns": 45017066937,
+  "input_end_ns": 47017066937,
+  "planned": 80,
+  "completed": 80,
+  "completed_in_input_window": 78,
+  "missing": 0,
+  "per_flow": [
+    {
+      "flow": 1,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    },
+    {
+      "flow": 2,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    }
+  ],
+  "expired_consumer_observations": 0,
+  "errors": [],
+  "final_receiver_status": {
+    "event": "status",
+    "pid": 465,
+    "mono_ms": 47073,
+    "request": 12,
+    "g": 2,
+    "mask": 3,
+    "ready": true,
+    "connected": true,
+    "closed": false,
+    "failure": "",
+    "storage_failed": false,
+    "duplicates": 0,
+    "ignored": 0,
+    "gaps": 0,
+    "sent": 0,
+    "send_complete": 84,
+    "send_bytes": 0,
+    "max_send_bytes": 380,
+    "borrowed_bytes": 0,
+    "max_borrowed_bytes": 296,
+    "flows": [
+      {
+        "id": 101,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060442898432,
+        "time": 46967,
+        "provider_generation": 4,
+        "validity": "valid",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      },
+      {
+        "id": 102,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060443947008,
+        "time": 46992,
+        "provider_generation": 4,
+        "validity": "valid",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      }
+    ]
+  },
+  "conditional_observed_delay_ms": {
+    "p50": 55.176029,
+    "p99": 126.349897,
+    "max": 126.349897
+  },
+  "observed_after_input_end_ms": 55.088768
+}

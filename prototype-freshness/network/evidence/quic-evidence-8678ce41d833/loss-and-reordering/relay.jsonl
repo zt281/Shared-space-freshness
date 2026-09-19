@@ -1,0 +1,505 @@
+{"mono_ns": 44718721557, "kind": "queued", "id": 1, "direction": 0, "payload_bytes": 1220, "charged_bytes": 1248, "due_ns": 44741648920, "queue_bytes": 1220}
+{"mono_ns": 44742397823, "kind": "sent", "id": 1, "direction": 0, "payload_bytes": 1220, "due_ns": 44741648920, "queue_bytes": 0}
+{"mono_ns": 44743766743, "kind": "queued", "id": 2, "direction": 1, "payload_bytes": 1220, "charged_bytes": 1248, "due_ns": 44769328651, "queue_bytes": 1220}
+{"mono_ns": 44743795729, "kind": "queued", "id": 3, "direction": 1, "payload_bytes": 208, "charged_bytes": 236, "due_ns": 44761316210, "queue_bytes": 1428}
+{"mono_ns": 44762243387, "kind": "sent", "id": 3, "direction": 1, "payload_bytes": 208, "due_ns": 44761316210, "queue_bytes": 1220}
+{"mono_ns": 44769492190, "kind": "sent", "id": 2, "direction": 1, "payload_bytes": 1220, "due_ns": 44769328651, "queue_bytes": 0}
+{"mono_ns": 44771001685, "kind": "queued", "id": 4, "direction": 0, "payload_bytes": 1220, "charged_bytes": 1248, "due_ns": 44786576089, "queue_bytes": 1220}
+{"mono_ns": 44771025617, "kind": "queued", "id": 5, "direction": 0, "payload_bytes": 1252, "charged_bytes": 1280, "due_ns": 44795296891, "queue_bytes": 2472}
+{"mono_ns": 44771193474, "kind": "queued", "id": 6, "direction": 0, "payload_bytes": 34, "charged_bytes": 62, "due_ns": 44797132003, "queue_bytes": 2506}
+{"mono_ns": 44771245690, "kind": "queued", "id": 7, "direction": 0, "payload_bytes": 110, "charged_bytes": 138, "due_ns": 44801718768, "queue_bytes": 2616}
+{"mono_ns": 44787714611, "kind": "sent", "id": 4, "direction": 0, "payload_bytes": 1220, "due_ns": 44786576089, "queue_bytes": 1396}
+{"mono_ns": 44788905930, "kind": "queued", "id": 8, "direction": 1, "payload_bytes": 1220, "charged_bytes": 1248, "due_ns": 44810612062, "queue_bytes": 1220}
+{"mono_ns": 44788942004, "kind": "dropped", "id": 9, "direction": 1, "payload_bytes": 1220, "reason": "random_loss"}
+{"mono_ns": 44796200341, "kind": "sent", "id": 5, "direction": 0, "payload_bytes": 1252, "due_ns": 44795296891, "queue_bytes": 144}
+{"mono_ns": 44797359877, "kind": "sent", "id": 6, "direction": 0, "payload_bytes": 34, "due_ns": 44797132003, "queue_bytes": 110}
+{"mono_ns": 44797712757, "kind": "queued", "id": 10, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 44803664993, "queue_bytes": 1247}
+{"mono_ns": 44801867179, "kind": "sent", "id": 7, "direction": 0, "payload_bytes": 110, "due_ns": 44801718768, "queue_bytes": 0}
+{"mono_ns": 44802487402, "kind": "queued", "id": 11, "direction": 1, "payload_bytes": 31, "charged_bytes": 59, "due_ns": 44817905229, "queue_bytes": 1278}
+{"mono_ns": 44802509560, "kind": "queued", "id": 12, "direction": 1, "payload_bytes": 117, "charged_bytes": 145, "due_ns": 44819331241, "queue_bytes": 1395}
+{"mono_ns": 44802521090, "kind": "queued", "id": 13, "direction": 1, "payload_bytes": 173, "charged_bytes": 201, "due_ns": 44822906570, "queue_bytes": 1568}
+{"mono_ns": 44804677559, "kind": "sent", "id": 10, "direction": 1, "payload_bytes": 27, "due_ns": 44803664993, "queue_bytes": 1541}
+{"mono_ns": 44805102253, "kind": "queued", "id": 14, "direction": 0, "payload_bytes": 1332, "charged_bytes": 1360, "due_ns": 44822078081, "queue_bytes": 1332}
+{"mono_ns": 44811351687, "kind": "sent", "id": 8, "direction": 1, "payload_bytes": 1220, "due_ns": 44810612062, "queue_bytes": 321}
+{"mono_ns": 44818580016, "kind": "sent", "id": 11, "direction": 1, "payload_bytes": 31, "due_ns": 44817905229, "queue_bytes": 290}
+{"mono_ns": 44818899559, "kind": "queued", "id": 15, "direction": 0, "payload_bytes": 38, "charged_bytes": 66, "due_ns": 44829206311, "queue_bytes": 1370}
+{"mono_ns": 44820051192, "kind": "sent", "id": 12, "direction": 1, "payload_bytes": 117, "due_ns": 44819331241, "queue_bytes": 173}
+{"mono_ns": 44823207042, "kind": "sent", "id": 14, "direction": 0, "payload_bytes": 1332, "due_ns": 44822078081, "queue_bytes": 38}
+{"mono_ns": 44823247487, "kind": "sent", "id": 13, "direction": 1, "payload_bytes": 173, "due_ns": 44822906570, "queue_bytes": 0}
+{"mono_ns": 44823709599, "kind": "queued", "id": 16, "direction": 0, "payload_bytes": 38, "charged_bytes": 66, "due_ns": 44835249819, "queue_bytes": 76}
+{"mono_ns": 44829958328, "kind": "sent", "id": 15, "direction": 0, "payload_bytes": 38, "due_ns": 44829206311, "queue_bytes": 38}
+{"mono_ns": 44831268137, "kind": "queued", "id": 17, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 44840207368, "queue_bytes": 150}
+{"mono_ns": 44831481530, "kind": "queued", "id": 18, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 44840520307, "queue_bytes": 262}
+{"mono_ns": 44835611621, "kind": "sent", "id": 16, "direction": 0, "payload_bytes": 38, "due_ns": 44835249819, "queue_bytes": 224}
+{"mono_ns": 44840827647, "kind": "sent", "id": 17, "direction": 0, "payload_bytes": 112, "due_ns": 44840207368, "queue_bytes": 112}
+{"mono_ns": 44840895894, "kind": "sent", "id": 18, "direction": 0, "payload_bytes": 112, "due_ns": 44840520307, "queue_bytes": 0}
+{"mono_ns": 44841467271, "kind": "queued", "id": 19, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 44857008846, "queue_bytes": 27}
+{"mono_ns": 44841634255, "kind": "queued", "id": 20, "direction": 1, "payload_bytes": 123, "charged_bytes": 151, "due_ns": 44860873446, "queue_bytes": 150}
+{"mono_ns": 44841657275, "kind": "queued", "id": 21, "direction": 1, "payload_bytes": 173, "charged_bytes": 201, "due_ns": 44855578169, "queue_bytes": 323}
+{"mono_ns": 44856086855, "kind": "sent", "id": 21, "direction": 1, "payload_bytes": 173, "due_ns": 44855578169, "queue_bytes": 150}
+{"mono_ns": 44856562650, "kind": "queued", "id": 22, "direction": 0, "payload_bytes": 40, "charged_bytes": 68, "due_ns": 44861252790, "queue_bytes": 40}
+{"mono_ns": 44857698165, "kind": "sent", "id": 19, "direction": 1, "payload_bytes": 27, "due_ns": 44857008846, "queue_bytes": 123}
+{"mono_ns": 44858012591, "kind": "queued", "id": 23, "direction": 0, "payload_bytes": 1412, "charged_bytes": 1440, "due_ns": 44878618758, "queue_bytes": 1452}
+{"mono_ns": 44861138932, "kind": "sent", "id": 20, "direction": 1, "payload_bytes": 123, "due_ns": 44860873446, "queue_bytes": 0}
+{"mono_ns": 44861558866, "kind": "queued", "id": 24, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 44875934385, "queue_bytes": 1570}
+{"mono_ns": 44861597758, "kind": "sent", "id": 22, "direction": 0, "payload_bytes": 40, "due_ns": 44861252790, "queue_bytes": 1530}
+{"mono_ns": 44877007049, "kind": "sent", "id": 24, "direction": 0, "payload_bytes": 118, "due_ns": 44875934385, "queue_bytes": 1412}
+{"mono_ns": 44877561962, "kind": "queued", "id": 25, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 44884058804, "queue_bytes": 29}
+{"mono_ns": 44879712523, "kind": "sent", "id": 23, "direction": 0, "payload_bytes": 1412, "due_ns": 44878618758, "queue_bytes": 0}
+{"mono_ns": 44884876648, "kind": "sent", "id": 25, "direction": 1, "payload_bytes": 29, "due_ns": 44884058804, "queue_bytes": 0}
+{"mono_ns": 44905624655, "kind": "queued", "id": 26, "direction": 1, "payload_bytes": 28, "charged_bytes": 56, "due_ns": 44917734210, "queue_bytes": 28}
+{"mono_ns": 44918133762, "kind": "sent", "id": 26, "direction": 1, "payload_bytes": 28, "due_ns": 44917734210, "queue_bytes": 0}
+{"mono_ns": 44918606967, "kind": "queued", "id": 27, "direction": 0, "payload_bytes": 1472, "charged_bytes": 1500, "due_ns": 44934688241, "queue_bytes": 1472}
+{"mono_ns": 44935087652, "kind": "sent", "id": 27, "direction": 0, "payload_bytes": 1472, "due_ns": 44934688241, "queue_bytes": 0}
+{"mono_ns": 44961034165, "kind": "queued", "id": 28, "direction": 1, "payload_bytes": 28, "charged_bytes": 56, "due_ns": 44967235409, "queue_bytes": 28}
+{"mono_ns": 44968324264, "kind": "sent", "id": 28, "direction": 1, "payload_bytes": 28, "due_ns": 44967235409, "queue_bytes": 0}
+{"mono_ns": 45023414301, "kind": "queued", "id": 29, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45030129633, "queue_bytes": 175}
+{"mono_ns": 45030838237, "kind": "sent", "id": 29, "direction": 1, "payload_bytes": 175, "due_ns": 45030129633, "queue_bytes": 0}
+{"mono_ns": 45035305938, "kind": "queued", "id": 30, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45039630432, "queue_bytes": 118}
+{"mono_ns": 45040568569, "kind": "sent", "id": 30, "direction": 0, "payload_bytes": 118, "due_ns": 45039630432, "queue_bytes": 0}
+{"mono_ns": 45053379150, "kind": "queued", "id": 31, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45072293567, "queue_bytes": 181}
+{"mono_ns": 45072535827, "kind": "sent", "id": 31, "direction": 1, "payload_bytes": 181, "due_ns": 45072293567, "queue_bytes": 0}
+{"mono_ns": 45074610162, "kind": "queued", "id": 32, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45089721130, "queue_bytes": 175}
+{"mono_ns": 45078196431, "kind": "queued", "id": 33, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45082045681, "queue_bytes": 118}
+{"mono_ns": 45082348470, "kind": "sent", "id": 33, "direction": 0, "payload_bytes": 118, "due_ns": 45082045681, "queue_bytes": 0}
+{"mono_ns": 45082976793, "kind": "queued", "id": 34, "direction": 1, "payload_bytes": 1220, "charged_bytes": 1248, "due_ns": 45107849870, "queue_bytes": 1395}
+{"mono_ns": 45090254115, "kind": "sent", "id": 32, "direction": 1, "payload_bytes": 175, "due_ns": 45089721130, "queue_bytes": 1220}
+{"mono_ns": 45100960575, "kind": "queued", "id": 35, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45114338994, "queue_bytes": 118}
+{"mono_ns": 45101056692, "kind": "queued", "id": 36, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 45111344834, "queue_bytes": 1402}
+{"mono_ns": 45108374217, "kind": "sent", "id": 34, "direction": 1, "payload_bytes": 1220, "due_ns": 45107849870, "queue_bytes": 182}
+{"mono_ns": 45113059314, "kind": "sent", "id": 36, "direction": 1, "payload_bytes": 182, "due_ns": 45111344834, "queue_bytes": 0}
+{"mono_ns": 45113486665, "kind": "queued", "id": 37, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45130167163, "queue_bytes": 154}
+{"mono_ns": 45114620269, "kind": "sent", "id": 35, "direction": 0, "payload_bytes": 118, "due_ns": 45114338994, "queue_bytes": 36}
+{"mono_ns": 45118756769, "kind": "queued", "id": 38, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45125111985, "queue_bytes": 148}
+{"mono_ns": 45125286856, "kind": "queued", "id": 39, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45134939802, "queue_bytes": 181}
+{"mono_ns": 45125339920, "kind": "sent", "id": 38, "direction": 0, "payload_bytes": 112, "due_ns": 45125111985, "queue_bytes": 36}
+{"mono_ns": 45125696601, "kind": "queued", "id": 40, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 45131591823, "queue_bytes": 210}
+{"mono_ns": 45130828600, "kind": "sent", "id": 37, "direction": 0, "payload_bytes": 36, "due_ns": 45130167163, "queue_bytes": 0}
+{"mono_ns": 45131187625, "kind": "queued", "id": 41, "direction": 1, "payload_bytes": 1252, "charged_bytes": 1280, "due_ns": 45153075636, "queue_bytes": 1462}
+{"mono_ns": 45132432814, "kind": "sent", "id": 40, "direction": 1, "payload_bytes": 29, "due_ns": 45131591823, "queue_bytes": 1433}
+{"mono_ns": 45135611347, "kind": "sent", "id": 39, "direction": 1, "payload_bytes": 181, "due_ns": 45134939802, "queue_bytes": 1252}
+{"mono_ns": 45141759364, "kind": "queued", "id": 42, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45148297462, "queue_bytes": 118}
+{"mono_ns": 45148891787, "kind": "sent", "id": 42, "direction": 0, "payload_bytes": 118, "due_ns": 45148297462, "queue_bytes": 0}
+{"mono_ns": 45152201820, "kind": "queued", "id": 43, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45165157614, "queue_bytes": 1433}
+{"mono_ns": 45153513642, "kind": "sent", "id": 41, "direction": 1, "payload_bytes": 1252, "due_ns": 45153075636, "queue_bytes": 181}
+{"mono_ns": 45165959871, "kind": "sent", "id": 43, "direction": 1, "payload_bytes": 181, "due_ns": 45165157614, "queue_bytes": 0}
+{"mono_ns": 45166465968, "kind": "queued", "id": 44, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45174716422, "queue_bytes": 36}
+{"mono_ns": 45175747269, "kind": "sent", "id": 44, "direction": 0, "payload_bytes": 36, "due_ns": 45174716422, "queue_bytes": 0}
+{"mono_ns": 45176289972, "kind": "queued", "id": 45, "direction": 1, "payload_bytes": 1332, "charged_bytes": 1360, "due_ns": 45194619658, "queue_bytes": 1332}
+{"mono_ns": 45177092812, "kind": "queued", "id": 46, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45182821345, "queue_bytes": 112}
+{"mono_ns": 45177165350, "kind": "queued", "id": 47, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45192626478, "queue_bytes": 1513}
+{"mono_ns": 45183467754, "kind": "sent", "id": 46, "direction": 0, "payload_bytes": 112, "due_ns": 45182821345, "queue_bytes": 0}
+{"mono_ns": 45193738741, "kind": "sent", "id": 47, "direction": 1, "payload_bytes": 181, "due_ns": 45192626478, "queue_bytes": 1332}
+{"mono_ns": 45194874167, "kind": "sent", "id": 45, "direction": 1, "payload_bytes": 1332, "due_ns": 45194619658, "queue_bytes": 0}
+{"mono_ns": 45195192654, "kind": "queued", "id": 48, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45198799300, "queue_bytes": 36}
+{"mono_ns": 45197871491, "kind": "queued", "id": 49, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45210433748, "queue_bytes": 181}
+{"mono_ns": 45201172642, "kind": "sent", "id": 48, "direction": 0, "payload_bytes": 36, "due_ns": 45198799300, "queue_bytes": 0}
+{"mono_ns": 45201481684, "kind": "queued", "id": 50, "direction": 1, "payload_bytes": 1412, "charged_bytes": 1440, "due_ns": 45215613358, "queue_bytes": 1593}
+{"mono_ns": 45209545487, "kind": "queued", "id": 51, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45218130778, "queue_bytes": 112}
+{"mono_ns": 45210752485, "kind": "sent", "id": 49, "direction": 1, "payload_bytes": 181, "due_ns": 45210433748, "queue_bytes": 1412}
+{"mono_ns": 45215942045, "kind": "sent", "id": 50, "direction": 1, "payload_bytes": 1412, "due_ns": 45215613358, "queue_bytes": 0}
+{"mono_ns": 45216471374, "kind": "queued", "id": 52, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45218961714, "queue_bytes": 148}
+{"mono_ns": 45218823240, "kind": "sent", "id": 51, "direction": 0, "payload_bytes": 112, "due_ns": 45218130778, "queue_bytes": 36}
+{"mono_ns": 45219085317, "kind": "queued", "id": 53, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45224141558, "queue_bytes": 148}
+{"mono_ns": 45219118607, "kind": "sent", "id": 52, "direction": 0, "payload_bytes": 36, "due_ns": 45218961714, "queue_bytes": 112}
+{"mono_ns": 45219447283, "kind": "queued", "id": 54, "direction": 1, "payload_bytes": 1472, "charged_bytes": 1500, "due_ns": 45237742976, "queue_bytes": 1472}
+{"mono_ns": 45224678792, "kind": "sent", "id": 53, "direction": 0, "payload_bytes": 112, "due_ns": 45224141558, "queue_bytes": 0}
+{"mono_ns": 45225007076, "kind": "queued", "id": 55, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45236350703, "queue_bytes": 1653}
+{"mono_ns": 45237441682, "kind": "sent", "id": 55, "direction": 1, "payload_bytes": 181, "due_ns": 45236350703, "queue_bytes": 1472}
+{"mono_ns": 45238597083, "kind": "sent", "id": 54, "direction": 1, "payload_bytes": 1472, "due_ns": 45237742976, "queue_bytes": 0}
+{"mono_ns": 45239042125, "kind": "queued", "id": 56, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45247410737, "queue_bytes": 36}
+{"mono_ns": 45246647880, "kind": "queued", "id": 57, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45249840605, "queue_bytes": 148}
+{"mono_ns": 45248296961, "kind": "sent", "id": 56, "direction": 0, "payload_bytes": 36, "due_ns": 45247410737, "queue_bytes": 112}
+{"mono_ns": 45250421218, "kind": "sent", "id": 57, "direction": 0, "payload_bytes": 112, "due_ns": 45249840605, "queue_bytes": 0}
+{"mono_ns": 45250744818, "kind": "queued", "id": 58, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45261121121, "queue_bytes": 27}
+{"mono_ns": 45255355198, "kind": "queued", "id": 59, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45267283863, "queue_bytes": 208}
+{"mono_ns": 45261987196, "kind": "sent", "id": 58, "direction": 1, "payload_bytes": 27, "due_ns": 45261121121, "queue_bytes": 181}
+{"mono_ns": 45268250021, "kind": "sent", "id": 59, "direction": 1, "payload_bytes": 181, "due_ns": 45267283863, "queue_bytes": 0}
+{"mono_ns": 45278551886, "kind": "queued", "id": 60, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45292416946, "queue_bytes": 118}
+{"mono_ns": 45278596982, "kind": "queued", "id": 61, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45282723241, "queue_bytes": 175}
+{"mono_ns": 45283781546, "kind": "sent", "id": 61, "direction": 1, "payload_bytes": 175, "due_ns": 45282723241, "queue_bytes": 0}
+{"mono_ns": 45291591561, "kind": "queued", "id": 62, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45309311125, "queue_bytes": 236}
+{"mono_ns": 45291629191, "kind": "queued", "id": 63, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 45299413738, "queue_bytes": 275}
+{"mono_ns": 45292781819, "kind": "sent", "id": 60, "direction": 0, "payload_bytes": 118, "due_ns": 45292416946, "queue_bytes": 157}
+{"mono_ns": 45293397934, "kind": "queued", "id": 64, "direction": 1, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45309489070, "queue_bytes": 36}
+{"mono_ns": 45299782251, "kind": "sent", "id": 63, "direction": 0, "payload_bytes": 39, "due_ns": 45299413738, "queue_bytes": 118}
+{"mono_ns": 45300567495, "kind": "queued", "id": 65, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 45312424189, "queue_bytes": 65}
+{"mono_ns": 45306042310, "kind": "queued", "id": 66, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45313565085, "queue_bytes": 240}
+{"mono_ns": 45310252906, "kind": "sent", "id": 62, "direction": 0, "payload_bytes": 118, "due_ns": 45309311125, "queue_bytes": 0}
+{"mono_ns": 45310302745, "kind": "sent", "id": 64, "direction": 1, "payload_bytes": 36, "due_ns": 45309489070, "queue_bytes": 204}
+{"mono_ns": 45313491645, "kind": "sent", "id": 65, "direction": 1, "payload_bytes": 29, "due_ns": 45312424189, "queue_bytes": 175}
+{"mono_ns": 45315800799, "kind": "sent", "id": 66, "direction": 1, "payload_bytes": 175, "due_ns": 45313565085, "queue_bytes": 0}
+{"mono_ns": 45316154677, "kind": "queued", "id": 67, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 45321916117, "queue_bytes": 36}
+{"mono_ns": 45322393949, "kind": "sent", "id": 67, "direction": 0, "payload_bytes": 36, "due_ns": 45321916117, "queue_bytes": 0}
+{"mono_ns": 45325258439, "kind": "queued", "id": 68, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45329507203, "queue_bytes": 181}
+{"mono_ns": 45325325420, "kind": "queued", "id": 69, "direction": 0, "payload_bytes": 188, "charged_bytes": 216, "due_ns": 45330434408, "queue_bytes": 188}
+{"mono_ns": 45325344813, "kind": "queued", "id": 70, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 45339179240, "queue_bytes": 227}
+{"mono_ns": 45330556343, "kind": "sent", "id": 68, "direction": 1, "payload_bytes": 181, "due_ns": 45329507203, "queue_bytes": 0}
+{"mono_ns": 45330582388, "kind": "sent", "id": 69, "direction": 0, "payload_bytes": 188, "due_ns": 45330434408, "queue_bytes": 39}
+{"mono_ns": 45337116808, "kind": "dropped", "id": 71, "direction": 0, "payload_bytes": 118, "reason": "random_loss"}
+{"mono_ns": 45340236407, "kind": "sent", "id": 70, "direction": 0, "payload_bytes": 39, "due_ns": 45339179240, "queue_bytes": 0}
+{"mono_ns": 45340651668, "kind": "queued", "id": 72, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45346115730, "queue_bytes": 27}
+{"mono_ns": 45346946961, "kind": "sent", "id": 72, "direction": 1, "payload_bytes": 27, "due_ns": 45346115730, "queue_bytes": 0}
+{"mono_ns": 45359484598, "kind": "queued", "id": 73, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45371963804, "queue_bytes": 175}
+{"mono_ns": 45372188232, "kind": "sent", "id": 73, "direction": 1, "payload_bytes": 175, "due_ns": 45371963804, "queue_bytes": 0}
+{"mono_ns": 45378999785, "kind": "queued", "id": 74, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45386784687, "queue_bytes": 118}
+{"mono_ns": 45379044007, "kind": "queued", "id": 75, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45384854899, "queue_bytes": 175}
+{"mono_ns": 45385280286, "kind": "sent", "id": 75, "direction": 1, "payload_bytes": 175, "due_ns": 45384854899, "queue_bytes": 0}
+{"mono_ns": 45387415448, "kind": "sent", "id": 74, "direction": 0, "payload_bytes": 118, "due_ns": 45386784687, "queue_bytes": 0}
+{"mono_ns": 45390552228, "kind": "queued", "id": 76, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45395500840, "queue_bytes": 118}
+{"mono_ns": 45396452627, "kind": "sent", "id": 76, "direction": 0, "payload_bytes": 118, "due_ns": 45395500840, "queue_bytes": 0}
+{"mono_ns": 45396905298, "kind": "queued", "id": 77, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45402827026, "queue_bytes": 27}
+{"mono_ns": 45401504362, "kind": "queued", "id": 78, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45411333774, "queue_bytes": 202}
+{"mono_ns": 45403569217, "kind": "sent", "id": 77, "direction": 1, "payload_bytes": 27, "due_ns": 45402827026, "queue_bytes": 175}
+{"mono_ns": 45403955610, "kind": "queued", "id": 79, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45409168635, "queue_bytes": 118}
+{"mono_ns": 45410237415, "kind": "sent", "id": 79, "direction": 0, "payload_bytes": 118, "due_ns": 45409168635, "queue_bytes": 0}
+{"mono_ns": 45412405523, "kind": "sent", "id": 78, "direction": 1, "payload_bytes": 175, "due_ns": 45411333774, "queue_bytes": 0}
+{"mono_ns": 45416752812, "kind": "queued", "id": 80, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45426914815, "queue_bytes": 118}
+{"mono_ns": 45423206299, "kind": "queued", "id": 81, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45442703962, "queue_bytes": 181}
+{"mono_ns": 45427416801, "kind": "sent", "id": 80, "direction": 0, "payload_bytes": 118, "due_ns": 45426914815, "queue_bytes": 0}
+{"mono_ns": 45442894660, "kind": "sent", "id": 81, "direction": 1, "payload_bytes": 181, "due_ns": 45442703962, "queue_bytes": 0}
+{"mono_ns": 45447797803, "kind": "queued", "id": 82, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 45460024172, "queue_bytes": 182}
+{"mono_ns": 45452918212, "kind": "queued", "id": 83, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45468936924, "queue_bytes": 118}
+{"mono_ns": 45460320248, "kind": "sent", "id": 82, "direction": 1, "payload_bytes": 182, "due_ns": 45460024172, "queue_bytes": 0}
+{"mono_ns": 45466202701, "kind": "queued", "id": 84, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45483645326, "queue_bytes": 236}
+{"mono_ns": 45469346987, "kind": "sent", "id": 83, "direction": 0, "payload_bytes": 118, "due_ns": 45468936924, "queue_bytes": 118}
+{"mono_ns": 45477753523, "kind": "queued", "id": 85, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45483419489, "queue_bytes": 181}
+{"mono_ns": 45484040805, "kind": "sent", "id": 85, "direction": 1, "payload_bytes": 181, "due_ns": 45483419489, "queue_bytes": 0}
+{"mono_ns": 45484072166, "kind": "sent", "id": 84, "direction": 0, "payload_bytes": 118, "due_ns": 45483645326, "queue_bytes": 0}
+{"mono_ns": 45491281752, "kind": "dropped", "id": 86, "direction": 0, "payload_bytes": 118, "reason": "random_loss"}
+{"mono_ns": 45502403317, "kind": "queued", "id": 87, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 45519956760, "queue_bytes": 182}
+{"mono_ns": 45520523668, "kind": "sent", "id": 87, "direction": 1, "payload_bytes": 182, "due_ns": 45519956760, "queue_bytes": 0}
+{"mono_ns": 45523478672, "kind": "queued", "id": 88, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45534753687, "queue_bytes": 175}
+{"mono_ns": 45528813946, "kind": "queued", "id": 89, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45537488538, "queue_bytes": 118}
+{"mono_ns": 45535078619, "kind": "sent", "id": 88, "direction": 1, "payload_bytes": 175, "due_ns": 45534753687, "queue_bytes": 0}
+{"mono_ns": 45538208771, "kind": "sent", "id": 89, "direction": 0, "payload_bytes": 118, "due_ns": 45537488538, "queue_bytes": 0}
+{"mono_ns": 45542344867, "kind": "queued", "id": 90, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45548914905, "queue_bytes": 118}
+{"mono_ns": 45549747919, "kind": "sent", "id": 90, "direction": 0, "payload_bytes": 118, "due_ns": 45548914905, "queue_bytes": 0}
+{"mono_ns": 45550231813, "kind": "queued", "id": 91, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45563324360, "queue_bytes": 27}
+{"mono_ns": 45552956429, "kind": "queued", "id": 92, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45564891457, "queue_bytes": 202}
+{"mono_ns": 45563712543, "kind": "sent", "id": 91, "direction": 1, "payload_bytes": 27, "due_ns": 45563324360, "queue_bytes": 175}
+{"mono_ns": 45564288493, "kind": "queued", "id": 93, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45574493047, "queue_bytes": 118}
+{"mono_ns": 45565428331, "kind": "sent", "id": 92, "direction": 1, "payload_bytes": 175, "due_ns": 45564891457, "queue_bytes": 0}
+{"mono_ns": 45570537109, "kind": "queued", "id": 94, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45583624919, "queue_bytes": 236}
+{"mono_ns": 45574690217, "kind": "sent", "id": 93, "direction": 0, "payload_bytes": 118, "due_ns": 45574493047, "queue_bytes": 118}
+{"mono_ns": 45575860067, "kind": "queued", "id": 95, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45593881284, "queue_bytes": 181}
+{"mono_ns": 45584111318, "kind": "sent", "id": 94, "direction": 0, "payload_bytes": 118, "due_ns": 45583624919, "queue_bytes": 0}
+{"mono_ns": 45594447578, "kind": "sent", "id": 95, "direction": 1, "payload_bytes": 181, "due_ns": 45593881284, "queue_bytes": 0}
+{"mono_ns": 45596823894, "kind": "queued", "id": 96, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45602669388, "queue_bytes": 181}
+{"mono_ns": 45601059349, "kind": "queued", "id": 97, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45617217707, "queue_bytes": 118}
+{"mono_ns": 45603211055, "kind": "sent", "id": 96, "direction": 1, "payload_bytes": 181, "due_ns": 45602669388, "queue_bytes": 0}
+{"mono_ns": 45608437743, "kind": "queued", "id": 98, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45616383752, "queue_bytes": 236}
+{"mono_ns": 45617257147, "kind": "sent", "id": 98, "direction": 0, "payload_bytes": 118, "due_ns": 45616383752, "queue_bytes": 118}
+{"mono_ns": 45618412266, "kind": "sent", "id": 97, "direction": 0, "payload_bytes": 118, "due_ns": 45617217707, "queue_bytes": 0}
+{"mono_ns": 45618729340, "kind": "queued", "id": 99, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45625924862, "queue_bytes": 27}
+{"mono_ns": 45624572670, "kind": "queued", "id": 100, "direction": 1, "payload_bytes": 184, "charged_bytes": 212, "due_ns": 45629075928, "queue_bytes": 211}
+{"mono_ns": 45626572611, "kind": "sent", "id": 99, "direction": 1, "payload_bytes": 27, "due_ns": 45625924862, "queue_bytes": 184}
+{"mono_ns": 45629844907, "kind": "sent", "id": 100, "direction": 1, "payload_bytes": 184, "due_ns": 45629075928, "queue_bytes": 0}
+{"mono_ns": 45635721620, "kind": "queued", "id": 101, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45650509894, "queue_bytes": 118}
+{"mono_ns": 45635746972, "kind": "queued", "id": 102, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 45650873130, "queue_bytes": 157}
+{"mono_ns": 45648760489, "kind": "queued", "id": 103, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45668364050, "queue_bytes": 175}
+{"mono_ns": 45650902160, "kind": "sent", "id": 101, "direction": 0, "payload_bytes": 118, "due_ns": 45650509894, "queue_bytes": 39}
+{"mono_ns": 45650932103, "kind": "sent", "id": 102, "direction": 0, "payload_bytes": 39, "due_ns": 45650873130, "queue_bytes": 0}
+{"mono_ns": 45651227995, "kind": "queued", "id": 104, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45660449932, "queue_bytes": 202}
+{"mono_ns": 45661494960, "kind": "sent", "id": 104, "direction": 1, "payload_bytes": 27, "due_ns": 45660449932, "queue_bytes": 175}
+{"mono_ns": 45668736559, "kind": "sent", "id": 103, "direction": 1, "payload_bytes": 175, "due_ns": 45668364050, "queue_bytes": 0}
+{"mono_ns": 45671465978, "kind": "queued", "id": 105, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45688408361, "queue_bytes": 175}
+{"mono_ns": 45676947620, "kind": "queued", "id": 106, "direction": 0, "payload_bytes": 127, "charged_bytes": 155, "due_ns": 45684820156, "queue_bytes": 127}
+{"mono_ns": 45685219449, "kind": "sent", "id": 106, "direction": 0, "payload_bytes": 127, "due_ns": 45684820156, "queue_bytes": 0}
+{"mono_ns": 45689455423, "kind": "sent", "id": 105, "direction": 1, "payload_bytes": 175, "due_ns": 45688408361, "queue_bytes": 0}
+{"mono_ns": 45695651918, "kind": "queued", "id": 107, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45700552446, "queue_bytes": 118}
+{"mono_ns": 45701084109, "kind": "sent", "id": 107, "direction": 0, "payload_bytes": 118, "due_ns": 45700552446, "queue_bytes": 0}
+{"mono_ns": 45701975132, "kind": "queued", "id": 108, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45721566928, "queue_bytes": 181}
+{"mono_ns": 45722615348, "kind": "sent", "id": 108, "direction": 1, "payload_bytes": 181, "due_ns": 45721566928, "queue_bytes": 0}
+{"mono_ns": 45722854545, "kind": "queued", "id": 109, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45730751146, "queue_bytes": 175}
+{"mono_ns": 45729048251, "kind": "queued", "id": 110, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45739406837, "queue_bytes": 118}
+{"mono_ns": 45731195568, "kind": "sent", "id": 109, "direction": 1, "payload_bytes": 175, "due_ns": 45730751146, "queue_bytes": 0}
+{"mono_ns": 45735498431, "kind": "dropped", "id": 111, "direction": 0, "payload_bytes": 118, "reason": "random_loss"}
+{"mono_ns": 45739652546, "kind": "sent", "id": 110, "direction": 0, "payload_bytes": 118, "due_ns": 45739406837, "queue_bytes": 0}
+{"mono_ns": 45751438536, "kind": "dropped", "id": 112, "direction": 1, "payload_bytes": 181, "reason": "random_loss"}
+{"mono_ns": 45772375407, "kind": "queued", "id": 113, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45781296498, "queue_bytes": 175}
+{"mono_ns": 45781726934, "kind": "sent", "id": 113, "direction": 1, "payload_bytes": 175, "due_ns": 45781296498, "queue_bytes": 0}
+{"mono_ns": 45782340926, "kind": "queued", "id": 114, "direction": 0, "payload_bytes": 38, "charged_bytes": 66, "due_ns": 45788811302, "queue_bytes": 38}
+{"mono_ns": 45787998320, "kind": "queued", "id": 115, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45804763748, "queue_bytes": 150}
+{"mono_ns": 45789190688, "kind": "sent", "id": 114, "direction": 0, "payload_bytes": 38, "due_ns": 45788811302, "queue_bytes": 112}
+{"mono_ns": 45789559273, "kind": "queued", "id": 116, "direction": 1, "payload_bytes": 183, "charged_bytes": 211, "due_ns": 45809131127, "queue_bytes": 183}
+{"mono_ns": 45798191009, "kind": "queued", "id": 117, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45809544778, "queue_bytes": 358}
+{"mono_ns": 45805782245, "kind": "sent", "id": 115, "direction": 0, "payload_bytes": 112, "due_ns": 45804763748, "queue_bytes": 0}
+{"mono_ns": 45809944938, "kind": "sent", "id": 116, "direction": 1, "payload_bytes": 183, "due_ns": 45809131127, "queue_bytes": 175}
+{"mono_ns": 45809986035, "kind": "sent", "id": 117, "direction": 1, "payload_bytes": 175, "due_ns": 45809544778, "queue_bytes": 0}
+{"mono_ns": 45810387653, "kind": "queued", "id": 118, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45820920962, "queue_bytes": 118}
+{"mono_ns": 45815479108, "kind": "queued", "id": 119, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45827171620, "queue_bytes": 230}
+{"mono_ns": 45820483189, "kind": "queued", "id": 120, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 45829604602, "queue_bytes": 342}
+{"mono_ns": 45821612947, "kind": "sent", "id": 118, "direction": 0, "payload_bytes": 118, "due_ns": 45820920962, "queue_bytes": 224}
+{"mono_ns": 45821964933, "kind": "queued", "id": 121, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45827447746, "queue_bytes": 27}
+{"mono_ns": 45824915372, "kind": "queued", "id": 122, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45829067214, "queue_bytes": 202}
+{"mono_ns": 45828115680, "kind": "sent", "id": 119, "direction": 0, "payload_bytes": 112, "due_ns": 45827171620, "queue_bytes": 112}
+{"mono_ns": 45828156456, "kind": "sent", "id": 121, "direction": 1, "payload_bytes": 27, "due_ns": 45827447746, "queue_bytes": 175}
+{"mono_ns": 45829323686, "kind": "sent", "id": 122, "direction": 1, "payload_bytes": 175, "due_ns": 45829067214, "queue_bytes": 0}
+{"mono_ns": 45830470054, "kind": "sent", "id": 120, "direction": 0, "payload_bytes": 112, "due_ns": 45829604602, "queue_bytes": 0}
+{"mono_ns": 45830823155, "kind": "queued", "id": 123, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 45836112464, "queue_bytes": 27}
+{"mono_ns": 45834812449, "kind": "queued", "id": 124, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45847393949, "queue_bytes": 118}
+{"mono_ns": 45836414049, "kind": "sent", "id": 123, "direction": 1, "payload_bytes": 27, "due_ns": 45836112464, "queue_bytes": 0}
+{"mono_ns": 45847812805, "kind": "sent", "id": 124, "direction": 0, "payload_bytes": 118, "due_ns": 45847393949, "queue_bytes": 0}
+{"mono_ns": 45850054342, "kind": "queued", "id": 125, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45867874210, "queue_bytes": 181}
+{"mono_ns": 45868788227, "kind": "sent", "id": 125, "direction": 1, "payload_bytes": 181, "due_ns": 45867874210, "queue_bytes": 0}
+{"mono_ns": 45876648712, "kind": "queued", "id": 126, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45888597907, "queue_bytes": 175}
+{"mono_ns": 45880172514, "kind": "queued", "id": 127, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45886756180, "queue_bytes": 118}
+{"mono_ns": 45887607781, "kind": "sent", "id": 127, "direction": 0, "payload_bytes": 118, "due_ns": 45886756180, "queue_bytes": 0}
+{"mono_ns": 45889802336, "kind": "sent", "id": 126, "direction": 1, "payload_bytes": 175, "due_ns": 45888597907, "queue_bytes": 0}
+{"mono_ns": 45901021488, "kind": "queued", "id": 128, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45915064166, "queue_bytes": 181}
+{"mono_ns": 45901483252, "kind": "queued", "id": 129, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45919993024, "queue_bytes": 118}
+{"mono_ns": 45916211565, "kind": "sent", "id": 128, "direction": 1, "payload_bytes": 181, "due_ns": 45915064166, "queue_bytes": 0}
+{"mono_ns": 45920429989, "kind": "sent", "id": 129, "direction": 0, "payload_bytes": 118, "due_ns": 45919993024, "queue_bytes": 0}
+{"mono_ns": 45921689456, "kind": "dropped", "id": 130, "direction": 0, "payload_bytes": 118, "reason": "random_loss"}
+{"mono_ns": 45927251058, "kind": "queued", "id": 131, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 45933202241, "queue_bytes": 181}
+{"mono_ns": 45933882282, "kind": "sent", "id": 131, "direction": 1, "payload_bytes": 181, "due_ns": 45933202241, "queue_bytes": 0}
+{"mono_ns": 45945967768, "kind": "queued", "id": 132, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45951577178, "queue_bytes": 118}
+{"mono_ns": 45950656195, "kind": "queued", "id": 133, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 45962273039, "queue_bytes": 175}
+{"mono_ns": 45951807125, "kind": "sent", "id": 132, "direction": 0, "payload_bytes": 118, "due_ns": 45951577178, "queue_bytes": 0}
+{"mono_ns": 45963246372, "kind": "sent", "id": 133, "direction": 1, "payload_bytes": 175, "due_ns": 45962273039, "queue_bytes": 0}
+{"mono_ns": 45974753570, "kind": "queued", "id": 134, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 45982023587, "queue_bytes": 118}
+{"mono_ns": 45974966210, "kind": "queued", "id": 135, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 45988367503, "queue_bytes": 182}
+{"mono_ns": 45982246985, "kind": "sent", "id": 134, "direction": 0, "payload_bytes": 118, "due_ns": 45982023587, "queue_bytes": 0}
+{"mono_ns": 45988494810, "kind": "sent", "id": 135, "direction": 1, "payload_bytes": 182, "due_ns": 45988367503, "queue_bytes": 0}
+{"mono_ns": 45988953901, "kind": "queued", "id": 136, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46000598006, "queue_bytes": 118}
+{"mono_ns": 45997859993, "kind": "dropped", "id": 137, "direction": 0, "payload_bytes": 112, "reason": "random_loss"}
+{"mono_ns": 45999399355, "kind": "queued", "id": 138, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46014078435, "queue_bytes": 157}
+{"mono_ns": 45999593376, "kind": "queued", "id": 139, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46006784902, "queue_bytes": 181}
+{"mono_ns": 46000776138, "kind": "sent", "id": 136, "direction": 0, "payload_bytes": 118, "due_ns": 46000598006, "queue_bytes": 39}
+{"mono_ns": 46001187581, "kind": "queued", "id": 140, "direction": 1, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 46014979417, "queue_bytes": 217}
+{"mono_ns": 46007460986, "kind": "sent", "id": 139, "direction": 1, "payload_bytes": 181, "due_ns": 46006784902, "queue_bytes": 36}
+{"mono_ns": 46014822913, "kind": "sent", "id": 138, "direction": 0, "payload_bytes": 39, "due_ns": 46014078435, "queue_bytes": 0}
+{"mono_ns": 46015240214, "kind": "queued", "id": 141, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 46032309945, "queue_bytes": 65}
+{"mono_ns": 46015281552, "kind": "sent", "id": 140, "direction": 1, "payload_bytes": 36, "due_ns": 46014979417, "queue_bytes": 29}
+{"mono_ns": 46015636794, "kind": "queued", "id": 142, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 46019746708, "queue_bytes": 36}
+{"mono_ns": 46017017608, "kind": "queued", "id": 143, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 46035038060, "queue_bytes": 148}
+{"mono_ns": 46017891426, "kind": "queued", "id": 144, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46033964946, "queue_bytes": 187}
+{"mono_ns": 46020072787, "kind": "sent", "id": 142, "direction": 0, "payload_bytes": 36, "due_ns": 46019746708, "queue_bytes": 151}
+{"mono_ns": 46026173665, "kind": "queued", "id": 145, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46041364858, "queue_bytes": 210}
+{"mono_ns": 46032462857, "kind": "sent", "id": 141, "direction": 1, "payload_bytes": 29, "due_ns": 46032309945, "queue_bytes": 181}
+{"mono_ns": 46034903511, "kind": "sent", "id": 144, "direction": 0, "payload_bytes": 39, "due_ns": 46033964946, "queue_bytes": 112}
+{"mono_ns": 46035267547, "kind": "queued", "id": 146, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 46047163557, "queue_bytes": 210}
+{"mono_ns": 46035306082, "kind": "sent", "id": 143, "direction": 0, "payload_bytes": 112, "due_ns": 46035038060, "queue_bytes": 0}
+{"mono_ns": 46038098727, "kind": "queued", "id": 147, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46043391899, "queue_bytes": 118}
+{"mono_ns": 46042256303, "kind": "sent", "id": 145, "direction": 1, "payload_bytes": 181, "due_ns": 46041364858, "queue_bytes": 29}
+{"mono_ns": 46044413891, "kind": "sent", "id": 147, "direction": 0, "payload_bytes": 118, "due_ns": 46043391899, "queue_bytes": 0}
+{"mono_ns": 46044899078, "kind": "queued", "id": 148, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46056871950, "queue_bytes": 56}
+{"mono_ns": 46048163857, "kind": "queued", "id": 149, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46062040055, "queue_bytes": 231}
+{"mono_ns": 46048206482, "kind": "queued", "id": 150, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46059554392, "queue_bytes": 118}
+{"mono_ns": 46048233471, "kind": "sent", "id": 146, "direction": 1, "payload_bytes": 29, "due_ns": 46047163557, "queue_bytes": 202}
+{"mono_ns": 46052750292, "kind": "queued", "id": 151, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46069931990, "queue_bytes": 236}
+{"mono_ns": 46058045495, "kind": "sent", "id": 148, "direction": 1, "payload_bytes": 27, "due_ns": 46056871950, "queue_bytes": 175}
+{"mono_ns": 46060242200, "kind": "sent", "id": 150, "direction": 0, "payload_bytes": 118, "due_ns": 46059554392, "queue_bytes": 118}
+{"mono_ns": 46062399508, "kind": "sent", "id": 149, "direction": 1, "payload_bytes": 175, "due_ns": 46062040055, "queue_bytes": 0}
+{"mono_ns": 46069348131, "kind": "queued", "id": 152, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46085539984, "queue_bytes": 236}
+{"mono_ns": 46070530271, "kind": "sent", "id": 151, "direction": 0, "payload_bytes": 118, "due_ns": 46069931990, "queue_bytes": 118}
+{"mono_ns": 46070875454, "kind": "queued", "id": 153, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46082457454, "queue_bytes": 27}
+{"mono_ns": 46073295912, "kind": "queued", "id": 154, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46091840289, "queue_bytes": 202}
+{"mono_ns": 46083251729, "kind": "sent", "id": 153, "direction": 1, "payload_bytes": 27, "due_ns": 46082457454, "queue_bytes": 175}
+{"mono_ns": 46086419389, "kind": "sent", "id": 152, "direction": 0, "payload_bytes": 118, "due_ns": 46085539984, "queue_bytes": 0}
+{"mono_ns": 46092929703, "kind": "sent", "id": 154, "direction": 1, "payload_bytes": 175, "due_ns": 46091840289, "queue_bytes": 0}
+{"mono_ns": 46098574855, "kind": "queued", "id": 155, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46117470556, "queue_bytes": 181}
+{"mono_ns": 46103022432, "kind": "queued", "id": 156, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46116937853, "queue_bytes": 118}
+{"mono_ns": 46117401729, "kind": "sent", "id": 156, "direction": 0, "payload_bytes": 118, "due_ns": 46116937853, "queue_bytes": 0}
+{"mono_ns": 46118538663, "kind": "sent", "id": 155, "direction": 1, "payload_bytes": 181, "due_ns": 46117470556, "queue_bytes": 0}
+{"mono_ns": 46123853718, "kind": "queued", "id": 157, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46138439941, "queue_bytes": 181}
+{"mono_ns": 46128863216, "kind": "queued", "id": 158, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46133258624, "queue_bytes": 118}
+{"mono_ns": 46134263823, "kind": "sent", "id": 158, "direction": 0, "payload_bytes": 118, "due_ns": 46133258624, "queue_bytes": 0}
+{"mono_ns": 46139415014, "kind": "sent", "id": 157, "direction": 1, "payload_bytes": 181, "due_ns": 46138439941, "queue_bytes": 0}
+{"mono_ns": 46146182036, "kind": "queued", "id": 159, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46155959795, "queue_bytes": 118}
+{"mono_ns": 46152112226, "kind": "queued", "id": 160, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46168326340, "queue_bytes": 182}
+{"mono_ns": 46156320739, "kind": "sent", "id": 159, "direction": 0, "payload_bytes": 118, "due_ns": 46155959795, "queue_bytes": 0}
+{"mono_ns": 46168769047, "kind": "sent", "id": 160, "direction": 1, "payload_bytes": 182, "due_ns": 46168326340, "queue_bytes": 0}
+{"mono_ns": 46175714930, "kind": "queued", "id": 161, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46186543645, "queue_bytes": 182}
+{"mono_ns": 46175772140, "kind": "queued", "id": 162, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46187961723, "queue_bytes": 118}
+{"mono_ns": 46187240321, "kind": "sent", "id": 161, "direction": 1, "payload_bytes": 182, "due_ns": 46186543645, "queue_bytes": 0}
+{"mono_ns": 46188446848, "kind": "sent", "id": 162, "direction": 0, "payload_bytes": 118, "due_ns": 46187961723, "queue_bytes": 0}
+{"mono_ns": 46192592708, "kind": "queued", "id": 163, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46197028642, "queue_bytes": 118}
+{"mono_ns": 46197606974, "kind": "sent", "id": 163, "direction": 0, "payload_bytes": 118, "due_ns": 46197028642, "queue_bytes": 0}
+{"mono_ns": 46198104028, "kind": "queued", "id": 164, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46202864395, "queue_bytes": 27}
+{"mono_ns": 46198616210, "kind": "queued", "id": 165, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46207031236, "queue_bytes": 202}
+{"mono_ns": 46203761355, "kind": "sent", "id": 164, "direction": 1, "payload_bytes": 27, "due_ns": 46202864395, "queue_bytes": 175}
+{"mono_ns": 46209101940, "kind": "sent", "id": 165, "direction": 1, "payload_bytes": 175, "due_ns": 46207031236, "queue_bytes": 0}
+{"mono_ns": 46215588295, "kind": "queued", "id": 166, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46222063846, "queue_bytes": 118}
+{"mono_ns": 46222323101, "kind": "sent", "id": 166, "direction": 0, "payload_bytes": 118, "due_ns": 46222063846, "queue_bytes": 0}
+{"mono_ns": 46224536258, "kind": "queued", "id": 167, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46232912993, "queue_bytes": 181}
+{"mono_ns": 46233691596, "kind": "sent", "id": 167, "direction": 1, "payload_bytes": 181, "due_ns": 46232912993, "queue_bytes": 0}
+{"mono_ns": 46242928975, "kind": "queued", "id": 168, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46261673855, "queue_bytes": 118}
+{"mono_ns": 46247245544, "kind": "queued", "id": 169, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46252659995, "queue_bytes": 175}
+{"mono_ns": 46253530293, "kind": "sent", "id": 169, "direction": 1, "payload_bytes": 175, "due_ns": 46252659995, "queue_bytes": 0}
+{"mono_ns": 46262822051, "kind": "sent", "id": 168, "direction": 0, "payload_bytes": 118, "due_ns": 46261673855, "queue_bytes": 0}
+{"mono_ns": 46264667203, "kind": "queued", "id": 170, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46268894854, "queue_bytes": 118}
+{"mono_ns": 46269812682, "kind": "sent", "id": 170, "direction": 0, "payload_bytes": 118, "due_ns": 46268894854, "queue_bytes": 0}
+{"mono_ns": 46270191994, "kind": "queued", "id": 171, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46276020558, "queue_bytes": 27}
+{"mono_ns": 46275666010, "kind": "queued", "id": 172, "direction": 1, "payload_bytes": 180, "charged_bytes": 208, "due_ns": 46279569092, "queue_bytes": 207}
+{"mono_ns": 46276894355, "kind": "sent", "id": 171, "direction": 1, "payload_bytes": 27, "due_ns": 46276020558, "queue_bytes": 180}
+{"mono_ns": 46280084685, "kind": "sent", "id": 172, "direction": 1, "payload_bytes": 180, "due_ns": 46279569092, "queue_bytes": 0}
+{"mono_ns": 46288272338, "kind": "queued", "id": 173, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46292212234, "queue_bytes": 118}
+{"mono_ns": 46292462969, "kind": "sent", "id": 173, "direction": 0, "payload_bytes": 118, "due_ns": 46292212234, "queue_bytes": 0}
+{"mono_ns": 46303350041, "kind": "queued", "id": 174, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46316054310, "queue_bytes": 181}
+{"mono_ns": 46316768078, "kind": "sent", "id": 174, "direction": 1, "payload_bytes": 181, "due_ns": 46316054310, "queue_bytes": 0}
+{"mono_ns": 46321236536, "kind": "queued", "id": 175, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46334943029, "queue_bytes": 118}
+{"mono_ns": 46321355134, "kind": "queued", "id": 176, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46336180749, "queue_bytes": 175}
+{"mono_ns": 46335782096, "kind": "sent", "id": 175, "direction": 0, "payload_bytes": 118, "due_ns": 46334943029, "queue_bytes": 0}
+{"mono_ns": 46336512270, "kind": "queued", "id": 177, "direction": 1, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 46352660638, "queue_bytes": 211}
+{"mono_ns": 46336651746, "kind": "sent", "id": 176, "direction": 1, "payload_bytes": 175, "due_ns": 46336180749, "queue_bytes": 36}
+{"mono_ns": 46342903285, "kind": "queued", "id": 178, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46346926494, "queue_bytes": 118}
+{"mono_ns": 46343381974, "kind": "queued", "id": 179, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46354899093, "queue_bytes": 157}
+{"mono_ns": 46347574759, "kind": "sent", "id": 178, "direction": 0, "payload_bytes": 118, "due_ns": 46346926494, "queue_bytes": 39}
+{"mono_ns": 46348470430, "kind": "queued", "id": 180, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46364639096, "queue_bytes": 217}
+{"mono_ns": 46353542971, "kind": "sent", "id": 177, "direction": 1, "payload_bytes": 36, "due_ns": 46352660638, "queue_bytes": 181}
+{"mono_ns": 46355669978, "kind": "sent", "id": 179, "direction": 0, "payload_bytes": 39, "due_ns": 46354899093, "queue_bytes": 0}
+{"mono_ns": 46364929211, "kind": "sent", "id": 180, "direction": 1, "payload_bytes": 181, "due_ns": 46364639096, "queue_bytes": 0}
+{"mono_ns": 46365476548, "kind": "queued", "id": 181, "direction": 0, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 46379274290, "queue_bytes": 36}
+{"mono_ns": 46371523558, "kind": "queued", "id": 182, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 46381380714, "queue_bytes": 148}
+{"mono_ns": 46372236179, "kind": "queued", "id": 183, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46379675803, "queue_bytes": 187}
+{"mono_ns": 46377120981, "kind": "queued", "id": 184, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46389656562, "queue_bytes": 182}
+{"mono_ns": 46380293795, "kind": "sent", "id": 181, "direction": 0, "payload_bytes": 36, "due_ns": 46379274290, "queue_bytes": 151}
+{"mono_ns": 46380339246, "kind": "sent", "id": 183, "direction": 0, "payload_bytes": 39, "due_ns": 46379675803, "queue_bytes": 112}
+{"mono_ns": 46380769171, "kind": "queued", "id": 185, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 46387696924, "queue_bytes": 211}
+{"mono_ns": 46381903933, "kind": "sent", "id": 182, "direction": 0, "payload_bytes": 112, "due_ns": 46381380714, "queue_bytes": 0}
+{"mono_ns": 46388138230, "kind": "sent", "id": 185, "direction": 1, "payload_bytes": 29, "due_ns": 46387696924, "queue_bytes": 182}
+{"mono_ns": 46390331377, "kind": "sent", "id": 184, "direction": 1, "payload_bytes": 182, "due_ns": 46389656562, "queue_bytes": 0}
+{"mono_ns": 46396169328, "kind": "queued", "id": 186, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46400866574, "queue_bytes": 118}
+{"mono_ns": 46398128139, "kind": "queued", "id": 187, "direction": 0, "payload_bytes": 112, "charged_bytes": 140, "due_ns": 46403795852, "queue_bytes": 230}
+{"mono_ns": 46400766756, "kind": "queued", "id": 188, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46419876171, "queue_bytes": 182}
+{"mono_ns": 46401930157, "kind": "sent", "id": 186, "direction": 0, "payload_bytes": 118, "due_ns": 46400866574, "queue_bytes": 112}
+{"mono_ns": 46404070731, "kind": "sent", "id": 187, "direction": 0, "payload_bytes": 112, "due_ns": 46403795852, "queue_bytes": 0}
+{"mono_ns": 46404355285, "kind": "queued", "id": 189, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46419717842, "queue_bytes": 209}
+{"mono_ns": 46419773259, "kind": "sent", "id": 189, "direction": 1, "payload_bytes": 27, "due_ns": 46419717842, "queue_bytes": 182}
+{"mono_ns": 46420913143, "kind": "sent", "id": 188, "direction": 1, "payload_bytes": 182, "due_ns": 46419876171, "queue_bytes": 0}
+{"mono_ns": 46423226631, "kind": "queued", "id": 190, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46431725564, "queue_bytes": 175}
+{"mono_ns": 46429190324, "kind": "queued", "id": 191, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46439408954, "queue_bytes": 118}
+{"mono_ns": 46432364345, "kind": "sent", "id": 190, "direction": 1, "payload_bytes": 175, "due_ns": 46431725564, "queue_bytes": 0}
+{"mono_ns": 46439591007, "kind": "sent", "id": 191, "direction": 0, "payload_bytes": 118, "due_ns": 46439408954, "queue_bytes": 0}
+{"mono_ns": 46441474904, "kind": "queued", "id": 192, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46455903462, "queue_bytes": 118}
+{"mono_ns": 46452779077, "kind": "queued", "id": 193, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46463159030, "queue_bytes": 181}
+{"mono_ns": 46456925801, "kind": "sent", "id": 192, "direction": 0, "payload_bytes": 118, "due_ns": 46455903462, "queue_bytes": 0}
+{"mono_ns": 46464231133, "kind": "sent", "id": 193, "direction": 1, "payload_bytes": 181, "due_ns": 46463159030, "queue_bytes": 0}
+{"mono_ns": 46472054027, "kind": "queued", "id": 194, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46478944040, "queue_bytes": 118}
+{"mono_ns": 46472095481, "kind": "queued", "id": 195, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46481578592, "queue_bytes": 181}
+{"mono_ns": 46479411156, "kind": "sent", "id": 194, "direction": 0, "payload_bytes": 118, "due_ns": 46478944040, "queue_bytes": 0}
+{"mono_ns": 46482752191, "kind": "sent", "id": 195, "direction": 1, "payload_bytes": 181, "due_ns": 46481578592, "queue_bytes": 0}
+{"mono_ns": 46489565658, "kind": "dropped", "id": 196, "direction": 0, "payload_bytes": 118, "reason": "random_loss"}
+{"mono_ns": 46501156253, "kind": "queued", "id": 197, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46506233723, "queue_bytes": 182}
+{"mono_ns": 46506331688, "kind": "sent", "id": 197, "direction": 1, "payload_bytes": 182, "due_ns": 46506233723, "queue_bytes": 0}
+{"mono_ns": 46513262434, "kind": "queued", "id": 198, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46529178034, "queue_bytes": 118}
+{"mono_ns": 46524806989, "kind": "queued", "id": 199, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46535577947, "queue_bytes": 175}
+{"mono_ns": 46529993678, "kind": "sent", "id": 198, "direction": 0, "payload_bytes": 118, "due_ns": 46529178034, "queue_bytes": 0}
+{"mono_ns": 46535969111, "kind": "sent", "id": 199, "direction": 1, "payload_bytes": 175, "due_ns": 46535577947, "queue_bytes": 0}
+{"mono_ns": 46547297566, "kind": "queued", "id": 200, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46552676245, "queue_bytes": 118}
+{"mono_ns": 46552471824, "kind": "dropped", "id": 201, "direction": 1, "payload_bytes": 182, "reason": "random_loss"}
+{"mono_ns": 46553609861, "kind": "sent", "id": 200, "direction": 0, "payload_bytes": 118, "due_ns": 46552676245, "queue_bytes": 0}
+{"mono_ns": 46572902443, "kind": "queued", "id": 202, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46580467476, "queue_bytes": 182}
+{"mono_ns": 46581195622, "kind": "sent", "id": 202, "direction": 1, "payload_bytes": 182, "due_ns": 46580467476, "queue_bytes": 0}
+{"mono_ns": 46581716767, "kind": "queued", "id": 203, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46599363873, "queue_bytes": 118}
+{"mono_ns": 46587652433, "kind": "dropped", "id": 204, "direction": 0, "payload_bytes": 112, "reason": "random_loss"}
+{"mono_ns": 46598744505, "kind": "queued", "id": 205, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46614377755, "queue_bytes": 175}
+{"mono_ns": 46599912748, "kind": "sent", "id": 203, "direction": 0, "payload_bytes": 118, "due_ns": 46599363873, "queue_bytes": 0}
+{"mono_ns": 46600393697, "kind": "queued", "id": 206, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46605766860, "queue_bytes": 356}
+{"mono_ns": 46606645198, "kind": "sent", "id": 206, "direction": 1, "payload_bytes": 181, "due_ns": 46605766860, "queue_bytes": 175}
+{"mono_ns": 46615109545, "kind": "sent", "id": 205, "direction": 1, "payload_bytes": 175, "due_ns": 46614377755, "queue_bytes": 0}
+{"mono_ns": 46617016408, "kind": "queued", "id": 207, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46629186326, "queue_bytes": 118}
+{"mono_ns": 46628090668, "kind": "queued", "id": 208, "direction": 0, "payload_bytes": 119, "charged_bytes": 147, "due_ns": 46646349538, "queue_bytes": 237}
+{"mono_ns": 46628411887, "kind": "queued", "id": 209, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46641615002, "queue_bytes": 175}
+{"mono_ns": 46629569372, "kind": "sent", "id": 207, "direction": 0, "payload_bytes": 118, "due_ns": 46629186326, "queue_bytes": 119}
+{"mono_ns": 46630119421, "kind": "queued", "id": 210, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46641650146, "queue_bytes": 356}
+{"mono_ns": 46642471012, "kind": "sent", "id": 209, "direction": 1, "payload_bytes": 175, "due_ns": 46641615002, "queue_bytes": 181}
+{"mono_ns": 46642646679, "kind": "sent", "id": 210, "direction": 1, "payload_bytes": 181, "due_ns": 46641650146, "queue_bytes": 0}
+{"mono_ns": 46642970913, "kind": "queued", "id": 211, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46659209006, "queue_bytes": 237}
+{"mono_ns": 46647207733, "kind": "sent", "id": 208, "direction": 0, "payload_bytes": 119, "due_ns": 46646349538, "queue_bytes": 118}
+{"mono_ns": 46648135798, "kind": "queued", "id": 212, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46657770413, "queue_bytes": 175}
+{"mono_ns": 46652949153, "kind": "dropped", "id": 213, "direction": 0, "payload_bytes": 112, "reason": "random_loss"}
+{"mono_ns": 46658097732, "kind": "sent", "id": 212, "direction": 1, "payload_bytes": 175, "due_ns": 46657770413, "queue_bytes": 0}
+{"mono_ns": 46660230190, "kind": "sent", "id": 211, "direction": 0, "payload_bytes": 118, "due_ns": 46659209006, "queue_bytes": 0}
+{"mono_ns": 46660555016, "kind": "queued", "id": 214, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46668428635, "queue_bytes": 27}
+{"mono_ns": 46664732550, "kind": "queued", "id": 215, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46672484848, "queue_bytes": 118}
+{"mono_ns": 46668899910, "kind": "sent", "id": 214, "direction": 1, "payload_bytes": 27, "due_ns": 46668428635, "queue_bytes": 0}
+{"mono_ns": 46673042177, "kind": "sent", "id": 215, "direction": 0, "payload_bytes": 118, "due_ns": 46672484848, "queue_bytes": 0}
+{"mono_ns": 46673378968, "kind": "queued", "id": 216, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 46682240501, "queue_bytes": 29}
+{"mono_ns": 46676999644, "kind": "queued", "id": 217, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46690120813, "queue_bytes": 204}
+{"mono_ns": 46682713287, "kind": "sent", "id": 216, "direction": 1, "payload_bytes": 29, "due_ns": 46682240501, "queue_bytes": 175}
+{"mono_ns": 46683222783, "kind": "queued", "id": 218, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46698908672, "queue_bytes": 118}
+{"mono_ns": 46690482184, "kind": "sent", "id": 217, "direction": 1, "payload_bytes": 175, "due_ns": 46690120813, "queue_bytes": 0}
+{"mono_ns": 46696171845, "kind": "queued", "id": 219, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46707906586, "queue_bytes": 236}
+{"mono_ns": 46696209172, "kind": "queued", "id": 220, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46711420268, "queue_bytes": 275}
+{"mono_ns": 46699365145, "kind": "sent", "id": 218, "direction": 0, "payload_bytes": 118, "due_ns": 46698908672, "queue_bytes": 157}
+{"mono_ns": 46700808654, "kind": "queued", "id": 221, "direction": 1, "payload_bytes": 190, "charged_bytes": 218, "due_ns": 46718796798, "queue_bytes": 190}
+{"mono_ns": 46708091060, "kind": "sent", "id": 219, "direction": 0, "payload_bytes": 118, "due_ns": 46707906586, "queue_bytes": 39}
+{"mono_ns": 46712323513, "kind": "sent", "id": 220, "direction": 0, "payload_bytes": 39, "due_ns": 46711420268, "queue_bytes": 0}
+{"mono_ns": 46712797372, "kind": "queued", "id": 222, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46724090396, "queue_bytes": 217}
+{"mono_ns": 46719175884, "kind": "sent", "id": 221, "direction": 1, "payload_bytes": 190, "due_ns": 46718796798, "queue_bytes": 27}
+{"mono_ns": 46723897330, "kind": "queued", "id": 223, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46731367583, "queue_bytes": 202}
+{"mono_ns": 46724798365, "kind": "sent", "id": 222, "direction": 1, "payload_bytes": 27, "due_ns": 46724090396, "queue_bytes": 175}
+{"mono_ns": 46730063202, "kind": "queued", "id": 224, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46741200019, "queue_bytes": 118}
+{"mono_ns": 46730092646, "kind": "queued", "id": 225, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 46734437108, "queue_bytes": 157}
+{"mono_ns": 46732220205, "kind": "sent", "id": 223, "direction": 1, "payload_bytes": 175, "due_ns": 46731367583, "queue_bytes": 0}
+{"mono_ns": 46735342789, "kind": "sent", "id": 225, "direction": 0, "payload_bytes": 39, "due_ns": 46734437108, "queue_bytes": 118}
+{"mono_ns": 46735638570, "kind": "queued", "id": 226, "direction": 1, "payload_bytes": 29, "charged_bytes": 57, "due_ns": 46749927381, "queue_bytes": 29}
+{"mono_ns": 46737698074, "kind": "queued", "id": 227, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46754432350, "queue_bytes": 236}
+{"mono_ns": 46741843265, "kind": "sent", "id": 224, "direction": 0, "payload_bytes": 118, "due_ns": 46741200019, "queue_bytes": 118}
+{"mono_ns": 46750119441, "kind": "sent", "id": 226, "direction": 1, "payload_bytes": 29, "due_ns": 46749927381, "queue_bytes": 0}
+{"mono_ns": 46751403046, "kind": "queued", "id": 228, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46767400729, "queue_bytes": 181}
+{"mono_ns": 46755548244, "kind": "sent", "id": 227, "direction": 0, "payload_bytes": 118, "due_ns": 46754432350, "queue_bytes": 0}
+{"mono_ns": 46757826167, "kind": "queued", "id": 229, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46770064213, "queue_bytes": 118}
+{"mono_ns": 46767576752, "kind": "sent", "id": 228, "direction": 1, "payload_bytes": 181, "due_ns": 46767400729, "queue_bytes": 0}
+{"mono_ns": 46770755893, "kind": "sent", "id": 229, "direction": 0, "payload_bytes": 118, "due_ns": 46770064213, "queue_bytes": 0}
+{"mono_ns": 46771219871, "kind": "queued", "id": 230, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46780095326, "queue_bytes": 27}
+{"mono_ns": 46775454135, "kind": "queued", "id": 231, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46790377242, "queue_bytes": 118}
+{"mono_ns": 46775483337, "kind": "queued", "id": 232, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46785870078, "queue_bytes": 202}
+{"mono_ns": 46780651968, "kind": "sent", "id": 230, "direction": 1, "payload_bytes": 27, "due_ns": 46780095326, "queue_bytes": 175}
+{"mono_ns": 46786977329, "kind": "sent", "id": 232, "direction": 1, "payload_bytes": 175, "due_ns": 46785870078, "queue_bytes": 0}
+{"mono_ns": 46791264651, "kind": "sent", "id": 231, "direction": 0, "payload_bytes": 118, "due_ns": 46790377242, "queue_bytes": 0}
+{"mono_ns": 46795854910, "kind": "queued", "id": 233, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46810199141, "queue_bytes": 118}
+{"mono_ns": 46803331939, "kind": "queued", "id": 234, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46818572709, "queue_bytes": 181}
+{"mono_ns": 46810623405, "kind": "sent", "id": 233, "direction": 0, "payload_bytes": 118, "due_ns": 46810199141, "queue_bytes": 0}
+{"mono_ns": 46818948869, "kind": "sent", "id": 234, "direction": 1, "payload_bytes": 181, "due_ns": 46818572709, "queue_bytes": 0}
+{"mono_ns": 46828732522, "kind": "queued", "id": 235, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46838321182, "queue_bytes": 118}
+{"mono_ns": 46828784219, "kind": "queued", "id": 236, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46834572387, "queue_bytes": 182}
+{"mono_ns": 46835075032, "kind": "sent", "id": 236, "direction": 1, "payload_bytes": 182, "due_ns": 46834572387, "queue_bytes": 0}
+{"mono_ns": 46839241259, "kind": "sent", "id": 235, "direction": 0, "payload_bytes": 118, "due_ns": 46838321182, "queue_bytes": 0}
+{"mono_ns": 46844142397, "kind": "queued", "id": 237, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46848664896, "queue_bytes": 118}
+{"mono_ns": 46849613784, "kind": "sent", "id": 237, "direction": 0, "payload_bytes": 118, "due_ns": 46848664896, "queue_bytes": 0}
+{"mono_ns": 46850092410, "kind": "queued", "id": 238, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46861909562, "queue_bytes": 27}
+{"mono_ns": 46852098711, "kind": "queued", "id": 239, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46870685461, "queue_bytes": 202}
+{"mono_ns": 46862553363, "kind": "sent", "id": 238, "direction": 1, "payload_bytes": 27, "due_ns": 46861909562, "queue_bytes": 175}
+{"mono_ns": 46870863592, "kind": "sent", "id": 239, "direction": 1, "payload_bytes": 175, "due_ns": 46870685461, "queue_bytes": 0}
+{"mono_ns": 46873198851, "kind": "queued", "id": 240, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46884947188, "queue_bytes": 175}
+{"mono_ns": 46878859881, "kind": "queued", "id": 241, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46894766314, "queue_bytes": 118}
+{"mono_ns": 46885175893, "kind": "sent", "id": 240, "direction": 1, "payload_bytes": 175, "due_ns": 46884947188, "queue_bytes": 0}
+{"mono_ns": 46890835799, "kind": "queued", "id": 242, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46897825810, "queue_bytes": 236}
+{"mono_ns": 46895020711, "kind": "sent", "id": 241, "direction": 0, "payload_bytes": 118, "due_ns": 46894766314, "queue_bytes": 118}
+{"mono_ns": 46896492230, "kind": "queued", "id": 243, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 46906873868, "queue_bytes": 181}
+{"mono_ns": 46898111757, "kind": "sent", "id": 242, "direction": 0, "payload_bytes": 118, "due_ns": 46897825810, "queue_bytes": 0}
+{"mono_ns": 46907349048, "kind": "sent", "id": 243, "direction": 1, "payload_bytes": 181, "due_ns": 46906873868, "queue_bytes": 0}
+{"mono_ns": 46917921619, "kind": "queued", "id": 244, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46935001124, "queue_bytes": 118}
+{"mono_ns": 46921638771, "kind": "queued", "id": 245, "direction": 1, "payload_bytes": 182, "charged_bytes": 210, "due_ns": 46925877485, "queue_bytes": 182}
+{"mono_ns": 46926831556, "kind": "sent", "id": 245, "direction": 1, "payload_bytes": 182, "due_ns": 46925877485, "queue_bytes": 0}
+{"mono_ns": 46934151097, "kind": "queued", "id": 246, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46940535380, "queue_bytes": 236}
+{"mono_ns": 46935345764, "kind": "sent", "id": 244, "direction": 0, "payload_bytes": 118, "due_ns": 46935001124, "queue_bytes": 118}
+{"mono_ns": 46941668378, "kind": "sent", "id": 246, "direction": 0, "payload_bytes": 118, "due_ns": 46940535380, "queue_bytes": 0}
+{"mono_ns": 46942159582, "kind": "queued", "id": 247, "direction": 1, "payload_bytes": 27, "charged_bytes": 55, "due_ns": 46952579134, "queue_bytes": 27}
+{"mono_ns": 46951711591, "kind": "queued", "id": 248, "direction": 1, "payload_bytes": 175, "charged_bytes": 203, "due_ns": 46957680149, "queue_bytes": 202}
+{"mono_ns": 46953436755, "kind": "sent", "id": 247, "direction": 1, "payload_bytes": 27, "due_ns": 46952579134, "queue_bytes": 175}
+{"mono_ns": 46958586428, "kind": "sent", "id": 248, "direction": 1, "payload_bytes": 175, "due_ns": 46957680149, "queue_bytes": 0}
+{"mono_ns": 46965415260, "kind": "queued", "id": 249, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 46980091485, "queue_bytes": 118}
+{"mono_ns": 46972635040, "kind": "dropped", "id": 250, "direction": 1, "payload_bytes": 175, "reason": "random_loss"}
+{"mono_ns": 46980952268, "kind": "sent", "id": 249, "direction": 0, "payload_bytes": 118, "due_ns": 46980091485, "queue_bytes": 0}
+{"mono_ns": 46996472680, "kind": "queued", "id": 251, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 47004848336, "queue_bytes": 181}
+{"mono_ns": 47005860404, "kind": "sent", "id": 251, "direction": 1, "payload_bytes": 181, "due_ns": 47004848336, "queue_bytes": 0}
+{"mono_ns": 47013319401, "kind": "queued", "id": 252, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 47031858352, "queue_bytes": 118}
+{"mono_ns": 47032859059, "kind": "sent", "id": 252, "direction": 0, "payload_bytes": 118, "due_ns": 47031858352, "queue_bytes": 0}
+{"mono_ns": 47033447168, "kind": "queued", "id": 253, "direction": 1, "payload_bytes": 181, "charged_bytes": 209, "due_ns": 47045010912, "queue_bytes": 181}
+{"mono_ns": 47045821356, "kind": "sent", "id": 253, "direction": 1, "payload_bytes": 181, "due_ns": 47045010912, "queue_bytes": 0}
+{"mono_ns": 47053343796, "kind": "queued", "id": 254, "direction": 0, "payload_bytes": 118, "charged_bytes": 146, "due_ns": 47060468286, "queue_bytes": 118}
+{"mono_ns": 47060640555, "kind": "sent", "id": 254, "direction": 0, "payload_bytes": 118, "due_ns": 47060468286, "queue_bytes": 0}
+{"mono_ns": 47061261659, "kind": "queued", "id": 255, "direction": 1, "payload_bytes": 36, "charged_bytes": 64, "due_ns": 47065628245, "queue_bytes": 36}
+{"mono_ns": 47066472201, "kind": "sent", "id": 255, "direction": 1, "payload_bytes": 36, "due_ns": 47065628245, "queue_bytes": 0}
+{"mono_ns": 47077608803, "kind": "queued", "id": 256, "direction": 0, "payload_bytes": 39, "charged_bytes": 67, "due_ns": 47081186573, "queue_bytes": 39}
+{"mono_ns": 47081808771, "kind": "sent", "id": 256, "direction": 0, "payload_bytes": 39, "due_ns": 47081186573, "queue_bytes": 0}
+{"mono_ns": 47082379938, "kind": "queued", "id": 257, "direction": 1, "payload_bytes": 31, "charged_bytes": 59, "due_ns": 47087712874, "queue_bytes": 31}
+{"mono_ns": 47088696277, "kind": "sent", "id": 257, "direction": 1, "payload_bytes": 31, "due_ns": 47087712874, "queue_bytes": 0}
+{"mono_ns": 47089116965, "kind": "queued", "id": 258, "direction": 0, "payload_bytes": 40, "charged_bytes": 68, "due_ns": 47092556006, "queue_bytes": 40}
+{"mono_ns": 47093254980, "kind": "sent", "id": 258, "direction": 0, "payload_bytes": 40, "due_ns": 47092556006, "queue_bytes": 0}
+{"mono_ns": 47144408704, "kind": "close", "undelivered_packets": 0, "undelivered_payload_bytes": 0, "maximum_queue_bytes": [2616, 1653]}

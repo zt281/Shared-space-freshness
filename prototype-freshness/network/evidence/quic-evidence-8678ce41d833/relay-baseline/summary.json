@@ -1,0 +1,92 @@
+{
+  "name": "relay-baseline",
+  "profile": {
+    "delay_ms": 0,
+    "jitter_ms": 0,
+    "loss": 0,
+    "bps": 0,
+    "seed": 11
+  },
+  "planned_rate": 40,
+  "input_seconds": 2.0,
+  "drain_seconds": 12.0,
+  "passed": true,
+  "input_start_ns": 39417078320,
+  "input_end_ns": 41417078320,
+  "planned": 80,
+  "completed": 80,
+  "completed_in_input_window": 79,
+  "missing": 0,
+  "per_flow": [
+    {
+      "flow": 1,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    },
+    {
+      "flow": 2,
+      "C": 41,
+      "D": 41,
+      "A": 41
+    }
+  ],
+  "expired_consumer_observations": 0,
+  "errors": [],
+  "final_receiver_status": {
+    "event": "status",
+    "pid": 392,
+    "mono_ms": 41473,
+    "request": 9,
+    "g": 2,
+    "mask": 3,
+    "ready": true,
+    "connected": true,
+    "closed": false,
+    "failure": "",
+    "storage_failed": false,
+    "duplicates": 0,
+    "ignored": 0,
+    "gaps": 0,
+    "sent": 0,
+    "send_complete": 84,
+    "send_bytes": 0,
+    "max_send_bytes": 152,
+    "borrowed_bytes": 0,
+    "max_borrowed_bytes": 296,
+    "flows": [
+      {
+        "id": 101,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060442898432,
+        "time": 41367,
+        "provider_generation": 4,
+        "validity": "valid",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      },
+      {
+        "id": 102,
+        "head": 41,
+        "epoch": 1,
+        "authority": 1,
+        "address": 89060443947008,
+        "time": 41392,
+        "provider_generation": 4,
+        "validity": "valid",
+        "R": 41,
+        "D": 41,
+        "V": 41
+      }
+    ]
+  },
+  "conditional_observed_delay_ms": {
+    "p50": 49.139616,
+    "p99": 198.307184,
+    "max": 198.307184
+  },
+  "observed_after_input_end_ms": 21.636072
+}
