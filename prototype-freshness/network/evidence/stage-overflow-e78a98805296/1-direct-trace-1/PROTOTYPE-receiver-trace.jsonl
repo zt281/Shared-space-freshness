@@ -1,0 +1,9 @@
+{"stage":"trace_started","index":0,"ns":167633412050,"pid":408,"tid":408,"identity":0,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"command_received","index":1,"ns":167682720780,"pid":408,"tid":408,"identity":0,"epoch":0,"sequence":0,"request":1,"a":0,"b":0,"c":0}
+{"stage":"job_queued","index":2,"ns":167682721373,"pid":408,"tid":408,"identity":0,"epoch":0,"sequence":0,"request":1,"a":1,"b":1,"c":0}
+{"stage":"job_started","index":3,"ns":167682774972,"pid":408,"tid":420,"identity":0,"epoch":0,"sequence":0,"request":0,"a":1,"b":167682721332,"c":0}
+{"stage":"command_started","index":4,"ns":167682775234,"pid":408,"tid":420,"identity":0,"epoch":0,"sequence":0,"request":1,"a":0,"b":0,"c":0}
+{"stage":"job_finished","index":5,"ns":167682873559,"pid":408,"tid":420,"identity":0,"epoch":0,"sequence":0,"request":0,"a":1,"b":0,"c":0}
+{"stage":"command_received","index":6,"ns":167682994307,"pid":408,"tid":408,"identity":0,"epoch":0,"sequence":0,"request":2,"a":0,"b":0,"c":0}
+{"stage":"job_queued","index":7,"ns":167682994759,"pid":408,"tid":408,"identity":0,"epoch":0,"sequence":0,"request":2,"a":2,"b":1,"c":0}
+{"stage":"trace_summary","clock":"CLOCK_MONOTONIC","capacity":8,"attempted":1218,"overflow":1210,"clock_errors":0}

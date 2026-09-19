@@ -1,0 +1,9 @@
+{"stage":"trace_started","index":0,"ns":167426366907,"pid":394,"tid":394,"identity":0,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_write_begin","index":1,"ns":167472919715,"pid":394,"tid":394,"identity":101,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_written","index":2,"ns":167472952238,"pid":394,"tid":394,"identity":101,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_sync_begin","index":3,"ns":167472952268,"pid":394,"tid":394,"identity":101,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_sync_end","index":4,"ns":167497972805,"pid":394,"tid":394,"identity":101,"epoch":1,"sequence":1,"request":0,"a":1,"b":0,"c":0}
+{"stage":"source_write_begin","index":5,"ns":167503441738,"pid":394,"tid":394,"identity":102,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_written","index":6,"ns":167503468281,"pid":394,"tid":394,"identity":102,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"source_sync_begin","index":7,"ns":167503468311,"pid":394,"tid":394,"identity":102,"epoch":1,"sequence":1,"request":0,"a":0,"b":0,"c":0}
+{"stage":"trace_summary","clock":"CLOCK_MONOTONIC","capacity":8,"attempted":1892,"overflow":1884,"clock_errors":0}

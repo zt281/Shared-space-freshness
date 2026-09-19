@@ -1,0 +1,9 @@
+{"stage":"trace_started","index":0,"ns":167754946619,"pid":421,"tid":421,"identity":0,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_begin","index":1,"ns":167755061457,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_opened","index":2,"ns":167755077820,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":1,"b":0,"c":0}
+{"stage":"checkpoint_written","index":3,"ns":167755086714,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_sync_begin","index":4,"ns":167755086735,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_sync_end","index":5,"ns":167760035722,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_replace_begin","index":6,"ns":167760035792,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"checkpoint_replaced","index":7,"ns":167760069029,"pid":421,"tid":421,"identity":101,"epoch":0,"sequence":0,"request":0,"a":0,"b":0,"c":0}
+{"stage":"trace_summary","clock":"CLOCK_MONOTONIC","capacity":8,"attempted":971,"overflow":963,"clock_errors":0}

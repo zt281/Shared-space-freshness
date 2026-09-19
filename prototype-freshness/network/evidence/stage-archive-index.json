@@ -1,0 +1,582 @@
+[
+  {
+    "archive": "stage-build-release-b2473b1f5d5d",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/release-b2473b1f5d5d",
+    "copied_utc": "2026-09-19T13:18:08.586316+00:00",
+    "files_copied": 53
+  },
+  {
+    "archive": "stage-build-release-09716b1416ac",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/release-09716b1416ac",
+    "copied_utc": "2026-09-19T13:18:28.221778+00:00",
+    "files_copied": 1064,
+    "quic_byte_audit": {
+      "path": "D:\\dev\\Tyche-freshness-prototype\\prototype-freshness\\network\\evidence\\stage-build-release-09716b1416ac\\runs\\quic-evidence-b24d3e5539f6",
+      "checks": 124,
+      "cases": [
+        {
+          "name": "conflicting-duplicate",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 1,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "missing-client-cert",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "oversize-frame",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 1,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-1",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 1,
+              "tail_bytes": 62,
+              "checkpoint_cursor": 1
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-2",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-3",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-4",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "save-error",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 1
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "selective-replay-checkpoint",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 30,
+              "replica_full_records": 30,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 27
+            },
+            {
+              "flow": 2,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            }
+          ]
+        },
+        {
+          "name": "slow-receiver",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 201,
+              "replica_full_records": 201,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "source-restart",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 2,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "stream-reset",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 4,
+              "replica_full_records": 4,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "wrong-ca",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "wrong-pin",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "archive": "stage-build-ubsan-f0f9f14387ac",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/ubsan-f0f9f14387ac",
+    "copied_utc": "2026-09-19T13:18:46.793776+00:00",
+    "files_copied": 1064,
+    "quic_byte_audit": {
+      "path": "D:\\dev\\Tyche-freshness-prototype\\prototype-freshness\\network\\evidence\\stage-build-ubsan-f0f9f14387ac\\runs\\quic-evidence-8bbe6ae108fb",
+      "checks": 124,
+      "cases": [
+        {
+          "name": "conflicting-duplicate",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 1,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "missing-client-cert",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "oversize-frame",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 1,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-1",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 1,
+              "tail_bytes": 62,
+              "checkpoint_cursor": 1
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-2",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-3",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "receiver-crash-4",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "save-error",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 1
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "selective-replay-checkpoint",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 30,
+              "replica_full_records": 30,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 27
+            },
+            {
+              "flow": 2,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": 2
+            }
+          ]
+        },
+        {
+          "name": "slow-receiver",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 201,
+              "replica_full_records": 201,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "source-restart",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 2,
+              "replica_full_records": 2,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 2,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "stream-reset",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 4,
+              "replica_full_records": 4,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "wrong-ca",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        },
+        {
+          "name": "wrong-pin",
+          "flows": [
+            {
+              "flow": 1,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            },
+            {
+              "flow": 2,
+              "source_records": 1,
+              "replica_full_records": 0,
+              "tail_bytes": 0,
+              "checkpoint_cursor": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "archive": "stage-smoke-b1ee15402189",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-network-evidence/quic-evidence-b1ee15402189",
+    "copied_utc": "2026-09-19T13:18:48.210669+00:00",
+    "files_copied": 64
+  },
+  {
+    "archive": "stage-overflow-e78a98805296",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-network-evidence/quic-evidence-e78a98805296",
+    "copied_utc": "2026-09-19T13:18:49.463973+00:00",
+    "files_copied": 64
+  },
+  {
+    "archive": "stage-matrix-c141aa16256a",
+    "original_runtime": "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-network-evidence/quic-evidence-c141aa16256a",
+    "copied_utc": "2026-09-19T13:19:04.293624+00:00",
+    "files_copied": 822
+  }
+]

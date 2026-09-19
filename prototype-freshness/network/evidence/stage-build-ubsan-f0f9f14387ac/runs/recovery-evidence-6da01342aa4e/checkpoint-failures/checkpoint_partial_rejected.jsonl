@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/stage-ubsan/independent_worker", "durable", "/tyche-independent-6899-13067817025961387", "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/ubsan-f0f9f14387ac/runs/recovery-evidence-6da01342aa4e/checkpoint-failures/PROTOTYPE-events.bin", "13067817025961387", "0x0", "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/ubsan-f0f9f14387ac/runs/recovery-evidence-6da01342aa4e/checkpoint-failures/PROTOTYPE-bad-partial", "43", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "incompatible checkpoint length", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 7118}

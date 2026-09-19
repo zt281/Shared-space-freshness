@@ -1,0 +1,38 @@
+{
+  "scope": "same-host stage diagnosis; not a production capacity or physical-storage acceptance",
+  "source_base_commit": "1baa4c7ffd21046b499534bed0fb7ff22e831151",
+  "builds": [
+    {
+      "archive": "stage-build-release-09716b1416ac",
+      "configuration": "release",
+      "worker_sha256": "b330a6794cb2d506197e43e85176e2cb924e689d841abdf15e1cffd1e3418e23",
+      "ctest_groups": 6,
+      "behavior_checks": 623
+    },
+    {
+      "archive": "stage-build-ubsan-f0f9f14387ac",
+      "configuration": "ubsan",
+      "worker_sha256": "a000a394c841cccfba63afae5578bfcfbdbab07a2621f5cfae0e07473946a4c3",
+      "ctest_groups": 6,
+      "behavior_checks": 623
+    }
+  ],
+  "measurement": {
+    "archive": "stage-matrix-c141aa16256a",
+    "paired_cases": 18,
+    "planned_and_completed": 1440,
+    "fully_traced": 720,
+    "first_repeat": "exploratory; prior audit completion acknowledgement had not yet been confirmed",
+    "primary_comparison_repeats": [
+      2,
+      3
+    ]
+  },
+  "analysis_tools_sha256": {
+    "stage_audit.py": "e4580f57ad67a6e3339f970e2053503f7f0fe3fd1a1a7e27a95bc1fb9e66b448",
+    "stage_probe.py": "d16ee879d79d7260be2fb83beac742b485f4bf5a13c77f04654da73c505efb7e",
+    "stage_validate.py": "1ff221aeae725313edcf3cf270b6114dfcb8a3a27689967aad81c01c5fe70aee",
+    "archive_stage_evidence.py": "44e3ae820e147896e2bb11711483b6ce0ecdfc80309587d3082a184802fc24b6"
+  },
+  "negative_trace_capacity_test": "stage-overflow-e78a98805296: ordinary audit rejects all four incomplete traces; byte audit still passes"
+}

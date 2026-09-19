@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/stage-release/independent_worker", "durable", "/tyche-independent-459-2814383918339672935", "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/release-09716b1416ac/runs/recovery-evidence-878cb81b9e33/checkpoint-failures/PROTOTYPE-events.bin", "2814383918339672935", "0x0", "/home/alan/.cache/tyche-prototypes/quic-20260919/stage-build-evidence/release-09716b1416ac/runs/recovery-evidence-878cb81b9e33/checkpoint-failures/PROTOTYPE-missing", "1", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "open checkpoint file", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 671}
