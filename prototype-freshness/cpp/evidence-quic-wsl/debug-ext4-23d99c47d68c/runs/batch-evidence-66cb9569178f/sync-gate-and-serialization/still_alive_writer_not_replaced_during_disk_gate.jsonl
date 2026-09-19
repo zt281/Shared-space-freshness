@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug/independent_worker", "publisher", "/tyche-independent-700-4550570164758693634", "/home/alan/.cache/tyche-prototypes/quic-20260919/runtime-evidence/debug-ext4-23d99c47d68c/runs/batch-evidence-66cb9569178f/sync-gate-and-serialization/PROTOTYPE-events.bin", "4550570164758693634", "0x0"], "kind": "launch", "role": "publisher"}
+{"action": "startup_failed", "error": "publisher still owns journal lease: Resource temporarily unavailable", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 775}

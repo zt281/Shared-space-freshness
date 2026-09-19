@@ -1,0 +1,10 @@
+{
+   "filesystems": [
+      {
+         "target": "/mnt/d",
+         "source": "D:\\",
+         "fstype": "9p",
+         "options": "rw,noatime,aname=drvfs;path=D:\\;uid=1000;gid=1000;metadata;symlinkroot=/mnt/,cache=0x5,access=client,msize=65536,trans=fd,rfd=6,wfd=6"
+      }
+   ]
+}

@@ -1,0 +1,19 @@
+{
+  "source_records": 13,
+  "checkpoint_revision": 7,
+  "checkpoint_cursor": 5,
+  "pending_revision": 8,
+  "uncommitted_pending_cursor": 6,
+  "consumer_allowed": false,
+  "checkpoint_error": "replace complete checkpoint",
+  "errno_recorded": false,
+  "cause_established": false,
+  "pending_promoted_by_audit": false,
+  "saved_prefix_consistent": true,
+  "storage_accepted": false,
+  "sha256": {
+    "PROTOTYPE-consumer.checkpoint": "a5b8921c4be251f3dd2f8c2579c4294b687bb355aaff7ddfd9f6871766a2c084",
+    "PROTOTYPE-consumer.checkpoint.pending-634-8": "8db7d1a7efa75acddd672e8fbb42928eee0887a1a349535fce16748f5a9a4689",
+    "PROTOTYPE-events.bin": "9a85d8ee164657c39d88c7d1f570951b92798c3fd4ba7617ff1642d669ca26bd"
+  }
+}

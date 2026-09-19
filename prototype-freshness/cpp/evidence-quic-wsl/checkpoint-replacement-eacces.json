@@ -1,0 +1,19 @@
+{
+  "source_records": 1,
+  "checkpoint_revision": 1,
+  "checkpoint_cursor": 0,
+  "pending_revision": 2,
+  "uncommitted_pending_cursor": 1,
+  "consumer_allowed": false,
+  "checkpoint_error": "replace complete checkpoint errno=13: Permission denied",
+  "errno_recorded": true,
+  "cause_established": false,
+  "pending_promoted_by_audit": false,
+  "saved_prefix_consistent": true,
+  "storage_accepted": false,
+  "sha256": {
+    "PROTOTYPE-consumer.checkpoint": "9b30fb7f4602c0d69e1315e06cee12c3e61c9053c83b9c0b2895fea68585cda6",
+    "PROTOTYPE-consumer.checkpoint.pending-662-2": "98fdd1a2e9ffd9566bcb476df3b4af455d9a382da94fd8cbf20f84fbd6c58312",
+    "PROTOTYPE-events.bin": "135e389f15ae345291c237bf8304f77533c9a5befd638051937045b7728a1fb8"
+  }
+}

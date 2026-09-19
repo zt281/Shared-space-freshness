@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan/independent_worker", "reader", "/tyche-independent-422-4069464984452268585-uninitialized_header_rejected", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-quic-wsl/ubsan-8d959e8aef21/runs/independent-evidence-d18c0c10ed57/PROTOTYPE-events.bin", "4069464984452268585", "0x0"], "kind": "launch", "role": "reader"}
+{"action": "startup_failed", "error": "incompatible or uninitialized region header", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 438}

@@ -1,0 +1,6 @@
+{"event":"started","pid":739,"mono_ms":72629,"source":true,"port":47025}
+{"event":"authenticated","pid":739,"mono_ms":72672,"peer_node":2}
+{"event":"barrier_sent","pid":739,"mono_ms":72672,"g":1}
+{"event":"ack","pid":739,"mono_ms":72922,"request":1}
+{"event":"status","pid":739,"mono_ms":75481,"request":2,"g":0,"mask":1,"ready":false,"connected":false,"closed":true,"failure":"","storage_failed":false,"duplicates":0,"ignored":0,"gaps":0,"sent":201,"send_complete":202,"send_bytes":0,"max_send_bytes":3996,"borrowed_bytes":0,"max_borrowed_bytes":152,"flows":[{"id":101,"head":201,"epoch":1,"authority":1,"address":125169117048832,"time":72921,"provider_generation":0,"validity":"expired","R":0,"D":0,"V":0},{"id":102,"head":1,"epoch":1,"authority":1,"address":125169117044736,"time":72528,"provider_generation":0,"validity":"expired","R":0,"D":0,"V":0}]}
+{"event":"shutdown_drained","pid":739,"mono_ms":75505,"pending_receives":0,"send_bytes":0}

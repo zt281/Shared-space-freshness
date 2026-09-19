@@ -1,0 +1,17 @@
+1 publish 1 20
+2 inject 1 3 duplicate
+3 inject 1 3 old
+4 publish 1 1
+5 pause_flow 2
+6 hold_barrier 1
+7 publish 1 2
+8 hold_barrier 0
+9 pause_flow 0
+10 publish 1 3
+11 pause_flow 1
+12 publish 1 3
+13 inject 1 30 duplicate
+14 pause_flow 0
+15 inject 1 30 half
+16 publish 2 1
+quit

@@ -1,0 +1,5 @@
+{"check": "exclusive_region_created", "pass": true}
+{"check": "multiple_batches_preserve_every_proposal_in_order", "pass": true}
+{"check": "ring_wrap_and_archive_read_preserve_full_payloads", "pass": true}
+{"check": "batch_sync_is_not_per_event_wrapping", "pass": true}
+{"check": "processing_state_still_saved_each_event", "pass": true}

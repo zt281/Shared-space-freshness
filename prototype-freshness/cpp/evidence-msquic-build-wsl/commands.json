@@ -1,0 +1,1330 @@
+[
+  {
+    "command": [
+      "git",
+      "-c",
+      "http.lowSpeedLimit=1024",
+      "-c",
+      "http.lowSpeedTime=30",
+      "clone",
+      "--depth",
+      "1",
+      "--single-branch",
+      "--branch",
+      "v2.6.1",
+      "--no-recurse-submodules",
+      "https://github.com/microsoft/msquic.git",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:19:00.288270+00:00",
+    "stdout": "step-01.stdout.txt",
+    "stderr": "step-01.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:19:13.059352+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "1133758d650e91e9a4850a867a67f7a3c4849d7f9f717891aee166f8fbb245ec"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:19:13.085981+00:00",
+    "stdout": "step-02.stdout.txt",
+    "stderr": "step-02.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:19:13.162273+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "v2.6.1^{commit}"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:19:13.188803+00:00",
+    "stdout": "step-03.stdout.txt",
+    "stderr": "step-03.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:19:13.261676+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "ls-tree",
+      "HEAD",
+      "submodules"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:19:13.288314+00:00",
+    "stdout": "step-04.stdout.txt",
+    "stderr": "step-04.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:19:13.361297+00:00",
+    "stdout_sha256": "7d1296dfbdf910af3c94c427374aafe1bbe1e03339764aceb4819b3cc8dd3f90",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "submodule",
+      "status"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:19:13.395500+00:00",
+    "stdout": "step-05.stdout.txt",
+    "stderr": "step-05.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:19:13.619568+00:00",
+    "stdout_sha256": "bdb3759c6349ed5966cd35eee6740bfd0dcbd21a788a47e4df84250e5c71523d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:07.515066+00:00",
+    "stdout": "step-06.stdout.txt",
+    "stderr": "step-06.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:07.639927+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "v2.6.1^{commit}"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:07.668676+00:00",
+    "stdout": "step-07.stdout.txt",
+    "stderr": "step-07.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:07.741697+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "ls-tree",
+      "HEAD",
+      "submodules/quictls"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:07.770309+00:00",
+    "stdout": "step-08.stdout.txt",
+    "stderr": "step-08.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:07.843743+00:00",
+    "stdout_sha256": "b93a8745e8040895ca8fea8811880c71733394d9a9baae39538de10a23753b6c",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "submodule",
+      "init",
+      "--",
+      "submodules/quictls"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:07.892527+00:00",
+    "stdout": "step-09.stdout.txt",
+    "stderr": "step-09.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:08.170683+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "ab5e540dda2613068ea01abda34ce2bc062472eb226de081b10e04792aa39e6d"
+  },
+  {
+    "command": [
+      "git",
+      "init",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:08.199261+00:00",
+    "stdout": "step-10.stdout.txt",
+    "stderr": "step-10.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:08.524807+00:00",
+    "stdout_sha256": "c3c89f2746fd70b48e91f4fccd8a44d927f9345e7bf6b37c1aa8d2a083642ddd",
+    "stderr_sha256": "7cc74f74cc8a8f9938bd00571e2c171ce3c59d048f2242a836ccca722182d430"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "remote",
+      "add",
+      "origin",
+      "https://github.com/quictls/openssl.git"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:08.556565+00:00",
+    "stdout": "step-11.stdout.txt",
+    "stderr": "step-11.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:08.630400+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "-c",
+      "http.lowSpeedLimit=1024",
+      "-c",
+      "http.lowSpeedTime=30",
+      "fetch",
+      "--depth",
+      "1",
+      "origin",
+      "ff36838bb69801cad56823159a036977bcbe5c75"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:08.657968+00:00",
+    "stdout": "step-12.stdout.txt",
+    "stderr": "step-12.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:22:16.264103+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "16f10ac5a2bfb991e7fc5f98eaf328d74351a4412c3b175bef03b77c24c2f98b"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "checkout",
+      "--detach",
+      "FETCH_HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:22:16.291451+00:00",
+    "stdout": "step-13.stdout.txt",
+    "stderr": "step-13.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:24:37.309988+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "98b1105ee28c1f5ef88e22c9a928ab93a2085cc70c9b3be6fbe3f0de1b1da38c"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "submodule",
+      "absorbgitdirs",
+      "submodules/quictls"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:24:37.337861+00:00",
+    "stdout": "step-14.stdout.txt",
+    "stderr": "step-14.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:24:37.711237+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "0a76deb590b6eb6e199b7b5e9626af44c2b5479dc66032c2b7bcfe0b9dad1def"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:24:37.741000+00:00",
+    "stdout": "step-15.stdout.txt",
+    "stderr": "step-15.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:24:37.865184+00:00",
+    "stdout_sha256": "d4b5687996addc048ad0db7bf64c87b7fa67df157d597ac5d7a338a01ac76d5e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "submodule",
+      "status"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:24:37.892664+00:00",
+    "stdout": "step-16.stdout.txt",
+    "stderr": "step-16.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:24:38.772521+00:00",
+    "stdout_sha256": "e7b80ed561bad3e2652cc7a23a734f6b46de041edd020e6bada4bd95dc0b3684",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.058895+00:00",
+    "stdout": "step-17.stdout.txt",
+    "stderr": "step-17.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.206285+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "v2.6.1^{commit}"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.237703+00:00",
+    "stdout": "step-18.stdout.txt",
+    "stderr": "step-18.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.311400+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "uname",
+      "-a"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.341335+00:00",
+    "stdout": "step-19.stdout.txt",
+    "stderr": "step-19.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.354161+00:00",
+    "stdout_sha256": "037d47b67148a0164cb98114e6f5b25603fb695fbe74c85a05ab8339d35ccafc",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.386253+00:00",
+    "stdout": "step-20.stdout.txt",
+    "stderr": "step-20.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.399204+00:00",
+    "stdout_sha256": "25f3602b5caaf92437be1e76b53698e8d73f14a6c71c2e91c8d5875f923ab29f",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "cmake",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.429924+00:00",
+    "stdout": "step-21.stdout.txt",
+    "stderr": "step-21.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.755260+00:00",
+    "stdout_sha256": "d3d5b682f3f5ef5b24a79ed8cf4b8c5868fc950dad48cab1be0e3c060a77f8ee",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "ninja",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.787955+00:00",
+    "stdout": "step-22.stdout.txt",
+    "stderr": "step-22.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.822082+00:00",
+    "stdout_sha256": "4f9416d650bd28343244b868dfebdb11e70d7b32423536cb87b8c31fde62f993",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "gcc",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.854483+00:00",
+    "stdout": "step-23.stdout.txt",
+    "stderr": "step-23.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:16.942886+00:00",
+    "stdout_sha256": "8497f84b2b8334c413d9c6166bd39d009ba55d2ff60a8f23e66dfa5819c2b048",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "g++",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:16.989711+00:00",
+    "stdout": "step-24.stdout.txt",
+    "stderr": "step-24.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.024307+00:00",
+    "stdout_sha256": "59d1cbef41d4ae78d5063d525b7aa13d18dc0493ea00537efc19b2ee398cb5a8",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "make",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:17.065639+00:00",
+    "stdout": "step-25.stdout.txt",
+    "stderr": "step-25.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.084048+00:00",
+    "stdout_sha256": "8ee498ee2fc27e8dcdf99191b454077df95e3840d841ec94321748b6d7f36819",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "perl",
+      "-v"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:17.116355+00:00",
+    "stdout": "step-26.stdout.txt",
+    "stderr": "step-26.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.142796+00:00",
+    "stdout_sha256": "28033333e158597ea69db9443a2cb97e0337883fea8287ed1c9a9df09f590799",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "pkg-config",
+      "--version"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:17.175620+00:00",
+    "stdout": "step-27.stdout.txt",
+    "stderr": "step-27.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.194509+00:00",
+    "stdout_sha256": "25cec9739d3218e48acc5d8c3d4333e1d624121c5b7ab3bcddc71d0fa0134b83",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "df",
+      "-h",
+      "/home/alan",
+      "/mnt/d"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:17.226178+00:00",
+    "stdout": "step-28.stdout.txt",
+    "stderr": "step-28.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.243725+00:00",
+    "stdout_sha256": "d568f5eb861b115d8477fc0a4113e3e83a18f13065131303f1d07453d3655a98",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "findmnt",
+      "-T",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "-J",
+      "-o",
+      "TARGET,SOURCE,FSTYPE,OPTIONS"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:17.274147+00:00",
+    "stdout": "step-29.stdout.txt",
+    "stderr": "step-29.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:17.299415+00:00",
+    "stdout_sha256": "4c4999afde6e01871bd9fbb9f8770f7931fd5e209bff81dce52b319190c2f766",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:52.048901+00:00",
+    "stdout": "step-30.stdout.txt",
+    "stderr": "step-30.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:52.178574+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "v2.6.1^{commit}"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:52.209193+00:00",
+    "stdout": "step-31.stdout.txt",
+    "stderr": "step-31.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:52.284079+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:52.315673+00:00",
+    "stdout": "step-32.stdout.txt",
+    "stderr": "step-32.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:52.490257+00:00",
+    "stdout_sha256": "d4b5687996addc048ad0db7bf64c87b7fa67df157d597ac5d7a338a01ac76d5e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "nproc"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:52.521639+00:00",
+    "stdout": "step-33.stdout.txt",
+    "stderr": "step-33.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:25:52.538994+00:00",
+    "stdout_sha256": "7de1555df0c2700329e815b93b32c571c3ea54dc967b89e81ab73b9972b72d1d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "cmake",
+      "-S",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "-B",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+      "-DQUIC_TLS_LIB=quictls",
+      "-DQUIC_USE_SYSTEM_LIBCRYPTO=OFF",
+      "-DQUIC_USE_EXTERNAL_OPENSSL=OFF",
+      "-DQUIC_ENABLE_LOGGING=OFF",
+      "-DQUIC_BUILD_TEST=OFF",
+      "-DQUIC_BUILD_TOOLS=OFF",
+      "-DQUIC_BUILD_PERF=OFF",
+      "-DQUIC_BUILD_SHARED=ON",
+      "-DQUIC_LINUX_IOURING_ENABLED=OFF",
+      "-DCMAKE_INSTALL_PREFIX=/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/unused-local-install"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:25:52.571942+00:00",
+    "stdout": "step-34.stdout.txt",
+    "stderr": "step-34.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:26:02.127724+00:00",
+    "stdout_sha256": "146a8a36513c8e2939b2bcc4f2d2150319a36b23d8ed88d4b384e7e18c70613a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "cmake",
+      "--build",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+      "--target",
+      "msquic",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:26:34.778818+00:00",
+    "stdout": "step-35.stdout.txt",
+    "stderr": "step-35.stderr.txt",
+    "timeout_seconds": 600,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "peak_observed_build_bytes": 46246359,
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:31:51.881353+00:00",
+    "stdout_sha256": "83a510ed8b67e98beed535751286101ddc6980d12086ee53674982245cd8889d",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "du",
+      "-sh",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:31:51.934713+00:00",
+    "stdout": "step-36.stdout.txt",
+    "stderr": "step-36.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:11.502278+00:00",
+    "stdout_sha256": "5fb82ba71fd75209cbf86f262cf9a4b1b832cf457f67ea979da1faf7a3527d30",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "g++",
+      "-std=c++20",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Werror",
+      "-isystem",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/msquic_link_smoke.cpp",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1",
+      "-Wl,-rpath,/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release",
+      "-o",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/msquic_link_smoke"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:50.507923+00:00",
+    "stdout": "step-37.stdout.txt",
+    "stderr": "step-37.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.010220+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "ldd",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:53.038681+00:00",
+    "stdout": "step-38.stdout.txt",
+    "stderr": "step-38.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.081441+00:00",
+    "stdout_sha256": "32d2a426194cb429eb677a2dbeb253ebc6229df1d919e82c459291cb0d4559a1",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "ldd",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/msquic_link_smoke"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:53.112538+00:00",
+    "stdout": "step-39.stdout.txt",
+    "stderr": "step-39.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.129338+00:00",
+    "stdout_sha256": "dd102b59d436b7fdc945aaba6d43058c80f0bf9fccd7443f17b9c7d7abdff016",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "readelf",
+      "-d",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:53.169764+00:00",
+    "stdout": "step-40.stdout.txt",
+    "stderr": "step-40.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.215887+00:00",
+    "stdout_sha256": "c25b81d1d69d000905de7df8dcfb336d15fd0260884fb1455f502a62035155fe",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "nm",
+      "-D",
+      "--defined-only",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:53.247726+00:00",
+    "stdout": "step-41.stdout.txt",
+    "stderr": "step-41.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.266038+00:00",
+    "stdout_sha256": "99bf9c8d2682f75a68e91c28ac35224e401a66754b977ddbed1ab776d6fceb40",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "sha256sum",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/msquic_link_smoke",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc/msquic.h"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:32:53.297201+00:00",
+    "stdout": "step-42.stdout.txt",
+    "stderr": "step-42.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:32:53.323059+00:00",
+    "stdout_sha256": "6a75b5f24d2d59a8ec93f0c9e9059cf4638f4ceea827714e25c40da74f98be53",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "cmake",
+      "--build",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+      "--target",
+      "OpenSSL_Target",
+      "--parallel",
+      "1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:34:30.471632+00:00",
+    "stdout": "step-43.stdout.txt",
+    "stderr": "step-43.stderr.txt",
+    "timeout_seconds": 600,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "peak_observed_build_bytes": 52509449,
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:34:30.542817+00:00",
+    "stdout_sha256": "8c35b1682f73592d30612d7b0fabdb384fcfff35cb5a076cb48b85b1368aa794",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "cmake",
+      "--build",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+      "--target",
+      "msquic",
+      "--parallel",
+      "4"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:34:30.575893+00:00",
+    "stdout": "step-44.stdout.txt",
+    "stderr": "step-44.stderr.txt",
+    "timeout_seconds": 600,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "peak_observed_build_bytes": 52509449,
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:34:31.007877+00:00",
+    "stdout_sha256": "8c35b1682f73592d30612d7b0fabdb384fcfff35cb5a076cb48b85b1368aa794",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "du",
+      "-sh",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:34:31.037486+00:00",
+    "stdout": "step-45.stdout.txt",
+    "stderr": "step-45.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:34:50.776208+00:00",
+    "stdout_sha256": "5fb82ba71fd75209cbf86f262cf9a4b1b832cf457f67ea979da1faf7a3527d30",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:02.734003+00:00",
+    "stdout": "step-46.stdout.txt",
+    "stderr": "step-46.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:02.882680+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-parse",
+      "v2.6.1^{commit}"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:02.911312+00:00",
+    "stdout": "step-47.stdout.txt",
+    "stderr": "step-47.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:02.985164+00:00",
+    "stdout_sha256": "b09e0e1f23cca9b2a7fdcc319227c2bf3552a5a484c78a10e8d3318cbf9c6c23",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "rev-parse",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:03.014175+00:00",
+    "stdout": "step-48.stdout.txt",
+    "stderr": "step-48.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:03.189244+00:00",
+    "stdout_sha256": "d4b5687996addc048ad0db7bf64c87b7fa67df157d597ac5d7a338a01ac76d5e",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:03.211554+00:00",
+    "stdout": "step-49.stdout.txt",
+    "stderr": "step-49.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:12.265771+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "status",
+      "--porcelain",
+      "--untracked-files=no"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:12.293738+00:00",
+    "stdout": "step-50.stdout.txt",
+    "stderr": "step-50.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:18.787193+00:00",
+    "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "rev-list",
+      "--count",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:18.814724+00:00",
+    "stdout": "step-51.stdout.txt",
+    "stderr": "step-51.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:18.889008+00:00",
+    "stdout_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "git",
+      "-C",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls",
+      "rev-list",
+      "--count",
+      "HEAD"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:18.917505+00:00",
+    "stdout": "step-52.stdout.txt",
+    "stderr": "step-52.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:19.092473+00:00",
+    "stdout_sha256": "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "du",
+      "-sh",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:19.120474+00:00",
+    "stdout": "step-53.stdout.txt",
+    "stderr": "step-53.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:38.505627+00:00",
+    "stdout_sha256": "5fb82ba71fd75209cbf86f262cf9a4b1b832cf457f67ea979da1faf7a3527d30",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "df",
+      "-h",
+      "/mnt/c",
+      "/mnt/d"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:38.534402+00:00",
+    "stdout": "step-54.stdout.txt",
+    "stderr": "step-54.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:38.552219+00:00",
+    "stdout_sha256": "a520a4d96f4b710c640742800fc9411d7f0639957aaebaadcbcb4dc292a174a2",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "command": [
+      "findmnt",
+      "-T",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+      "-J",
+      "-o",
+      "TARGET,SOURCE,FSTYPE,OPTIONS"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T10:36:38.584518+00:00",
+    "stdout": "step-55.stdout.txt",
+    "stderr": "step-55.stderr.txt",
+    "timeout_seconds": 180,
+    "environment_overrides": {
+      "GIT_TERMINAL_PROMPT": "0",
+      "CMAKE_BUILD_PARALLEL_LEVEL": "4",
+      "MAKEFLAGS": "-j4",
+      "OMP_NUM_THREADS": "4"
+    },
+    "returncode": 0,
+    "finished_utc": "2026-09-19T10:36:38.602560+00:00",
+    "stdout_sha256": "ca3f5070c196bf9a9a667dee15bc65d43d9b2736ccdaba7f98e21d38c6eeff92",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

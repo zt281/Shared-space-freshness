@@ -1,0 +1,89 @@
+[
+  {
+    "argv": [
+      "cmake",
+      "-S",
+      "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+      "-B",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug",
+      "-G",
+      "Ninja",
+      "-DCMAKE_BUILD_TYPE=Debug",
+      "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON",
+      "-DTYCHE_QUIC_PROTOTYPE=ON",
+      "-DMSQUIC_INCLUDE_DIR=/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc",
+      "-DMSQUIC_LIBRARY=/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1",
+      "-DPROTOTYPE_EVIDENCE_ROOT=/home/alan/.cache/tyche-prototypes/quic-20260919/runtime-evidence/debug-ext4-23d99c47d68c/runs",
+      "-DCMAKE_CXX_FLAGS="
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T11:10:44.546988+00:00",
+    "stdout": "01.stdout.txt",
+    "stderr": "01.stderr.txt",
+    "environment_overrides": {
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "code": 0,
+    "finished_utc": "2026-09-19T11:10:44.971704+00:00",
+    "stdout_sha256": "4eb201912533c16c9d6013fb0d36127c7c0c0700da1dd8c739cbc4c8cc75d05a",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "cmake",
+      "--build",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug",
+      "-j",
+      "4"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T11:10:44.983884+00:00",
+    "stdout": "02.stdout.txt",
+    "stderr": "02.stderr.txt",
+    "environment_overrides": {
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "code": 0,
+    "finished_utc": "2026-09-19T11:10:45.057353+00:00",
+    "stdout_sha256": "8c35b1682f73592d30612d7b0fabdb384fcfff35cb5a076cb48b85b1368aa794",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "ldd",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug/quic_worker"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T11:10:45.138165+00:00",
+    "stdout": "03.stdout.txt",
+    "stderr": "03.stderr.txt",
+    "environment_overrides": {
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "code": 0,
+    "finished_utc": "2026-09-19T11:10:45.162127+00:00",
+    "stdout_sha256": "756f23e8811d2982562055410f68953ec9138424b02e5c02b03b603a0eb51fc7",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "argv": [
+      "ctest",
+      "--test-dir",
+      "/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug",
+      "--output-on-failure",
+      "-j",
+      "1"
+    ],
+    "cwd": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp",
+    "started_utc": "2026-09-19T11:10:45.179449+00:00",
+    "stdout": "04.stdout.txt",
+    "stderr": "04.stderr.txt",
+    "environment_overrides": {
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "code": 0,
+    "finished_utc": "2026-09-19T11:11:06.375749+00:00",
+    "stdout_sha256": "28551c60c6ab3519597cf374c2e0e37bc2384a271cd7b0dacdd143f46b4d6956",
+    "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+]

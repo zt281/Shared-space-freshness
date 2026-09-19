@@ -1,0 +1,362 @@
+[
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/ack_tracker.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/ack_tracker.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/ack_tracker.c",
+  "output": "src/core/CMakeFiles/core.dir/ack_tracker.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/api.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/api.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/api.c",
+  "output": "src/core/CMakeFiles/core.dir/api.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/binding.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/binding.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/binding.c",
+  "output": "src/core/CMakeFiles/core.dir/binding.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/configuration.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/configuration.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/configuration.c",
+  "output": "src/core/CMakeFiles/core.dir/configuration.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/congestion_control.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/congestion_control.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/congestion_control.c",
+  "output": "src/core/CMakeFiles/core.dir/congestion_control.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/connection.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/connection.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/connection.c",
+  "output": "src/core/CMakeFiles/core.dir/connection.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/connection_pool.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/connection_pool.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/connection_pool.c",
+  "output": "src/core/CMakeFiles/core.dir/connection_pool.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/crypto.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto.c",
+  "output": "src/core/CMakeFiles/core.dir/crypto.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/crypto_tls.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto_tls.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto_tls.c",
+  "output": "src/core/CMakeFiles/core.dir/crypto_tls.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/cubic.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/cubic.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/cubic.c",
+  "output": "src/core/CMakeFiles/core.dir/cubic.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/bbr.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/bbr.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/bbr.c",
+  "output": "src/core/CMakeFiles/core.dir/bbr.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/datagram.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/datagram.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/datagram.c",
+  "output": "src/core/CMakeFiles/core.dir/datagram.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/frame.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/frame.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/frame.c",
+  "output": "src/core/CMakeFiles/core.dir/frame.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/partition.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/partition.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/partition.c",
+  "output": "src/core/CMakeFiles/core.dir/partition.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/library.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/library.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/library.c",
+  "output": "src/core/CMakeFiles/core.dir/library.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/listener.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/listener.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/listener.c",
+  "output": "src/core/CMakeFiles/core.dir/listener.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/lookup.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/lookup.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/lookup.c",
+  "output": "src/core/CMakeFiles/core.dir/lookup.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/loss_detection.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/loss_detection.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/loss_detection.c",
+  "output": "src/core/CMakeFiles/core.dir/loss_detection.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/mtu_discovery.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/mtu_discovery.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/mtu_discovery.c",
+  "output": "src/core/CMakeFiles/core.dir/mtu_discovery.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/operation.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/operation.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/operation.c",
+  "output": "src/core/CMakeFiles/core.dir/operation.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/packet.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet.c",
+  "output": "src/core/CMakeFiles/core.dir/packet.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/packet_builder.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet_builder.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet_builder.c",
+  "output": "src/core/CMakeFiles/core.dir/packet_builder.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/packet_space.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet_space.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/packet_space.c",
+  "output": "src/core/CMakeFiles/core.dir/packet_space.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/path.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/path.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/path.c",
+  "output": "src/core/CMakeFiles/core.dir/path.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/range.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/range.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/range.c",
+  "output": "src/core/CMakeFiles/core.dir/range.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/recv_buffer.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/recv_buffer.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/recv_buffer.c",
+  "output": "src/core/CMakeFiles/core.dir/recv_buffer.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/registration.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/registration.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/registration.c",
+  "output": "src/core/CMakeFiles/core.dir/registration.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/send.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/send.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/send.c",
+  "output": "src/core/CMakeFiles/core.dir/send.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/send_buffer.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/send_buffer.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/send_buffer.c",
+  "output": "src/core/CMakeFiles/core.dir/send_buffer.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/sent_packet_metadata.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/sent_packet_metadata.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/sent_packet_metadata.c",
+  "output": "src/core/CMakeFiles/core.dir/sent_packet_metadata.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/settings.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/settings.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/settings.c",
+  "output": "src/core/CMakeFiles/core.dir/settings.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/stream.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream.c",
+  "output": "src/core/CMakeFiles/core.dir/stream.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/stream_recv.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_recv.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_recv.c",
+  "output": "src/core/CMakeFiles/core.dir/stream_recv.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/stream_send.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_send.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_send.c",
+  "output": "src/core/CMakeFiles/core.dir/stream_send.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/stream_set.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_set.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/stream_set.c",
+  "output": "src/core/CMakeFiles/core.dir/stream_set.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/timer_wheel.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/timer_wheel.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/timer_wheel.c",
+  "output": "src/core/CMakeFiles/core.dir/timer_wheel.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/worker.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/worker.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/worker.c",
+  "output": "src/core/CMakeFiles/core.dir/worker.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/version_neg.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/version_neg.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/version_neg.c",
+  "output": "src/core/CMakeFiles/core.dir/version_neg.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core.dir/sliding_window_extremum.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/sliding_window_extremum.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/sliding_window_extremum.c",
+  "output": "src/core/CMakeFiles/core.dir/sliding_window_extremum.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core_fuzz.dir/frame.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/frame.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/frame.c",
+  "output": "src/core/CMakeFiles/core_fuzz.dir/frame.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core_fuzz.dir/range.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/range.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/range.c",
+  "output": "src/core/CMakeFiles/core_fuzz.dir/range.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/core/CMakeFiles/core_fuzz.dir/crypto_tls.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto_tls.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/core/crypto_tls.c",
+  "output": "src/core/CMakeFiles/core_fuzz.dir/crypto_tls.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/crypt.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/crypt.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/crypt.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/crypt.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/hashtable.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/hashtable.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/hashtable.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/hashtable.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/pcp.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/pcp.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/pcp.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/pcp.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/platform_worker.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/platform_worker.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/platform_worker.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/platform_worker.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/toeplitz.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/toeplitz.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/toeplitz.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/toeplitz.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/platform_posix.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/platform_posix.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/platform_posix.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/platform_posix.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/storage_posix.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/storage_posix.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/storage_posix.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/storage_posix.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/cgroup.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/cgroup.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/cgroup.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/cgroup.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/datapath_unix.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_unix.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_unix.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/datapath_unix.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/datapath_linux.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_linux.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_linux.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/datapath_linux.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/datapath_epoll.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_epoll.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_epoll.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/datapath_epoll.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/datapath_xplat.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_xplat.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_xplat.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/datapath_xplat.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/datapath_raw_dummy.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_raw_dummy.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/datapath_raw_dummy.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/datapath_raw_dummy.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/tls_quictls.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/tls_quictls.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/tls_quictls.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/tls_quictls.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/crypt_openssl.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/crypt_openssl.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/crypt_openssl.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/crypt_openssl.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/certificates_posix.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/certificates_posix.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/certificates_posix.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/certificates_posix.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/platform/CMakeFiles/msquic_platform.dir/selfsign_openssl.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/selfsign_openssl.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/platform/selfsign_openssl.c",
+  "output": "src/platform/CMakeFiles/msquic_platform.dir/selfsign_openssl.c.o"
+},
+{
+  "directory": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "command": "/usr/bin/cc -DCX_PLATFORM_LINUX -DHAS_SENDMMSG -DHAS_SYSCONF -DHAS__SC_PHYS_PAGES -DQUIC_ENABLE_CA_CERTIFICATE_FILE_TESTS -DQUIC_EVENTS_STUB -DQUIC_LOGS_STUB -DQUIC_SHARED_EPHEMERAL_WORKAROUND -DQUIC_TEST_OPENSSL_FLAGS=1 -DVER_BUILD_ID=0 -DVER_GIT_HASH=a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83 -DVER_SUFFIX=-private -D_GNU_SOURCE -Dmsquic_EXPORTS -I/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc -I/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/include -O3  -DNDEBUG -fPIC -fms-extensions -fPIC -Werror -Wall -Wextra -Wformat=2 -Wno-type-limits -Wno-unknown-pragmas -Wno-multichar -Wno-missing-field-initializers -o src/bin/CMakeFiles/msquic.dir/linux/init.c.o -c /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/bin/linux/init.c",
+  "file": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/bin/linux/init.c",
+  "output": "src/bin/CMakeFiles/msquic.dir/linux/init.c.o"
+}
+]

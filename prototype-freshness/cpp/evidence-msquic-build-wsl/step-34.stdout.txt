@@ -1,0 +1,49 @@
+-- CMAKE Version: 3.28.3
+-- Source Dir: /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1
+-- Host System name: Linux
+-- Setting policy 0091
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- System name: Linux
+-- System version: 6.18.33.2-microsoft-standard-WSL2
+-- Platform version: 
+-- Build type: Release
+-- QUIC Platform: linux
+-- Version Build ID: 0
+-- Version Suffix: -private
+-- Looking for _SC_PHYS_PAGES
+-- Looking for _SC_PHYS_PAGES - found
+-- Looking for sysconf
+-- Looking for sysconf - found
+-- Looking for UDP_SEGMENT
+-- Looking for UDP_SEGMENT - found
+-- Looking for SO_ATTACH_REUSEPORT_CBPF
+-- Looking for SO_ATTACH_REUSEPORT_CBPF - found
+-- Looking for sendmmsg
+-- Looking for sendmmsg - found
+-- Enabling quictls/openssl configuration tests
+-- Enabling CA file tests
+-- QUIC_ENABLE_LOGGING is false. Disabling logging
+-- Found libatomic: /usr/lib/x86_64-linux-gnu/libatomic.so.1
+-- libnuma not found. If build fails, install libnuma
+-- Enabling shared ephemeral port work around
+-- Configuring for OpenSSL 3.x
+-- Setting openssldir to /usr/lib/ssl
+-- Configuring OpenSSL: /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/submodules/quictls/config;CC=/usr/bin/cc;CXX=/usr/bin/c++ enable-tls1_3;no-makedepend;no-dgram;no-ssl3;no-psk;no-srp;no-zlib;no-egd;no-idea;no-rc5;no-rc4;no-afalgeng;no-comp;no-cms;no-ct;no-srp;no-srtp;no-ts;no-gost;no-dso;no-ec2m;no-tls1;no-tls1_1;no-tls1_2;no-dtls;no-dtls1;no-dtls1_2;no-ssl;no-ssl3-method;no-tls1-method;no-tls1_1-method;no-tls1_2-method;no-dtls1-method;no-dtls1_2-method;no-siphash;no-whirlpool;no-aria;no-bf;no-blake2;no-sm2;no-sm3;no-sm4;no-camellia;no-cast;no-md4;no-mdc2;no-ocb;no-rc2;no-rmd160;no-scrypt;no-seed;no-weak-ssl-ciphers;no-shared;no-tests;no-uplink;no-cmp;no-fips;no-padlockeng;no-siv;no-legacy;no-dtls;no-deprecated;--libdir=lib;--openssldir="/usr/lib/ssl";--prefix=/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring for QuicTLS
+-- Configuring done (9.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release

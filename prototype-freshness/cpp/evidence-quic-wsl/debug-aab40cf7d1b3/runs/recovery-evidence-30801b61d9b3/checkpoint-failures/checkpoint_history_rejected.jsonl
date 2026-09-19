@@ -1,0 +1,3 @@
+{"command": ["/home/alan/.cache/tyche-prototypes/quic-20260919/validated-debug/independent_worker", "durable", "/tyche-independent-501-1858923429020196370", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-quic-wsl/debug-aab40cf7d1b3/runs/recovery-evidence-30801b61d9b3/checkpoint-failures/PROTOTYPE-events.bin", "1858923429020196370", "0x0", "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-quic-wsl/debug-aab40cf7d1b3/runs/recovery-evidence-30801b61d9b3/checkpoint-failures/PROTOTYPE-bad-history", "43", "0"], "kind": "launch", "role": "durable"}
+{"action": "startup_failed", "error": "checkpoint history does not match", "kind": "response", "ok": false}
+{"code": 2, "kind": "exit", "pid": 723}

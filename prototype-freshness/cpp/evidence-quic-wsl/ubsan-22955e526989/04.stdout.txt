@@ -1,0 +1,23 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+    Start 1: shared_memory_freshness_scenarios
+1/6 Test #1: shared_memory_freshness_scenarios ...   Passed    0.26 sec
+    Start 2: ordered_consumer_scenarios
+2/6 Test #2: ordered_consumer_scenarios ..........   Passed    0.90 sec
+    Start 3: independent_attachment_scenarios
+3/6 Test #3: independent_attachment_scenarios ....   Passed    2.09 sec
+    Start 4: crash_recovery_scenarios
+4/6 Test #4: crash_recovery_scenarios ............   Passed    6.26 sec
+    Start 5: bounded_batch_scenarios
+5/6 Test #5: bounded_batch_scenarios .............   Passed    5.05 sec
+    Start 6: quic_replication_scenarios
+6/6 Test #6: quic_replication_scenarios ..........***Failed    3.01 sec
+{"evidence": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-quic-wsl/ubsan-22955e526989/runs/quic-evidence-4368ec8f8c9d", "passed": false, "checks": 33, "error": "fresh reconciliation and stability can restore local permission"}
+
+
+83% tests passed, 1 tests failed out of 6
+
+Total Test time (real) =  17.61 sec
+
+The following tests FAILED:
+	  6 - quic_replication_scenarios (Failed)

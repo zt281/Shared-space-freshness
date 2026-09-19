@@ -1,0 +1,740 @@
+[
+  {
+    "case": "publication-0",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-1",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "partial_tail_rejected",
+        "pass": true
+      },
+      {
+        "check": "record_failure_remains_latched",
+        "pass": true
+      },
+      {
+        "check": "partial_tail_evidence_unchanged",
+        "pass": true
+      },
+      {
+        "check": "all_record_dependents_restricted",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-2",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-3",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-4",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-5",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-6",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-7",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "survivor_restricted_before_recovery",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "publication-8",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "lost_reply_leaves_complete_publication",
+        "pass": true
+      },
+      {
+        "check": "head_rebuilt_from_complete_log",
+        "pass": true
+      },
+      {
+        "check": "new_authority_does_not_refresh_old_data",
+        "pass": true
+      },
+      {
+        "check": "uncertain_publish_result_is_queryable",
+        "pass": true
+      },
+      {
+        "check": "recovered_event_matches_original_proposal",
+        "pass": true
+      },
+      {
+        "check": "next_publication_appends_instead_of_overwriting",
+        "pass": true
+      },
+      {
+        "check": "surviving_fast_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "lagging_consumer_receives_every_committed_event",
+        "pass": true
+      },
+      {
+        "check": "catchup_does_not_replace_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "restart_stability_gate",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "corrupt-short",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_rejected",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_preserved",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_blocks_dependent_reader",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "corrupt-sequence",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_rejected",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_preserved",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_blocks_dependent_reader",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "corrupt-seal",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_rejected",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_preserved",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_blocks_dependent_reader",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "corrupt-boolean",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_rejected",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_preserved",
+        "pass": true
+      },
+      {
+        "check": "corrupt_history_blocks_dependent_reader",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "checkpoint-0",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "before_crash_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "result_and_cursor_restore_together",
+        "pass": true
+      },
+      {
+        "check": "user_stop_survives_process_crash",
+        "pass": true
+      },
+      {
+        "check": "aggregate_has_no_loss_or_double_count",
+        "pass": true
+      },
+      {
+        "check": "restart_replays_only_after_checkpoint",
+        "pass": true
+      },
+      {
+        "check": "catchup_still_requires_current_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "reconciliation_cannot_clear_persisted_stop",
+        "pass": true
+      },
+      {
+        "check": "explicit_resume_after_all_gates",
+        "pass": true
+      },
+      {
+        "check": "event_replay_has_no_mock_submissions",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "checkpoint-1",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "before_crash_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "result_and_cursor_restore_together",
+        "pass": true
+      },
+      {
+        "check": "user_stop_survives_process_crash",
+        "pass": true
+      },
+      {
+        "check": "aggregate_has_no_loss_or_double_count",
+        "pass": true
+      },
+      {
+        "check": "restart_replays_only_after_checkpoint",
+        "pass": true
+      },
+      {
+        "check": "catchup_still_requires_current_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "reconciliation_cannot_clear_persisted_stop",
+        "pass": true
+      },
+      {
+        "check": "explicit_resume_after_all_gates",
+        "pass": true
+      },
+      {
+        "check": "event_replay_has_no_mock_submissions",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "checkpoint-2",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "before_crash_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "result_and_cursor_restore_together",
+        "pass": true
+      },
+      {
+        "check": "user_stop_survives_process_crash",
+        "pass": true
+      },
+      {
+        "check": "aggregate_has_no_loss_or_double_count",
+        "pass": true
+      },
+      {
+        "check": "restart_replays_only_after_checkpoint",
+        "pass": true
+      },
+      {
+        "check": "catchup_still_requires_current_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "reconciliation_cannot_clear_persisted_stop",
+        "pass": true
+      },
+      {
+        "check": "explicit_resume_after_all_gates",
+        "pass": true
+      },
+      {
+        "check": "event_replay_has_no_mock_submissions",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "checkpoint-3",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "before_crash_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "result_and_cursor_restore_together",
+        "pass": true
+      },
+      {
+        "check": "user_stop_survives_process_crash",
+        "pass": true
+      },
+      {
+        "check": "aggregate_has_no_loss_or_double_count",
+        "pass": true
+      },
+      {
+        "check": "restart_replays_only_after_checkpoint",
+        "pass": true
+      },
+      {
+        "check": "catchup_still_requires_current_reconciliation",
+        "pass": true
+      },
+      {
+        "check": "reconciliation_cannot_clear_persisted_stop",
+        "pass": true
+      },
+      {
+        "check": "explicit_resume_after_all_gates",
+        "pass": true
+      },
+      {
+        "check": "event_replay_has_no_mock_submissions",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "checkpoint-4",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "before_crash_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "result_and_cursor_restore_together",
+        "pass": true
+      },
+      {
+        "check": "user_stop_survives_process_crash",
+        "pass": true
+      }
+    ]
+  }
+]

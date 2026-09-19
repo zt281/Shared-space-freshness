@@ -1,0 +1,220 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+    Start 1: shared_memory_freshness_scenarios
+1/6 Test #1: shared_memory_freshness_scenarios ...   Passed    0.22 sec
+    Start 2: ordered_consumer_scenarios
+2/6 Test #2: ordered_consumer_scenarios ..........   Passed    0.37 sec
+    Start 3: independent_attachment_scenarios
+3/6 Test #3: independent_attachment_scenarios ....   Passed    0.81 sec
+    Start 4: crash_recovery_scenarios
+4/6 Test #4: crash_recovery_scenarios ............***Failed    3.77 sec
+CASE publication-0
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-1
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS partial_tail_rejected
+PASS record_failure_remains_latched
+PASS partial_tail_evidence_unchanged
+PASS all_record_dependents_restricted
+CASE publication-2
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-3
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-4
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-5
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-6
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-7
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS survivor_restricted_before_recovery
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE publication-8
+PASS exclusive_region_created
+PASS publisher_actual_abrupt_exit
+PASS lost_reply_leaves_complete_publication
+PASS head_rebuilt_from_complete_log
+PASS new_authority_does_not_refresh_old_data
+PASS uncertain_publish_result_is_queryable
+PASS recovered_event_matches_original_proposal
+PASS next_publication_appends_instead_of_overwriting
+PASS surviving_fast_consumer_receives_every_committed_event
+PASS lagging_consumer_receives_every_committed_event
+PASS catchup_does_not_replace_reconciliation
+PASS restart_stability_gate
+CASE corrupt-short
+PASS exclusive_region_created
+PASS corrupt_history_rejected
+PASS corrupt_history_preserved
+PASS corrupt_history_blocks_dependent_reader
+CASE corrupt-sequence
+PASS exclusive_region_created
+PASS corrupt_history_rejected
+PASS corrupt_history_preserved
+PASS corrupt_history_blocks_dependent_reader
+CASE corrupt-seal
+PASS exclusive_region_created
+PASS corrupt_history_rejected
+PASS corrupt_history_preserved
+PASS corrupt_history_blocks_dependent_reader
+CASE corrupt-boolean
+PASS exclusive_region_created
+PASS corrupt_history_rejected
+PASS corrupt_history_preserved
+PASS corrupt_history_blocks_dependent_reader
+CASE checkpoint-0
+PASS exclusive_region_created
+PASS before_crash_actual_abrupt_exit
+PASS result_and_cursor_restore_together
+PASS user_stop_survives_process_crash
+PASS aggregate_has_no_loss_or_double_count
+PASS restart_replays_only_after_checkpoint
+PASS catchup_still_requires_current_reconciliation
+PASS reconciliation_cannot_clear_persisted_stop
+PASS explicit_resume_after_all_gates
+PASS event_replay_has_no_mock_submissions
+CASE checkpoint-1
+PASS exclusive_region_created
+PASS before_crash_actual_abrupt_exit
+PASS result_and_cursor_restore_together
+PASS user_stop_survives_process_crash
+PASS aggregate_has_no_loss_or_double_count
+PASS restart_replays_only_after_checkpoint
+PASS catchup_still_requires_current_reconciliation
+PASS reconciliation_cannot_clear_persisted_stop
+PASS explicit_resume_after_all_gates
+PASS event_replay_has_no_mock_submissions
+CASE checkpoint-2
+PASS exclusive_region_created
+PASS before_crash_actual_abrupt_exit
+PASS result_and_cursor_restore_together
+PASS user_stop_survives_process_crash
+PASS aggregate_has_no_loss_or_double_count
+PASS restart_replays_only_after_checkpoint
+PASS catchup_still_requires_current_reconciliation
+PASS reconciliation_cannot_clear_persisted_stop
+PASS explicit_resume_after_all_gates
+PASS event_replay_has_no_mock_submissions
+CASE checkpoint-3
+PASS exclusive_region_created
+PASS before_crash_actual_abrupt_exit
+PASS result_and_cursor_restore_together
+PASS user_stop_survives_process_crash
+PASS aggregate_has_no_loss_or_double_count
+PASS restart_replays_only_after_checkpoint
+PASS catchup_still_requires_current_reconciliation
+PASS reconciliation_cannot_clear_persisted_stop
+PASS explicit_resume_after_all_gates
+PASS event_replay_has_no_mock_submissions
+CASE checkpoint-4
+PASS exclusive_region_created
+PASS before_crash_actual_abrupt_exit
+PASS result_and_cursor_restore_together
+PASS user_stop_survives_process_crash
+Traceback (most recent call last):
+  File "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/crash_scenarios.py", line 281, in <module>
+    main()
+  File "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/crash_scenarios.py", line 271, in main
+    scenario(run, argument)
+  File "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/crash_scenarios.py", line 140, in checkpoint
+    finished = consume_all(restarted, 130)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/crash_scenarios.py", line 40, in consume_all
+    reader.send("consume", now, 8)
+  File "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/independent_scenarios.py", line 68, in send
+    raise AssertionError(f"{self.label}/{action}: {response}")
+AssertionError: after_crash/consume: {'ok': False, 'action': 'consume', 'outcome': '', 'pid': 634, 'identity': 1087446704697778463, 'address': 133525299417088, 'publisher_pid': 630, 'publisher_start': 29541, 'authority': 1, 'head': 13, 'view': {'event': 'source', 'pid': 634, 'logical_ms': 130, 'epoch': 1, 'authority': 1, 'version': 13, 'proof': 13, 'value_ms': 130, 'verified_ms': 130, 'received_ms': 130, 'age_ms': 0, 'price': 113, 'quantity': 13, 'checksum': 3404927560, 'checksum_ok': True, 'heartbeats': 0, 'poisoned': False, 'gap': False, 'time_known': True, 'validity': 'valid'}, 'user_cpu_us': 4354, 'system_cpu_us': 0, 'max_rss_kib': 21416, 'cursor': 5, 'processed': 5, 'backlog': 8, 'journal_reads': 3, 'allowed': False, 'recovering': True, 'complete': False, 'alerts': 1, 'simulated_cancel_attempts': 1, 'simulated_cancel_result': 'unknown', 'checkpoint': {'revision': 7, 'cursor': 5, 'processed': 5, 'quantity_sum': 15, 'price_sum': 515, 'chain': 8529549541002542043, 'stopped': 1, 'intent_epoch': 0, 'intent_expires': 0, 'intent_outcome': 0, 'error': 'replace complete checkpoint'}, 'events': [{'sequence': 3, 'seal': 6080331275320018426, 'record': {'event': 'source', 'pid': 634, 'logical_ms': 130, 'epoch': 1, 'authority': 1, 'version': 3, 'proof': 3, 'value_ms': 30, 'verified_ms': 30, 'received_ms': 30, 'age_ms': 100, 'price': 103, 'quantity': 3, 'checksum': 3405582928, 'checksum_ok': True, 'heartbeats': 0, 'poisoned': False, 'gap': False, 'time_known': True, 'validity': 'valid'}}, {'sequence': 4, 'seal': 16317485104455312971, 'record': {'event': 'source', 'pid': 634, 'logical_ms': 130, 'epoch': 1, 'authority': 1, 'version': 4, 'proof': 4, 'value_ms': 40, 'verified_ms': 40, 'received_ms': 40, 'age_ms': 90, 'price': 104, 'quantity': 4, 'checksum': 3405386328, 'checksum_ok': True, 'heartbeats': 0, 'poisoned': False, 'gap': False, 'time_known': True, 'validity': 'valid'}}, {'sequence': 5, 'seal': 1713057578463502736, 'record': {'event': 'source', 'pid': 634, 'logical_ms': 130, 'epoch': 1, 'authority': 1, 'version': 5, 'proof': 5, 'value_ms': 50, 'verified_ms': 50, 'received_ms': 50, 'age_ms': 80, 'price': 105, 'quantity': 5, 'checksum': 3405451864, 'checksum_ok': True, 'heartbeats': 0, 'poisoned': False, 'gap': False, 'time_known': True, 'validity': 'valid'}}]}
+CMake Error at /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/run-independent.cmake:12 (message):
+  recovery scenarios failed: 1; evidence:
+  /mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/evidence-quic-wsl/ubsan-8d959e8aef21/runs/recovery-evidence-721601d2b825
+
+
+
+    Start 5: bounded_batch_scenarios
+5/6 Test #5: bounded_batch_scenarios .............   Passed    2.40 sec
+    Start 6: quic_replication_scenarios
+6/6 Test #6: quic_replication_scenarios ..........   Passed   13.31 sec
+
+83% tests passed, 1 tests failed out of 6
+
+Total Test time (real) =  20.89 sec
+
+The following tests FAILED:
+	  4 - crash_recovery_scenarios (Failed)

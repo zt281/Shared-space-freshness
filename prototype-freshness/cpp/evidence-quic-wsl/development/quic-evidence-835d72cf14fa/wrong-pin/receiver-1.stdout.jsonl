@@ -1,0 +1,7 @@
+{"event":"started","pid":668,"mono_ms":71926,"source":false,"port":47208}
+{"event":"ack","pid":668,"mono_ms":71928,"request":1}
+{"event":"status","pid":668,"mono_ms":71929,"request":2,"g":0,"mask":1,"ready":false,"connected":false,"closed":false,"failure":"","storage_failed":false,"duplicates":0,"ignored":0,"gaps":0,"sent":0,"send_complete":0,"send_bytes":0,"max_send_bytes":0,"borrowed_bytes":0,"max_borrowed_bytes":0,"flows":[{"id":101,"head":0,"epoch":1,"authority":1,"address":89060442898432,"time":0,"provider_generation":2,"validity":"damaged","R":0,"D":0,"V":0},{"id":102,"head":0,"epoch":1,"authority":1,"address":89060443947008,"time":0,"provider_generation":2,"validity":"damaged","R":0,"D":0,"V":0}]}
+{"event":"authenticated","pid":668,"mono_ms":71941,"peer_node":1}
+{"event":"transport_shutdown","pid":668,"mono_ms":71942,"status":200000298}
+{"event":"status","pid":668,"mono_ms":71960,"request":3,"g":1,"mask":1,"ready":false,"connected":false,"closed":true,"failure":"","storage_failed":false,"duplicates":0,"ignored":0,"gaps":0,"sent":0,"send_complete":1,"send_bytes":0,"max_send_bytes":76,"borrowed_bytes":0,"max_borrowed_bytes":0,"flows":[{"id":101,"head":0,"epoch":1,"authority":1,"address":89060442898432,"time":0,"provider_generation":3,"validity":"damaged","R":0,"D":0,"V":0},{"id":102,"head":0,"epoch":1,"authority":1,"address":89060443947008,"time":0,"provider_generation":3,"validity":"damaged","R":0,"D":0,"V":0}]}
+{"event":"shutdown_drained","pid":668,"mono_ms":71964,"pending_receives":0,"send_bytes":0}

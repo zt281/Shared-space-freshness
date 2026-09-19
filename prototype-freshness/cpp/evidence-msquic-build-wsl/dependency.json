@@ -1,0 +1,68 @@
+{
+  "recorded_utc": "2026-09-19T10:36:38.977872+00:00",
+  "tag": "v2.6.1",
+  "msquic_commit": "a01333cf7c2659cce0ff03ef3f21e1ff15bb5b83",
+  "quictls_commit": "ff36838bb69801cad56823159a036977bcbe5c75",
+  "origins": {
+    "msquic": "https://github.com/microsoft/msquic.git",
+    "quictls": "https://github.com/quictls/openssl.git"
+  },
+  "source": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1",
+  "build": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release",
+  "include": "/mnt/d/dev/Tyche-freshness-prototype/prototype-freshness/cpp/.quic-deps/msquic-v2.6.1/src/inc",
+  "library": "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1",
+  "headers_sha256": {
+    "src/inc/msquic.h": "3ebde22085df627140fd6208c638a9a3cd7dd3da9bd270f64f022b1c46b1bc4f",
+    "src/inc/msquichelper.h": "a4fe48b7ba213a23ebfc6e02880da10e2a38843f608d3e8055dbca03d65b90e9",
+    "src/inc/msquicp.h": "a8d4a1cc0d43ca9e8d5e7515658e2bc0a7d55b009b2242d8f33ca7945c963601",
+    "src/inc/msquic_fuzz.h": "1f1824c2b2f21ad66fc28bb7668def30a1403c519f8f6121c62ca34f23eb1405",
+    "src/inc/msquic_posix.h": "a0e11c5eb1a4bbd5e18e4f7a381dd024064df2ee76ed555b49c0b8a66c15f526",
+    "src/inc/msquic_winkernel.h": "0a519aae8ea9381065014e4202742822f7832a51ffa7ca107cd1587fa6c2b23a",
+    "src/inc/msquic_winuser.h": "b7263aba8c93187e42c48537dcb95d4b6bad81255049e2ae45bb77806d0172af",
+    "src/inc/quic_cert.h": "5e95d2e240173da923ec529b7f71ed4370a35f6079d78d714d4a305193fd9771",
+    "src/inc/quic_crypt.h": "99448a7ff9c7bb559285c85b80244606e128b4de288cec145fa620f0dc824c34",
+    "src/inc/quic_datapath.h": "0d126c971d237618c3464f172d12b498ef8fd321ae3dd275058f8e22ea298ec7",
+    "src/inc/quic_driver_helpers.h": "1628e92f4e7985e14c78f865dab13272c68d4fae45bfd42f4995e02810dcada7",
+    "src/inc/quic_hashtable.h": "146beeef68b5dadefb13217742fe803469c4c486739c3543110ac0d480fb2bec",
+    "src/inc/quic_pcp.h": "a023c61ab24cfb83e9b0835cb7e6b6984df980c9410a59e49e7305b75edf25c7",
+    "src/inc/quic_platform.h": "adef49ffc4dc6e680ba34d9178254cdd0d7536a5d949a23fd64538faa5b816a5",
+    "src/inc/quic_platform_posix.h": "61a11ae143c590677732ec8b8404995f6c068679e181183f2e18524d3dcf852b",
+    "src/inc/quic_platform_winkernel.h": "9311ee73dfc1afe9ca51eae1295deba96ac6525ec3d980be09c2deb3d32a9835",
+    "src/inc/quic_platform_winuser.h": "32e8de2b620050dc5bcb4b8f6a7078e4e09ee42c4c9053afa34b183e59f2ee74",
+    "src/inc/quic_sal_stub.h": "8849135a95fee2a49373e168c12a89380de46e23c2136e6b0597394d09a9614c",
+    "src/inc/quic_storage.h": "6319c064c62d9b822246c5bfa19daf05272fb6629dca15c4591e1d3430ec9973",
+    "src/inc/quic_tls.h": "a8993a1aa2acc4ea8e62ee23984494e9a3cfc2d82d13cefc089126adeb9dd736",
+    "src/inc/quic_toeplitz.h": "5b5be0686c874e86d64da6b67da44b61a26190854a9990a46753a321fe6f2236",
+    "src/inc/quic_trace.h": "4eaafd7b2ec609149c70bdca437ac4665f2670064a9d7308bd3a0af8eab869aa",
+    "src/inc/quic_trace_manifested_etw.h": "7c85364c4ce9f58e8d0823149bb3e5c79819ed1a6628fd6fae648421ac760d83",
+    "src/inc/quic_var_int.h": "15d3a3a21c233ae4f05e513d02ebc7af7e884188cc42814527976099c09b7477",
+    "src/inc/quic_versions.h": "7700d17df49866a785384924b4d052f26caa1a4a91a0f2be806aa79978945eca"
+  },
+  "artifacts": {
+    "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/bin/Release/libmsquic.so.2.6.1": {
+      "bytes": 5735296,
+      "sha256": "10d88b8fcdc411952430525bdc08885ca3b09899e371f2924f7c6c41bc516b7a"
+    },
+    "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/msquic_link_smoke": {
+      "bytes": 16080,
+      "sha256": "0905715a91ab293142c9eacc5c03c0bba10c5f9c5fe62ce7c7183636c301b6bc"
+    },
+    "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/lib/libssl.a": {
+      "bytes": 1183394,
+      "sha256": "e4f237c018df90abcca58cbf5866d21e148781597becd2520f5d82a2336334aa"
+    },
+    "/home/alan/.cache/tyche-prototypes/quic-20260919/msquic-release/_deps/opensslquic-build/quictls/lib/libcrypto.a": {
+      "bytes": 8540576,
+      "sha256": "35a53dca1e8100bcd281194b090b6418d32c7d8977e22fcb65881fdd7a4dfdf0"
+    }
+  },
+  "source_worktrees_clean": true,
+  "shallow_commit_counts": {
+    "msquic": 1,
+    "quictls": 1
+  },
+  "scope": "Linux WSL build and link only; smoke ELF not executed; no connection/replication/performance experiment",
+  "system_install": false,
+  "private_tls": true,
+  "build_budget_bytes": 4294967296
+}

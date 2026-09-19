@@ -1,0 +1,18 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/validated-ubsan
+    Start 1: shared_memory_freshness_scenarios
+1/6 Test #1: shared_memory_freshness_scenarios ...   Passed    0.20 sec
+    Start 2: ordered_consumer_scenarios
+2/6 Test #2: ordered_consumer_scenarios ..........   Passed    0.34 sec
+    Start 3: independent_attachment_scenarios
+3/6 Test #3: independent_attachment_scenarios ....   Passed    0.82 sec
+    Start 4: crash_recovery_scenarios
+4/6 Test #4: crash_recovery_scenarios ............   Passed    5.04 sec
+    Start 5: bounded_batch_scenarios
+5/6 Test #5: bounded_batch_scenarios .............   Passed    2.86 sec
+    Start 6: quic_replication_scenarios
+6/6 Test #6: quic_replication_scenarios ..........   Passed   13.53 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =  22.81 sec
