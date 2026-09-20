@@ -1,0 +1,256 @@
+{
+  "passed": true,
+  "cases": [
+    {
+      "name": "batch-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "batch-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "replica_records": 25,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "overflow",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 7,
+          "replica_records": 7,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 7
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-0",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-1",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-2",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 2,
+          "replica_tail_bytes": 62,
+          "checkpoint_cursor": 1
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-3",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-4",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-5",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-crash-6",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "remote-save-error",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 1
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "worker-gate",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 5,
+          "replica_records": 5,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 5
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    },
+    {
+      "name": "worker-ordered",
+      "flows": [
+        {
+          "flow": 1,
+          "source_records": 25,
+          "replica_records": 25,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": 25
+        },
+        {
+          "flow": 2,
+          "source_records": 1,
+          "replica_records": 0,
+          "replica_tail_bytes": 0,
+          "checkpoint_cursor": null
+        }
+      ]
+    }
+  ],
+  "checks": 169,
+  "worker_sha256": "fffe5106df8d2ec0ea4a8197030b6b4c53c9d84ef15e238a14a6bcb7bf73ab23",
+  "audited_utc": "2026-09-20T03:22:28.246153+00:00",
+  "audit_tool_sha256": "4e5c866d62073f35bb6044c89ba77f956fdbda3898fb98e8eae4dfe7d9438a7e"
+}

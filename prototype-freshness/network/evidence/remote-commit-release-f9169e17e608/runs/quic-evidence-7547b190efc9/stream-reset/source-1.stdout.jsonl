@@ -1,0 +1,8 @@
+{"event":"started","pid":1091,"mono_ms":118511,"source":true,"port":48517,"source_mode":"sync","remote_mode":"sync"}
+{"event":"authenticated","pid":1091,"mono_ms":118554,"peer_node":2}
+{"event":"barrier_captured","pid":1091,"mono_ms":118555,"g":1}
+{"event":"ack","pid":1091,"mono_ms":118570,"request":1}
+{"event":"ack","pid":1091,"mono_ms":118618,"request":2}
+{"event":"authenticated","pid":1091,"mono_ms":118622,"peer_node":2}
+{"event":"barrier_captured","pid":1091,"mono_ms":118622,"g":2}
+{"event":"shutdown_drained","pid":1091,"mono_ms":118668,"pending_receives":0,"send_bytes":0}

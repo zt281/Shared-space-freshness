@@ -1,0 +1,6 @@
+{"event":"started","pid":2109,"mono_ms":298417,"source":true,"port":45181,"source_mode":"sync","remote_mode":"sync"}
+{"event":"authenticated","pid":2109,"mono_ms":298432,"peer_node":2}
+{"event":"barrier_captured","pid":2109,"mono_ms":298432,"g":1}
+{"event":"ack","pid":2109,"mono_ms":299062,"request":1}
+{"event":"ack","pid":2109,"mono_ms":299185,"request":2}
+{"event":"shutdown_drained","pid":2109,"mono_ms":300873,"pending_receives":0,"send_bytes":0}

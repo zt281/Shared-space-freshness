@@ -1,0 +1,7 @@
+{"check": "exclusive_region_created", "pass": true}
+{"check": "failed_sync_is_unknown_not_committed", "pass": true}
+{"check": "full_unknown_tail_preserved_for_investigation", "pass": true}
+{"check": "unknown_outcome_cannot_be_sent_twice", "pass": true}
+{"check": "failed_confirmation_blocks_all_shared_dependents", "pass": true}
+{"check": "detected_io_failure_not_auto_repaired_by_takeover", "pass": true}
+{"check": "investigation_retains_exact_unknown_bytes", "pass": true}

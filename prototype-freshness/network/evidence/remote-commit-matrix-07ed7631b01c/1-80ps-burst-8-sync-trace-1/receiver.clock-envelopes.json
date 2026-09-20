@@ -1,0 +1,99 @@
+{
+  "startup": {
+    "before_ns": 385013082143,
+    "after_ns": 385045520883,
+    "pid": 501
+  },
+  "commands": [
+    {
+      "command": "connect",
+      "request": 1,
+      "before_ns": 385045529607,
+      "after_ns": 385045902746
+    },
+    {
+      "command": "status",
+      "request": 2,
+      "before_ns": 385045910988,
+      "after_ns": 385046218449
+    },
+    {
+      "command": "status",
+      "request": 3,
+      "before_ns": 385076356758,
+      "after_ns": 385076685256
+    },
+    {
+      "command": "subscribe 3",
+      "request": 4,
+      "before_ns": 385076687853,
+      "after_ns": 385076897329
+    },
+    {
+      "command": "status",
+      "request": 5,
+      "before_ns": 385076899666,
+      "after_ns": 385077089640
+    },
+    {
+      "command": "status",
+      "request": 6,
+      "before_ns": 385107409732,
+      "after_ns": 385107861316
+    },
+    {
+      "command": "stats",
+      "request": 7,
+      "before_ns": 385181525398,
+      "after_ns": 385182175600
+    },
+    {
+      "command": "stats",
+      "request": 8,
+      "before_ns": 386311923461,
+      "after_ns": 386324052344
+    },
+    {
+      "command": "status",
+      "request": 9,
+      "before_ns": 386324059044,
+      "after_ns": 386324267582
+    },
+    {
+      "command": "status",
+      "request": 10,
+      "before_ns": 386364393873,
+      "after_ns": 386364723710
+    },
+    {
+      "command": "status",
+      "request": 11,
+      "before_ns": 386404889061,
+      "after_ns": 386405218623
+    },
+    {
+      "command": "status",
+      "request": 12,
+      "before_ns": 386445379044,
+      "after_ns": 386446166401
+    },
+    {
+      "command": "status",
+      "request": 13,
+      "before_ns": 386486402319,
+      "after_ns": 386487624838
+    },
+    {
+      "command": "status",
+      "request": 14,
+      "before_ns": 386527782707,
+      "after_ns": 386528060623
+    },
+    {
+      "command": "stats",
+      "request": 15,
+      "before_ns": 386528934914,
+      "after_ns": 386529425140
+    }
+  ]
+}

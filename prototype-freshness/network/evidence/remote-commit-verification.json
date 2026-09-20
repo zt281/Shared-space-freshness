@@ -1,0 +1,65 @@
+{
+  "verified_utc": "2026-09-20T03:27:40.198797+00:00",
+  "passed": true,
+  "original_files_verified": 4531,
+  "original_bytes_verified": 40035321,
+  "builds": [
+    {
+      "archive": "remote-commit-release-f9169e17e608",
+      "worker_sha256": "fffe5106df8d2ec0ea4a8197030b6b4c53c9d84ef15e238a14a6bcb7bf73ab23",
+      "audited_runs": [
+        {
+          "name": "quic-evidence-7547b190efc9",
+          "kind": "replication",
+          "checks": 124
+        },
+        {
+          "name": "quic-evidence-78226437f55d",
+          "kind": "source-commit",
+          "checks": 167
+        },
+        {
+          "name": "quic-evidence-95ad74e82dec",
+          "kind": "remote-commit",
+          "checks": 169
+        }
+      ]
+    },
+    {
+      "archive": "remote-commit-ubsan-bad96d41a4fb",
+      "worker_sha256": "8ddfa391ed5dfe0e7e18dbf89fe95c0e108f622793f58ad011548bc39edcf3d4",
+      "audited_runs": [
+        {
+          "name": "quic-evidence-059117297fc5",
+          "kind": "source-commit",
+          "checks": 167
+        },
+        {
+          "name": "quic-evidence-08e4e14b16ef",
+          "kind": "replication",
+          "checks": 124
+        },
+        {
+          "name": "quic-evidence-77863acbf406",
+          "kind": "remote-commit",
+          "checks": 169
+        }
+      ]
+    }
+  ],
+  "matrix": {
+    "archive": "remote-commit-matrix-07ed7631b01c",
+    "cases": 18,
+    "events": 1440,
+    "worker_sha256": "fffe5106df8d2ec0ea4a8197030b6b4c53c9d84ef15e238a14a6bcb7bf73ab23"
+  },
+  "audit_tool_sha256": {
+    "remote_commit_audit.py": "4e5c866d62073f35bb6044c89ba77f956fdbda3898fb98e8eae4dfe7d9438a7e",
+    "remote_commit_archive.py": "8853c3de20fbd0a4b1ff15cb2221a19ccd196c1f53a00e383b8301111d828f8e",
+    "remote_commit_probe.py": "aec0b883b1ebf3ae69df9a3d18f7cfd1dc7872b65d74916877ccdfdd38c9cfdf",
+    "remote_commit_verify.py": "2eae454444f43801806bd58bc383a14f91fcd17ac8c591d8518f662cbea3a95f",
+    "stage_audit.py": "e123d39357bdac87d601e4d599eebf151807478076c0f23922e69f6f8ccad0d2",
+    "stage_probe.py": "8ea9c8ed587844ec656bafd2ec3a864a178834c6e04f560ad68acba52d0a00f4",
+    "stage_validate.py": "d0e22db1357d2fa4485964a0459c183cb6de9863171e9f76e4a9f2e901917ea7"
+  }
+}

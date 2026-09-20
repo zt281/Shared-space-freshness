@@ -64,6 +64,10 @@ Space 权威日志：完整追加并确认保存 C
 
 现已增加[源端有界提交对照](../network/SOURCE-COMMIT.md)及第七组 `quic_source_commit_scenarios`。同一二进制通过 `TYCHE_QUIC_SOURCE_MODE=sync|worker|batch` 选择实验入口，默认仍为 `sync`；`worker`/`batch` 各日志一个写线程。`TYCHE_QUIC_SOURCE_CAPACITY` 为每日志待提交上限（1..64），`TYCHE_QUIC_SOURCE_WAIT_NS` 为合批窗口（batch 默认 2,000,000，worker 为 0）。这些是合成实验配置，未选为生产参数。后续构建、负载命令及失败记录以该报告为准。
 
+## 远端保存的后续验证
+
+现已增加[远端有界保存对照](../network/REMOTE-COMMIT.md)及第八组 `quic_remote_commit_scenarios`。接收进程通过 `TYCHE_QUIC_REMOTE_MODE=sync|worker|batch` 选择实验入口，默认仍为 `sync`（逐条 `accept`，对照基线）；`worker`/`batch` 各日志一个有界保存线程（`TYCHE_QUIC_REMOTE_CAPACITY` 每日志 1..64，`TYCHE_QUIC_REMOTE_WAIT_NS` 为 batch 合批窗口，默认 2,000,000）。应用线程仍独占水位、缺口检测与进度回复；写线程只做写盘、同步与共享锁内 install。先保存后发布与 `A ≤ V ≤ D ≤ R ≤ C` 不变；队满限制受影响对象并关闭共享连接（非 damaged，重连补读恢复），保存失败维持永久受限。新增实验命令 `remote_gate`/`remote_release`/`remote_arm`/`remote_sync_error`；原 `gate_sync`/`arm`/`sync_error` 仅限 `sync` 模式。这些同样是合成实验配置，未选为生产参数。
+
 ## 构建与复现
 
 在已装 C++20、CMake、Ninja、Python 3 和 OpenSSL 命令行的 Ubuntu WSL 中，先按[依赖说明](evidence-msquic-build-wsl/README.md)构建私有 MsQuic，然后从本目录执行：

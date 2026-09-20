@@ -1,0 +1,552 @@
+[
+  {
+    "case": "batch-crash-0",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-1",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-2",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "full_prefix_plus_half_tail_retained",
+        "pass": true
+      },
+      {
+        "check": "partial_batch_recovery_rejected",
+        "pass": true
+      },
+      {
+        "check": "partial_tail_stays_latched",
+        "pass": true
+      },
+      {
+        "check": "no_truncation_or_auto_repair",
+        "pass": true
+      },
+      {
+        "check": "reader_restricted_after_detected_partial_tail",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-3",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-4",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-5",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-crash-6",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "publisher_actual_abrupt_exit",
+        "pass": true
+      },
+      {
+        "check": "pending_not_advertised_before_shared_commit",
+        "pass": true
+      },
+      {
+        "check": "surviving_snapshot_is_old_complete_or_explicitly_damaged",
+        "pass": true
+      },
+      {
+        "check": "confirmed_exit_allows_full_log_recovery",
+        "pass": true
+      },
+      {
+        "check": "recovery_does_not_make_old_source_current",
+        "pass": true
+      },
+      {
+        "check": "query_checks_exact_original_proposal_not_only_head",
+        "pass": true
+      },
+      {
+        "check": "query_unknown_does_not_resubmit",
+        "pass": true
+      },
+      {
+        "check": "next_write_appends_without_replacing_recovered_tail",
+        "pass": true
+      },
+      {
+        "check": "durable_consumer_delivers_recovered_complete_prefix_once",
+        "pass": true
+      },
+      {
+        "check": "catchup_keeps_reconciliation_gate",
+        "pass": true
+      },
+      {
+        "check": "old_recovery_stability_gate_preserved",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "sync-gate-and-serialization",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "writer_control_plane_reads_while_sync_is_blocked",
+        "pass": true
+      },
+      {
+        "check": "complete_pending_records_already_written_but_not_published",
+        "pass": true
+      },
+      {
+        "check": "independent_reader_gets_only_old_complete_event_during_disk_gate",
+        "pass": true
+      },
+      {
+        "check": "still_alive_writer_not_replaced_during_disk_gate",
+        "pass": true
+      },
+      {
+        "check": "legacy_append_waits_on_write_lock_without_blocking_reader",
+        "pass": true
+      },
+      {
+        "check": "one_sync_confirms_four_distinct_proposals",
+        "pass": true
+      },
+      {
+        "check": "acknowledgements_follow_sync_and_publication",
+        "pass": true
+      },
+      {
+        "check": "stale_prepared_single_publish_is_rejected",
+        "pass": true
+      },
+      {
+        "check": "batch_then_legacy_append_have_no_slot_overwrite",
+        "pass": true
+      },
+      {
+        "check": "no_half_snapshot_after_batch_release",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "queue-overflow",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "bounded_queue_counts_inflight_and_explicitly_rejects_overflow",
+        "pass": true
+      },
+      {
+        "check": "queue_overflow_restricts_shared_source_before_drain",
+        "pass": true
+      },
+      {
+        "check": "accepted_prefix_drains_rejected_suffix_is_not_committed",
+        "pass": true
+      },
+      {
+        "check": "accepted_full_tail_remains_auditable_despite_gap",
+        "pass": true
+      },
+      {
+        "check": "input_gap_does_not_disappear_after_successful_drain",
+        "pass": true
+      },
+      {
+        "check": "old_replace_cannot_silently_repair_queue_gap",
+        "pass": true
+      },
+      {
+        "check": "takeover_keeps_required_input_gap_restricted",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "sync-failure",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "failed_sync_is_unknown_not_committed",
+        "pass": true
+      },
+      {
+        "check": "full_unknown_tail_preserved_for_investigation",
+        "pass": true
+      },
+      {
+        "check": "unknown_outcome_cannot_be_sent_twice",
+        "pass": true
+      },
+      {
+        "check": "failed_confirmation_blocks_all_shared_dependents",
+        "pass": true
+      },
+      {
+        "check": "detected_io_failure_not_auto_repaired_by_takeover",
+        "pass": true
+      },
+      {
+        "check": "investigation_retains_exact_unknown_bytes",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "batch-order",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "multiple_batches_preserve_every_proposal_in_order",
+        "pass": true
+      },
+      {
+        "check": "ring_wrap_and_archive_read_preserve_full_payloads",
+        "pass": true
+      },
+      {
+        "check": "batch_sync_is_not_per_event_wrapping",
+        "pass": true
+      },
+      {
+        "check": "processing_state_still_saved_each_event",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "rejected-before-write",
+    "checks": [
+      {
+        "check": "exclusive_region_created",
+        "pass": true
+      },
+      {
+        "check": "obsolete_proposal_rejected_before_disk_attempt",
+        "pass": true
+      },
+      {
+        "check": "queued_identity_is_not_silently_renumbered",
+        "pass": true
+      },
+      {
+        "check": "rejected_required_input_leaves_source_restricted",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "old-layout-1",
+    "checks": [
+      {
+        "check": "new_shared_layout_is_explicitly_versioned",
+        "pass": true
+      },
+      {
+        "check": "old_same_size_layout_rejected",
+        "pass": true
+      }
+    ]
+  },
+  {
+    "case": "old-layout-2",
+    "checks": [
+      {
+        "check": "new_shared_layout_is_explicitly_versioned",
+        "pass": true
+      },
+      {
+        "check": "old_same_size_layout_rejected",
+        "pass": true
+      }
+    ]
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "argv": [
+      "openssl",
+      "req",
+      "-x509",
+      "-newkey",
+      "ec",
+      "-pkeyopt",
+      "ec_paramgen_curve:P-256",
+      "-nodes",
+      "-keyout",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.key",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.pem",
+      "-days",
+      "2",
+      "-subj",
+      "/CN=Tyche disposable prototype CA"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "-----\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "req",
+      "-new",
+      "-newkey",
+      "ec",
+      "-pkeyopt",
+      "ec_paramgen_curve:P-256",
+      "-nodes",
+      "-keyout",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.key",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.csr",
+      "-subj",
+      "/CN=tyche-server"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "-----\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-req",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.csr",
+      "-CA",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.pem",
+      "-CAkey",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.key",
+      "-CAcreateserial",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.pem",
+      "-days",
+      "2",
+      "-extfile",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.ext"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "Certificate request self-signature ok\nsubject=CN = tyche-server\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.pem",
+      "-outform",
+      "DER",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/server.der"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "openssl",
+      "req",
+      "-new",
+      "-newkey",
+      "ec",
+      "-pkeyopt",
+      "ec_paramgen_curve:P-256",
+      "-nodes",
+      "-keyout",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.key",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.csr",
+      "-subj",
+      "/CN=tyche-client"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "-----\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-req",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.csr",
+      "-CA",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.pem",
+      "-CAkey",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.key",
+      "-CAcreateserial",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.pem",
+      "-days",
+      "2",
+      "-extfile",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.ext"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "Certificate request self-signature ok\nsubject=CN = tyche-client\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.pem",
+      "-outform",
+      "DER",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/client.der"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "openssl",
+      "req",
+      "-new",
+      "-newkey",
+      "ec",
+      "-pkeyopt",
+      "ec_paramgen_curve:P-256",
+      "-nodes",
+      "-keyout",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.key",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.csr",
+      "-subj",
+      "/CN=tyche-rogue"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "-----\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-req",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.csr",
+      "-CA",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.pem",
+      "-CAkey",
+      "/tmp/tyche-quic-test-bnzi8275/certs/ca.key",
+      "-CAcreateserial",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.pem",
+      "-days",
+      "2",
+      "-extfile",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.ext"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "Certificate request self-signature ok\nsubject=CN = tyche-rogue\n"
+  },
+  {
+    "argv": [
+      "openssl",
+      "x509",
+      "-in",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.pem",
+      "-outform",
+      "DER",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/certs/rogue.der"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  {
+    "argv": [
+      "openssl",
+      "req",
+      "-x509",
+      "-newkey",
+      "ec",
+      "-pkeyopt",
+      "ec_paramgen_curve:P-256",
+      "-nodes",
+      "-keyout",
+      "/tmp/tyche-quic-test-bnzi8275/wrong-ca/different-ca.key",
+      "-out",
+      "/tmp/tyche-quic-test-bnzi8275/wrong-ca/ca.pem",
+      "-days",
+      "2",
+      "-subj",
+      "/CN=untrusted-test-ca"
+    ],
+    "code": 0,
+    "stdout": "",
+    "stderr": "-----\n"
+  }
+]
