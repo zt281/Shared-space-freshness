@@ -1,0 +1,22 @@
+Internal ctest changing into directory: /home/alan/.cache/tyche-prototypes/quic-20260919/remote-combo-release
+Test project /home/alan/.cache/tyche-prototypes/quic-20260919/remote-combo-release
+    Start 1: shared_memory_freshness_scenarios
+1/8 Test #1: shared_memory_freshness_scenarios ...   Passed    0.04 sec
+    Start 2: ordered_consumer_scenarios
+2/8 Test #2: ordered_consumer_scenarios ..........   Passed    0.27 sec
+    Start 3: independent_attachment_scenarios
+3/8 Test #3: independent_attachment_scenarios ....   Passed    0.58 sec
+    Start 4: crash_recovery_scenarios
+4/8 Test #4: crash_recovery_scenarios ............   Passed    4.04 sec
+    Start 5: bounded_batch_scenarios
+5/8 Test #5: bounded_batch_scenarios .............   Passed    1.70 sec
+    Start 6: quic_replication_scenarios
+6/8 Test #6: quic_replication_scenarios ..........   Passed   15.03 sec
+    Start 7: quic_source_commit_scenarios
+7/8 Test #7: quic_source_commit_scenarios ........   Passed   36.90 sec
+    Start 8: quic_remote_commit_scenarios
+8/8 Test #8: quic_remote_commit_scenarios ........   Passed    6.85 sec
+
+100% tests passed, 0 tests failed out of 8
+
+Total Test time (real) =  65.40 sec

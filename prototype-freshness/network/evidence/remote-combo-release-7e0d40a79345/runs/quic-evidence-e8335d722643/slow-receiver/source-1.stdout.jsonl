@@ -1,0 +1,6 @@
+{"event":"started","pid":1372,"mono_ms":63413,"source":true,"port":46523,"source_mode":"sync","remote_mode":"sync"}
+{"event":"ack","pid":1372,"mono_ms":64468,"request":1}
+{"event":"authenticated","pid":1372,"mono_ms":64511,"peer_node":2}
+{"event":"barrier_captured","pid":1372,"mono_ms":64511,"g":1}
+{"event":"status","pid":1372,"mono_ms":67678,"request":2,"g":0,"mask":1,"ready":false,"connected":false,"closed":true,"failure":"","storage_failed":false,"duplicates":0,"ignored":0,"gaps":0,"sent":201,"send_complete":202,"send_bytes":0,"max_send_bytes":3996,"borrowed_bytes":0,"max_borrowed_bytes":76,"flows":[{"id":101,"head":201,"epoch":1,"authority":1,"address":138791564201984,"time":63414,"provider_generation":0,"validity":"expired","R":0,"D":0,"V":0},{"id":102,"head":1,"epoch":1,"authority":1,"address":138791564197888,"time":63307,"provider_generation":0,"validity":"expired","R":0,"D":0,"V":0}],"source_mode":"sync","failed_sources":0,"source_pending_commands":0,"publishers":[],"remote_mode":"sync","overflows":0,"savers":[]}
+{"event":"shutdown_drained","pid":1372,"mono_ms":67697,"pending_receives":0,"send_bytes":0}

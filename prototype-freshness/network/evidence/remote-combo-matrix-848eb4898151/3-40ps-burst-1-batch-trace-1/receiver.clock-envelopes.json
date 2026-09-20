@@ -1,0 +1,783 @@
+{
+  "startup": {
+    "before_ns": 197338856109,
+    "after_ns": 197425470629,
+    "pid": 3178
+  },
+  "commands": [
+    {
+      "command": "connect",
+      "request": 1,
+      "before_ns": 197425481950,
+      "after_ns": 197425849885
+    },
+    {
+      "command": "status",
+      "request": 2,
+      "before_ns": 197425856674,
+      "after_ns": 197426082713
+    },
+    {
+      "command": "status",
+      "request": 3,
+      "before_ns": 197456182460,
+      "after_ns": 197456526366
+    },
+    {
+      "command": "status",
+      "request": 4,
+      "before_ns": 197486778966,
+      "after_ns": 197487118277
+    },
+    {
+      "command": "subscribe 3",
+      "request": 5,
+      "before_ns": 197487121389,
+      "after_ns": 197487349526
+    },
+    {
+      "command": "status",
+      "request": 6,
+      "before_ns": 197487352346,
+      "after_ns": 197487736072
+    },
+    {
+      "command": "status",
+      "request": 7,
+      "before_ns": 197517858583,
+      "after_ns": 197518181204
+    },
+    {
+      "command": "status",
+      "request": 8,
+      "before_ns": 197548511947,
+      "after_ns": 197548851811
+    },
+    {
+      "command": "stats",
+      "request": 9,
+      "before_ns": 197762499211,
+      "after_ns": 197763279832
+    },
+    {
+      "command": "stats",
+      "request": 10,
+      "before_ns": 199840749918,
+      "after_ns": 199841400666
+    },
+    {
+      "command": "status",
+      "request": 11,
+      "before_ns": 199841404739,
+      "after_ns": 199841700368
+    },
+    {
+      "command": "status",
+      "request": 12,
+      "before_ns": 199881833033,
+      "after_ns": 199882086780
+    },
+    {
+      "command": "status",
+      "request": 13,
+      "before_ns": 199922310579,
+      "after_ns": 199922524724
+    },
+    {
+      "command": "status",
+      "request": 14,
+      "before_ns": 199962652072,
+      "after_ns": 199962969270
+    },
+    {
+      "command": "status",
+      "request": 15,
+      "before_ns": 200003151425,
+      "after_ns": 200003439750
+    },
+    {
+      "command": "status",
+      "request": 16,
+      "before_ns": 200043708754,
+      "after_ns": 200044088412
+    },
+    {
+      "command": "status",
+      "request": 17,
+      "before_ns": 200084234230,
+      "after_ns": 200084558189
+    },
+    {
+      "command": "status",
+      "request": 18,
+      "before_ns": 200124717792,
+      "after_ns": 200125090508
+    },
+    {
+      "command": "status",
+      "request": 19,
+      "before_ns": 200165354826,
+      "after_ns": 200165721342
+    },
+    {
+      "command": "status",
+      "request": 20,
+      "before_ns": 200205890295,
+      "after_ns": 200206255246
+    },
+    {
+      "command": "status",
+      "request": 21,
+      "before_ns": 200246520537,
+      "after_ns": 200246874262
+    },
+    {
+      "command": "status",
+      "request": 22,
+      "before_ns": 200287028808,
+      "after_ns": 200287353149
+    },
+    {
+      "command": "status",
+      "request": 23,
+      "before_ns": 200327473154,
+      "after_ns": 200327763094
+    },
+    {
+      "command": "status",
+      "request": 24,
+      "before_ns": 200368059074,
+      "after_ns": 200368374527
+    },
+    {
+      "command": "status",
+      "request": 25,
+      "before_ns": 200408510243,
+      "after_ns": 200409063668
+    },
+    {
+      "command": "status",
+      "request": 26,
+      "before_ns": 200449188529,
+      "after_ns": 200449489755
+    },
+    {
+      "command": "status",
+      "request": 27,
+      "before_ns": 200489615449,
+      "after_ns": 200489952380
+    },
+    {
+      "command": "status",
+      "request": 28,
+      "before_ns": 200530135137,
+      "after_ns": 200530467393
+    },
+    {
+      "command": "status",
+      "request": 29,
+      "before_ns": 200570722672,
+      "after_ns": 200571079437
+    },
+    {
+      "command": "status",
+      "request": 30,
+      "before_ns": 200611344879,
+      "after_ns": 200611704663
+    },
+    {
+      "command": "status",
+      "request": 31,
+      "before_ns": 200651955448,
+      "after_ns": 200652338889
+    },
+    {
+      "command": "status",
+      "request": 32,
+      "before_ns": 200692618746,
+      "after_ns": 200693158619
+    },
+    {
+      "command": "status",
+      "request": 33,
+      "before_ns": 200733334765,
+      "after_ns": 200733650357
+    },
+    {
+      "command": "status",
+      "request": 34,
+      "before_ns": 200773910493,
+      "after_ns": 200774251999
+    },
+    {
+      "command": "status",
+      "request": 35,
+      "before_ns": 200814497180,
+      "after_ns": 200814833094
+    },
+    {
+      "command": "status",
+      "request": 36,
+      "before_ns": 200855018537,
+      "after_ns": 200855351967
+    },
+    {
+      "command": "status",
+      "request": 37,
+      "before_ns": 200895580407,
+      "after_ns": 200895922566
+    },
+    {
+      "command": "status",
+      "request": 38,
+      "before_ns": 200936070500,
+      "after_ns": 200936474665
+    },
+    {
+      "command": "status",
+      "request": 39,
+      "before_ns": 200976657185,
+      "after_ns": 200977217030
+    },
+    {
+      "command": "status",
+      "request": 40,
+      "before_ns": 201017457356,
+      "after_ns": 201017795156
+    },
+    {
+      "command": "status",
+      "request": 41,
+      "before_ns": 201057921813,
+      "after_ns": 201058222912
+    },
+    {
+      "command": "status",
+      "request": 42,
+      "before_ns": 201098442653,
+      "after_ns": 201098750697
+    },
+    {
+      "command": "status",
+      "request": 43,
+      "before_ns": 201138925659,
+      "after_ns": 201139431266
+    },
+    {
+      "command": "status",
+      "request": 44,
+      "before_ns": 201179593100,
+      "after_ns": 201179922722
+    },
+    {
+      "command": "status",
+      "request": 45,
+      "before_ns": 201220057610,
+      "after_ns": 201220374904
+    },
+    {
+      "command": "status",
+      "request": 46,
+      "before_ns": 201260565632,
+      "after_ns": 201261020666
+    },
+    {
+      "command": "status",
+      "request": 47,
+      "before_ns": 201301205681,
+      "after_ns": 201301641227
+    },
+    {
+      "command": "status",
+      "request": 48,
+      "before_ns": 201341837303,
+      "after_ns": 201342176909
+    },
+    {
+      "command": "status",
+      "request": 49,
+      "before_ns": 201382380593,
+      "after_ns": 201382710695
+    },
+    {
+      "command": "status",
+      "request": 50,
+      "before_ns": 201422945650,
+      "after_ns": 201423271944
+    },
+    {
+      "command": "status",
+      "request": 51,
+      "before_ns": 201463490144,
+      "after_ns": 201463856654
+    },
+    {
+      "command": "status",
+      "request": 52,
+      "before_ns": 201504088845,
+      "after_ns": 201504443669
+    },
+    {
+      "command": "status",
+      "request": 53,
+      "before_ns": 201544678062,
+      "after_ns": 201545180863
+    },
+    {
+      "command": "status",
+      "request": 54,
+      "before_ns": 201585449261,
+      "after_ns": 201585843444
+    },
+    {
+      "command": "status",
+      "request": 55,
+      "before_ns": 201626086506,
+      "after_ns": 201626576729
+    },
+    {
+      "command": "status",
+      "request": 56,
+      "before_ns": 201666817876,
+      "after_ns": 201667235591
+    },
+    {
+      "command": "status",
+      "request": 57,
+      "before_ns": 201707476969,
+      "after_ns": 201707874980
+    },
+    {
+      "command": "status",
+      "request": 58,
+      "before_ns": 201748065578,
+      "after_ns": 201748487842
+    },
+    {
+      "command": "status",
+      "request": 59,
+      "before_ns": 201788645076,
+      "after_ns": 201789179226
+    },
+    {
+      "command": "status",
+      "request": 60,
+      "before_ns": 201829351560,
+      "after_ns": 201829958875
+    },
+    {
+      "command": "status",
+      "request": 61,
+      "before_ns": 201870147596,
+      "after_ns": 201880890772
+    },
+    {
+      "command": "status",
+      "request": 62,
+      "before_ns": 201921078512,
+      "after_ns": 201921497348
+    },
+    {
+      "command": "status",
+      "request": 63,
+      "before_ns": 201961687465,
+      "after_ns": 201975815256
+    },
+    {
+      "command": "status",
+      "request": 64,
+      "before_ns": 202016070946,
+      "after_ns": 202016556060
+    },
+    {
+      "command": "status",
+      "request": 65,
+      "before_ns": 202056755625,
+      "after_ns": 202062313581
+    },
+    {
+      "command": "status",
+      "request": 66,
+      "before_ns": 202102494173,
+      "after_ns": 202102874240
+    },
+    {
+      "command": "status",
+      "request": 67,
+      "before_ns": 202143082538,
+      "after_ns": 202143583282
+    },
+    {
+      "command": "status",
+      "request": 68,
+      "before_ns": 202183784572,
+      "after_ns": 202184216045
+    },
+    {
+      "command": "status",
+      "request": 69,
+      "before_ns": 202224369500,
+      "after_ns": 202224712027
+    },
+    {
+      "command": "status",
+      "request": 70,
+      "before_ns": 202264910543,
+      "after_ns": 202265291741
+    },
+    {
+      "command": "status",
+      "request": 71,
+      "before_ns": 202305489014,
+      "after_ns": 202305962754
+    },
+    {
+      "command": "status",
+      "request": 72,
+      "before_ns": 202346176408,
+      "after_ns": 202359789639
+    },
+    {
+      "command": "status",
+      "request": 73,
+      "before_ns": 202400067328,
+      "after_ns": 202400430452
+    },
+    {
+      "command": "status",
+      "request": 74,
+      "before_ns": 202440622369,
+      "after_ns": 202441133156
+    },
+    {
+      "command": "status",
+      "request": 75,
+      "before_ns": 202481349265,
+      "after_ns": 202481820630
+    },
+    {
+      "command": "status",
+      "request": 76,
+      "before_ns": 202522049875,
+      "after_ns": 202522484853
+    },
+    {
+      "command": "status",
+      "request": 77,
+      "before_ns": 202562874991,
+      "after_ns": 202563405701
+    },
+    {
+      "command": "status",
+      "request": 78,
+      "before_ns": 202603568262,
+      "after_ns": 202603940067
+    },
+    {
+      "command": "status",
+      "request": 79,
+      "before_ns": 202644079784,
+      "after_ns": 202644377653
+    },
+    {
+      "command": "status",
+      "request": 80,
+      "before_ns": 202684519124,
+      "after_ns": 202684960370
+    },
+    {
+      "command": "status",
+      "request": 81,
+      "before_ns": 202725124431,
+      "after_ns": 202725435386
+    },
+    {
+      "command": "status",
+      "request": 82,
+      "before_ns": 202765628515,
+      "after_ns": 202766214019
+    },
+    {
+      "command": "status",
+      "request": 83,
+      "before_ns": 202806368077,
+      "after_ns": 202806725844
+    },
+    {
+      "command": "status",
+      "request": 84,
+      "before_ns": 202846894167,
+      "after_ns": 202847298331
+    },
+    {
+      "command": "status",
+      "request": 85,
+      "before_ns": 202887556371,
+      "after_ns": 202887962764
+    },
+    {
+      "command": "status",
+      "request": 86,
+      "before_ns": 202928144734,
+      "after_ns": 202928623976
+    },
+    {
+      "command": "status",
+      "request": 87,
+      "before_ns": 202968799590,
+      "after_ns": 202970420380
+    },
+    {
+      "command": "status",
+      "request": 88,
+      "before_ns": 203010575933,
+      "after_ns": 203010900315
+    },
+    {
+      "command": "status",
+      "request": 89,
+      "before_ns": 203051044422,
+      "after_ns": 203051541508
+    },
+    {
+      "command": "status",
+      "request": 90,
+      "before_ns": 203091743225,
+      "after_ns": 203092293156
+    },
+    {
+      "command": "status",
+      "request": 91,
+      "before_ns": 203132470891,
+      "after_ns": 203132839616
+    },
+    {
+      "command": "status",
+      "request": 92,
+      "before_ns": 203172989107,
+      "after_ns": 203173350659
+    },
+    {
+      "command": "status",
+      "request": 93,
+      "before_ns": 203213493155,
+      "after_ns": 203213918141
+    },
+    {
+      "command": "status",
+      "request": 94,
+      "before_ns": 203254100027,
+      "after_ns": 203254415265
+    },
+    {
+      "command": "status",
+      "request": 95,
+      "before_ns": 203294572088,
+      "after_ns": 203428287890
+    },
+    {
+      "command": "status",
+      "request": 96,
+      "before_ns": 203468436040,
+      "after_ns": 203468782283
+    },
+    {
+      "command": "status",
+      "request": 97,
+      "before_ns": 203509028414,
+      "after_ns": 203606211438
+    },
+    {
+      "command": "status",
+      "request": 98,
+      "before_ns": 203646355673,
+      "after_ns": 203646771203
+    },
+    {
+      "command": "status",
+      "request": 99,
+      "before_ns": 203686921614,
+      "after_ns": 203687261494
+    },
+    {
+      "command": "status",
+      "request": 100,
+      "before_ns": 203727437328,
+      "after_ns": 203727912011
+    },
+    {
+      "command": "status",
+      "request": 101,
+      "before_ns": 203768114068,
+      "after_ns": 203790857459
+    },
+    {
+      "command": "status",
+      "request": 102,
+      "before_ns": 203831028803,
+      "after_ns": 203831570353
+    },
+    {
+      "command": "status",
+      "request": 103,
+      "before_ns": 203871731057,
+      "after_ns": 203873957278
+    },
+    {
+      "command": "status",
+      "request": 104,
+      "before_ns": 203914111713,
+      "after_ns": 203914607830
+    },
+    {
+      "command": "status",
+      "request": 105,
+      "before_ns": 203954757346,
+      "after_ns": 203955062491
+    },
+    {
+      "command": "status",
+      "request": 106,
+      "before_ns": 203995210400,
+      "after_ns": 203995515325
+    },
+    {
+      "command": "status",
+      "request": 107,
+      "before_ns": 204035664292,
+      "after_ns": 204040112481
+    },
+    {
+      "command": "status",
+      "request": 108,
+      "before_ns": 204080252399,
+      "after_ns": 204080755325
+    },
+    {
+      "command": "status",
+      "request": 109,
+      "before_ns": 204120913262,
+      "after_ns": 204148615509
+    },
+    {
+      "command": "status",
+      "request": 110,
+      "before_ns": 204188745129,
+      "after_ns": 204189057353
+    },
+    {
+      "command": "status",
+      "request": 111,
+      "before_ns": 204229205839,
+      "after_ns": 204229578764
+    },
+    {
+      "command": "status",
+      "request": 112,
+      "before_ns": 204269709234,
+      "after_ns": 204270090017
+    },
+    {
+      "command": "status",
+      "request": 113,
+      "before_ns": 204310232754,
+      "after_ns": 204310580822
+    },
+    {
+      "command": "status",
+      "request": 114,
+      "before_ns": 204350709362,
+      "after_ns": 204351027475
+    },
+    {
+      "command": "status",
+      "request": 115,
+      "before_ns": 204391156335,
+      "after_ns": 204391479367
+    },
+    {
+      "command": "status",
+      "request": 116,
+      "before_ns": 204431606947,
+      "after_ns": 204431989820
+    },
+    {
+      "command": "status",
+      "request": 117,
+      "before_ns": 204472154004,
+      "after_ns": 204472470268
+    },
+    {
+      "command": "status",
+      "request": 118,
+      "before_ns": 204512596768,
+      "after_ns": 204512918570
+    },
+    {
+      "command": "status",
+      "request": 119,
+      "before_ns": 204553062277,
+      "after_ns": 204553378361
+    },
+    {
+      "command": "status",
+      "request": 120,
+      "before_ns": 204593530897,
+      "after_ns": 204593874886
+    },
+    {
+      "command": "status",
+      "request": 121,
+      "before_ns": 204633996506,
+      "after_ns": 204634621874
+    },
+    {
+      "command": "status",
+      "request": 122,
+      "before_ns": 204674742975,
+      "after_ns": 204681282877
+    },
+    {
+      "command": "status",
+      "request": 123,
+      "before_ns": 204721433632,
+      "after_ns": 204721833923
+    },
+    {
+      "command": "status",
+      "request": 124,
+      "before_ns": 204761962293,
+      "after_ns": 204762280505
+    },
+    {
+      "command": "status",
+      "request": 125,
+      "before_ns": 204802416224,
+      "after_ns": 204802758183
+    },
+    {
+      "command": "status",
+      "request": 126,
+      "before_ns": 204842903428,
+      "after_ns": 204843381463
+    },
+    {
+      "command": "status",
+      "request": 127,
+      "before_ns": 204883511137,
+      "after_ns": 204883868441
+    },
+    {
+      "command": "status",
+      "request": 128,
+      "before_ns": 204923985125,
+      "after_ns": 204924292527
+    },
+    {
+      "command": "stats",
+      "request": 129,
+      "before_ns": 204925195656,
+      "after_ns": 204925741321
+    }
+  ]
+}

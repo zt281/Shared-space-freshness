@@ -1,0 +1,17 @@
+[
+  {
+    "source": "remote-combo-build-evidence/release-7e0d40a79345",
+    "archive": "remote-combo-release-7e0d40a79345",
+    "role": "final Release full checks (unchanged binary, baseline rerun)"
+  },
+  {
+    "source": "remote-combo-network/quic-evidence-848eb4898151",
+    "archive": "remote-combo-matrix-848eb4898151",
+    "role": "final 1440-event source-batch x remote-mode matrix"
+  },
+  {
+    "source": "remote-combo-heavy/quic-evidence-28056a84d957",
+    "archive": "remote-combo-heavy-28056a84d957",
+    "role": "heavy 200/s block, 1800 events, not comparable with the 18-tier matrix"
+  }
+]

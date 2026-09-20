@@ -1,0 +1,26 @@
+[
+  {
+    "source": "remote-combo-build-evidence/release-7e0d40a79345",
+    "archive": "remote-combo-release-7e0d40a79345",
+    "role": "final Release full checks (unchanged binary, baseline rerun)",
+    "files_copied": 1841,
+    "bytes_copied": 7934753,
+    "copied_utc": "2026-09-20T03:52:55.282980+00:00"
+  },
+  {
+    "source": "remote-combo-network/quic-evidence-848eb4898151",
+    "archive": "remote-combo-matrix-848eb4898151",
+    "role": "final 1440-event source-batch x remote-mode matrix",
+    "files_copied": 847,
+    "bytes_copied": 26248390,
+    "copied_utc": "2026-09-20T03:53:12.346498+00:00"
+  },
+  {
+    "source": "remote-combo-heavy/quic-evidence-28056a84d957",
+    "archive": "remote-combo-heavy-28056a84d957",
+    "role": "heavy 200/s block, 1800 events, not comparable with the 18-tier matrix",
+    "files_copied": 433,
+    "bytes_copied": 23966391,
+    "copied_utc": "2026-09-20T03:53:21.656687+00:00"
+  }
+]
