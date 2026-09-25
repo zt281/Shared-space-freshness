@@ -9,7 +9,7 @@ Blocked by: 01, 03, 04, 06, 07, 14, 15, 16, 19, 20, 25, 26
 
 ## Question
 
-消费者计算检查点与独立交易证据边界的进行中讨论见[消费检查点与恢复契约访谈](../analysis/consumer-checkpoint-contract.md)。最终契约尚待确认。
+消费者计算检查点与独立交易证据边界已确认，见[消费检查点与恢复契约访谈](../analysis/consumer-checkpoint-contract.md)。`prototype/consumer-checkpoint-recovery` 分支保留 C++ 原型、Release/UBSan 及独立解码证据；局部进程恢复与合批实验通过，尚待完整链路集成，不据此关闭本问题。
 
 落实[验证范围决议](16-strategy-validation-scope.md#answer)要求的共用 C++ 核心、可替换输入/时钟/通道、验证环境隔离与适用验证记录检查；定义可重放的初始状态、事件消费顺序和共享输入版本接口，保持既有热路径预算及状态所有权约束。
 

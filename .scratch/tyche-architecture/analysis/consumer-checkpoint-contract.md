@@ -1,6 +1,6 @@
 # 消费检查点与恢复契约访谈
 
-Status: confirmed; experiment pending
+Status: confirmed; focused experiment passed within stated scope
 
 本轮先通过 grill-with-docs 明确消费者提交与恢复边界，再用独立 prototype 验证。关联[后端架构问题](../issues/08-backend-architecture.md)；不关闭该问题，不将建议视为已接受决策。
 
@@ -29,6 +29,12 @@ Status: confirmed; experiment pending
 实验覆盖未保存后缀重放、检查点前可恢复发布、提交窗口崩溃、事件数/内存上限与保存失败、较新停止记录、缺失/损坏恢复证据。比较同一合成计算在逐事件保存与有界合批保存下的结果、同步次数及延迟；实验参数不是生产选择，进程崩溃不是断电证明。
 
 原型将保存在 `prototype/consumer-checkpoint-recovery` 分支的 `prototype-freshness/consumer-checkpoint/`。该问题保持独立于完整后端架构决议。
+
+## 实验结论
+
+C++ 原型已完成，见该分支的[实验说明与结果](../../../prototype-freshness/consumer-checkpoint/README.md)。最终 Release 和 UBSan 各通过 853 项检查，独立解码各核对 37 个场景目录和 1,200 条计时事件。覆盖计算检查点与意图提交窗口的进程退出、保存失败、停止保持、缺失证据拒绝及边界限制。逐事件保存与合批保存得到相同最终状态；每 200 条事件的检查点提交从 200 降到 30，文件加目录同步调用从 400 降到 60。
+
+这些结果支持将候选机制接入现有消费者/QUIC 链路进一步验证；未验收真实订单/风险账、撤单通道、并发写者、多意图、日志回收、断电、跨机复制或生产延迟目标。计时不包含逐结果持久发布与交易证据保存，不能将其收益当作完整链路收益；原后端问题保持 open。
 
 ## 事实与原型边界
 
