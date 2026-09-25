@@ -1,0 +1,27 @@
+{
+  "compiler": "c++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0\nCopyright (C) 2025 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+  "platform": "Linux-7.0.0-31-generic-x86_64-with-glibc2.43",
+  "machine": "x86_64",
+  "build_command": [
+    "c++",
+    "-std=c++20",
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic",
+    "-Werror",
+    "-O2",
+    "/home/zt281/dev/Tyche/prototype-freshness/consumer-checkpoint/experiment.cpp",
+    "-o",
+    "/tmp/tyche-checkpoint-build-ckz99usm/checkpoint_experiment"
+  ],
+  "run_command": [
+    "/tmp/tyche-checkpoint-build-ckz99usm/checkpoint_experiment",
+    "/home/zt281/dev/Tyche/prototype-freshness/consumer-checkpoint/evidence-release-02"
+  ],
+  "started_unix": 1790332906.2772827,
+  "elapsed_seconds": 8.218075275421143,
+  "returncode": 0,
+  "sanitizer": false,
+  "binary_sha256": "b3257d97f741accdea8c44d40b0780bf7e8fc27312428402b52df35f44bf8029",
+  "filesystem": "Filesystem     Type 1K-blocks     Used Available Use% Mounted on\n/dev/nvme0n1p2 ext4 490048472 24317796 440764072   6% /\n"
+}

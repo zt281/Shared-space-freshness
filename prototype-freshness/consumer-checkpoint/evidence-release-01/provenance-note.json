@@ -1,0 +1,6 @@
+{
+  "kind": "preliminary run",
+  "binary_sha256": "c0d231906c27a72dad531e0240322859c71e65ca13252d52674cb0e77200fe44",
+  "build_command": "c++ -std=c++20 -O2 -Wall -Wextra -Wpedantic -Werror prototype-freshness/consumer-checkpoint/experiment.cpp -o /tmp/tyche-checkpoint-experiment",
+  "limitation": "Run preceded the provenance runner. Original source snapshot was not captured. Use release-02 for the final reproducible findings; do not pool measurements."
+}

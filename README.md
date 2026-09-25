@@ -2,6 +2,15 @@
 
 本分支 `prototype/shared-space-freshness` 保存可丢弃设计验证资产，不是正式应用。
 
+当前消费检查点实验位于 `prototype/consumer-checkpoint-recovery` 分支的
+[`prototype-freshness/consumer-checkpoint/`](prototype-freshness/consumer-checkpoint/README.md)。
+它验证计算合批保存、进程崩溃重放及独立交易/停止证据。需要 Linux、C++20 编译器和
+Python ≥3.9，从仓库根目录运行：
+
+```sh
+python3 prototype-freshness/consumer-checkpoint/run.py
+```
+
 - `prototype-freshness/index.html`：浏览器内逻辑演示，双击运行。
 - `prototype-freshness/diagrams/`：三张中文职责与规则解释图。
 - `prototype-freshness/cpp/`：Linux C++20 跨进程共享内存验证，含原始观察及可重复场景。
